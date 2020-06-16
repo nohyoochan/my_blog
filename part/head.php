@@ -11,17 +11,44 @@
     <script src="/resource/common.js"></script>
 </head>
 <body>
-    <div class="mobile-top-bar visible-sm-down flex">
+    <div class="mobile-top-bar visible-sm-down flex flex-jc-end">
         <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
             <div></div>
             <div></div>
         </a>
     </div>
-    <div class="mobile-side-bar-bg">
+    <div class="mobile-side-bar-bg visible-sm-down">
     </div>
-    <div class="mobile-side-bar">
+
+    <div class="mobile-side-bar visible-sm-down">
+        <nav class="mobile-side-box">
+            <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Articles</a>
+                    <ul>
+                        <li><a href="#">Notice</a></li>
+                        <li><a href="#">Fee</a></li>
+                    </ul>
+                </li>
+            </li>
+             <li><a href="#">About Me</a></li>
+                <li class="active"><a href="#">SNS</a>
+                 <ul>
+                  <li><a href="#">GIT HUB</a></li>
+                  <li><a href="#">FACEBOOK</a></li>
+                  <li><a href="#">INSTA</a>
+                  <ul>
+                                <li><a href="#">Private</a></li>
+                                <li><a href="#">Public</a></li>
+                            </ul>
+                        </li>
+            </ul>
+    </li>
+    </ul>   
+    </nav>
     </div>
+
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
             <a href="/" class="logo flex flex-ai-c">
