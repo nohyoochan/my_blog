@@ -7,6 +7,7 @@
     <title>블로그</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
+    <link rel="icon" href="/resource/img/11.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
@@ -54,6 +55,25 @@
     </nav>
     </div>
 
+    <div class="logo-bar con">
+    <a href="#" class="logo">
+        <img src="../resource/img/11.png" alt="">
+    </a>
+</div>
+
+<div class="menu-bar con">
+    <nav class="menu-box-1">
+        <ul class="flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">SNS</a></li>
+        </li>
+        </ul>
+    </nav>
+</div>
+
+    <!--
     <div class="top-bar visible-md-up con">
         <div class="con height-100p flex con">
             <a href="/" class="logo flex flex-ai-c">
@@ -90,8 +110,9 @@
             </nav>
         </div>
     </div>
+!-->
 
-    <div class="sbs-slider con">
+    <div class="sbs-slider">
     <div class="slides">
         <div style="background-image:url(../resource/img/back1.jpg);" class="active"></div>
         <div style="background-image:url(../resource/img/back2.jpg);"></div>
