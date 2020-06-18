@@ -297,6 +297,7 @@ label[for] {
 }
 
 /* 공통 CSS */
+
 @media (max-width:799px) {
     .visible-md-up {
         display: none;
@@ -315,7 +316,7 @@ label[for] {
     position: relative;
 }
 
-.btn-toggle-mobile-side-bar>div {
+.btn-toggle-mobile-side-bar > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -325,28 +326,28 @@ label[for] {
     transition: top .15s .15s, transform .15s, opacity .15s .15s;
 }
 
-.btn-toggle-mobile-side-bar>div:nth-child(2) {
+.btn-toggle-mobile-side-bar > div:nth-child(2) {
     top: 40%;
 }
 
-.btn-toggle-mobile-side-bar>div:nth-child(3) {
+.btn-toggle-mobile-side-bar > div:nth-child(3) {
     top: 80%;
 }
 
-.btn-toggle-mobile-side-bar.active>div {
+.btn-toggle-mobile-side-bar.active > div {
     top: 40%;
     transition: top .15s, transform .15s .15s, opacity .15s 0s;
 }
 
-.btn-toggle-mobile-side-bar.active>div:nth-child(1) {
+.btn-toggle-mobile-side-bar.active > div:nth-child(1) {
     transform: rotate(45deg);
 }
 
-.btn-toggle-mobile-side-bar.active>div:nth-child(3) {
+.btn-toggle-mobile-side-bar.active > div:nth-child(3) {
     transform: rotate(-45deg);
 }
 
-.btn-toggle-mobile-side-bar.active>div:nth-child(2) {
+.btn-toggle-mobile-side-bar.active > div:nth-child(2) {
     opacity: 0;
 }
 
@@ -362,32 +363,34 @@ label[for] {
 }
 
 /* 탑바 시작 */
+
 .top-bar {
     background-color: white;
     color: black;
-    height: 100px;
+    height: 70px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 2;
 }
 
-.top-bar .logo {
-    padding: 0 50px;
-    font-size: 2rem;
-}
 
-.top-bar .menu-box-1>ul>li {
+.top-bar .menu-box-1 > ul > li {
     position: relative;
 }
 
-.top-bar .menu-box-1 ul>li>a {
+.top-bar .menu-box-1 ul > li > a {
     font-weight: bold;
+    font-size: 10px;
+    padding: 10px;
 }
 
-.top-bar .menu-box-1>ul>li:hover>a {
+.top-bar .menu-box-1 > ul > li:hover > a {
     background-color: white;
     color: black;
     text-decoration: underline;
 }
 
-.top-bar .menu-box-1>ul ul {
+.top-bar .menu-box-1 > ul ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -397,19 +400,21 @@ label[for] {
     color: black;
     border: 2px solid black;
     border-top: 0;
+    z-index: 2;
 }
 
-.top-bar .menu-box-1>ul>li:hover>ul {
+.top-bar .menu-box-1 > ul > li:hover > ul {
     display: block;
 }
 
-.top-bar .menu-box-1>ul ul>li>a {
+.top-bar .menu-box-1 > ul ul > li > a {
     display: block;
+    font-size: 7px;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
-.top-bar .menu-box-1>ul ul>li:hover>a {
+.top-bar .menu-box-1 > ul ul > li:hover > a {
     background-color: black;
     color: white;
 }
@@ -423,7 +428,8 @@ label[for] {
     left:0;
     width:100%;
     height: 100px;
-    background-color: burlywood;
+    background-color: #efefef;
+    z-index: 2;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
@@ -441,29 +447,45 @@ label[for] {
     bottom:0;
     background-color:white;
     transition: right.3s;
+    z-index: 10;
 }
 
 .mobile-side-bar.active {
     right:0;
 }
 
+.mobile-side-bar > .mobile-side-box > ul {
+    padding: 16px 0 0 0;
+}
+
+.mobile-side-bar > .mobile-side-box > ul > li {
+    position: relative;
+    display: block;
+}
+
+.mobile-side-bar .mobile-side-box > ul > li > a:hover {
+    color: #b68d75;
+}
+
 .mobile-side-bar > .mobile-side-box ul > li > a {
     display:block;
     font-weight: bold;
-    padding:15px;
+    font-size: 20px;
+    padding: 18px 0 16px 20px;
 }
 
 .mobile-side-bar .mobile-side-box ul > li > a:not(:only-child)::after {
-    content:"[+]";
+    padding: 0 10px 0 0;
+    content:"[v]";
     float:right;
 }
 
 .mobile-side-bar .mobile-side-box ul > li.active > a:not(:only-child)::after {
-    content:"[-]";
+    content:"[^]";
 }
 
 .mobile-side-bar .mobile-side-box ul > li.active > a:not(:only-child) {
-    background-color:black;
+    background-color:greenyellow;
     color:white;
 }
 
@@ -476,6 +498,7 @@ label[for] {
     background-color:rgba(0,0,0,0);
     visibility: hidden;
     transition: background-color 0.3s;
+    z-index: 3;
 }
 
 .mobile-side-bar-bg.active {
@@ -487,6 +510,33 @@ label[for] {
     display: none;
     padding-left: 20px; 
     background-color: white;
+}
+.mobile-side-bar > .mobile-side-box > ul > li > ul {
+    display: none;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.mobile-side-bar > .mobile-side-box > ul > li > ul li {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.mobile-side-bar > .mobile-side-box > ul > li > ul > li > a {
+    font-size: 16px;
+    padding: 8px 0 12px 34px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    box-sizing: border-box;
+}
+
+.mobile-side-bar > .mobile-side-box > ul > li > a > span {
+    right: 33px;
+    top: 26px;
+    background-size: 10px 6px;
 }
 
 .mobile-side-bar .mobile-side-box ul > li.active > ul {
@@ -504,3 +554,88 @@ label[for] {
 }
 
 /* 모바일 사이드 바 끝 */
+
+/* 슬라이더 바 */
+html, body {
+    height: 100%;
+}
+.sbs-slider {
+    height:50%;
+    position:relative;
+    user-select:none;
+}
+
+.sbs-slider .side-bars > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:calc(50% - 100px);
+    height:100%;
+    cursor:pointer;
+}
+
+.sbs-slider .side-bars > div:last-child {
+    left:auto;
+    right:0;
+}
+
+.sbs-slider .side-bars > div > span {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:inherit;
+    right:inherit;
+    font-size:5rem;
+    transition: transform 0.2s;
+    margin:0 10px;
+}
+
+.sbs-slider .side-bars > div:active > span {
+    transform:translateY(-40%);
+}
+
+.sbs-slider > .slides > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:opacity 0.5s;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.sbs-slider > .slides > div.active {
+    opacity:1;
+}
+
+/* 슬라이더 바 끝 */
+
+/* 프로필 바 */
+
+.profile {
+    margin-top: 50px;
+}
+
+.profile > h2 {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    border-top: 1px solid #e5e5e5;
+    z-index: 2;
+}
+
+.profile-bar .profile-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url(../resource/img/avt.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 프로필 바 끝 */

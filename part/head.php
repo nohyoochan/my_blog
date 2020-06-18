@@ -11,6 +11,11 @@
     <script src="/resource/common.js"></script>
 </head>
 <body>
+    <div class="header">
+        <div class="header warp">
+
+        </div>
+    </div>
     <div class="mobile-top-bar visible-sm-down flex flex-jc-end">
         <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
@@ -27,8 +32,8 @@
              <li><a href="#">Home</a></li>
              <li><a href="#">Articles</a>
                     <ul>
-                        <li><a href="#">Notice</a></li>
-                        <li><a href="#">Fee</a></li>
+                        <li style="animation-delay: 0s;"><a href="#">Notice</a></li>
+                        <li style="animation-delay: 0.05s;"><a href="#">Fee</a></li>
                     </ul>
                 </li>
             </li>
@@ -49,33 +54,33 @@
     </nav>
     </div>
 
-    <div class="top-bar visible-md-up">
-        <div class="con height-100p flex">
+    <div class="top-bar visible-md-up con">
+        <div class="con height-100p flex con">
             <a href="/" class="logo flex flex-ai-c">
-                <i class="fas fa-clone"></i>
+                <img src="../resource/img/logo.png" alt="">
             </a>
-            <nav class="menu-box-1 flex flex-1-0-0">
-                <ul class="flex flex-1-0-0">
-                    <li class="flex-1-0-0 flex"><a href="/" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Home</a></li>
-                    <li class="flex-1-0-0 flex"><a href="/list.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">Articles</a>
+            <nav class="menu-box-1 flex-jc-end flex-1-0-0 con">
+                <ul class="flex">
+                    <li class="flex"><a href="/" class="flex flex-ai-c">Home</a></li>
+                    <li class="flex"><a href="/list.php" class="flex flex-ai-c">Articles</a>
                     </li>
-                    <li class="flex-1-0-0 flex"><a href="/aboutMe.php" class="flex flex-1-0-0 flex-ai-c flex-jc-c">About Me</a>
+                    <li class="flex"><a href="/aboutMe.php" class="flex flex-ai-c ">About Me</a>
                     </li>
-                    <li class="flex-1-0-0 flex">
-                        <a href="#" class="flex flex-1-0-0 flex-ai-c flex-jc-c">SNS</a>
+                    <li class="flex">
+                        <a href="#" class="flex flex-ai-c">SNS</a>
                         <ul>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="#" target="_blank">
                                     GITHUB
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="#" target="_blank">
                                     FACEBOOK
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jhs512" target="_blank">
+                                <a href="#" target="_blank">
                                     INSTA
                                 </a>
                             </li>
@@ -85,3 +90,35 @@
             </nav>
         </div>
     </div>
+
+    <div class="sbs-slider con">
+    <div class="slides">
+        <div style="background-image:url(../resource/img/back1.jpg);" class="active"></div>
+        <div style="background-image:url(../resource/img/back2.jpg);"></div>
+        <div style="background-size:contain; background-image:url(../resource/img/back3.jpg);"></div>
+    </div>
+    
+    <div class="side-bars">
+        <div>
+            <span>
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div>
+            <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="profile-bar con">
+<h2 class="con">profile</h2>
+<div class="profile-box flex">
+    <a href="#" class="avatar"></a> 
+</div>
+<div class="profile flex-1-0-0">
+    <div class="name">NYC</div>
+    <div class="introduce">
+        xx.xxxx
+    </div>
+</div>
+</div>
