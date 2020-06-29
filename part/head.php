@@ -12,11 +12,26 @@
     <script src="/resource/common.js"></script>
 </head>
 <body>
-    <div class="header">
-        <div class="header warp">
-
+    <div id="header" class="main">
+        <div class="inner">
+            <h1>
+                <a href="#">
+                    <img src="../resource/img/11.png" alt="">
+                </a>
+            </h1>
         </div>
+        <div class="menu-bar con">
+            <nav class="menu-box-1">
+                <ul class="flex">
+                <li><a href="/index.php">Home</a></li>
+                <li><a href="/aboutMe.php">About Me</a></li>
+                <li><a href="/list.php">list</a></li>
+                <li><a href="#">SNS</a></li>
+                </li>
+            </ul>
+        </nav>
     </div>
+</div>
     <div class="mobile-top-bar visible-sm-down flex flex-jc-end">
         <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
@@ -55,63 +70,6 @@
     </nav>
     </div>
 
-    <div class="logo-bar con">
-    <a href="#" class="logo">
-        <img src="../resource/img/11.png" alt="">
-    </a>
-</div>
-
-<div class="menu-bar con">
-    <nav class="menu-box-1">
-        <ul class="flex">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">SNS</a></li>
-        </li>
-        </ul>
-    </nav>
-</div>
-
-    <!--
-    <div class="top-bar visible-md-up con">
-        <div class="con height-100p flex con">
-            <a href="/" class="logo flex flex-ai-c">
-                <img src="../resource/img/logo.png" alt="">
-            </a>
-            <nav class="menu-box-1 flex-jc-end flex-1-0-0 con">
-                <ul class="flex">
-                    <li class="flex"><a href="/" class="flex flex-ai-c">Home</a></li>
-                    <li class="flex"><a href="/list.php" class="flex flex-ai-c">Articles</a>
-                    </li>
-                    <li class="flex"><a href="/aboutMe.php" class="flex flex-ai-c ">About Me</a>
-                    </li>
-                    <li class="flex">
-                        <a href="#" class="flex flex-ai-c">SNS</a>
-                        <ul>
-                            <li>
-                                <a href="#" target="_blank">
-                                    GITHUB
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    FACEBOOK
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    INSTA
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-!-->
-
     <div class="sbs-slider">
     <div class="slides">
         <div style="background-image:url(../resource/img/back1.jpg);" class="active"></div>
@@ -131,9 +89,11 @@
     </div>
 </div>
 
+
+<!--          
 <div class="profile-bar con">
 <h2 class="con">profile</h2>
-<div class="profile-box flex">
+<div class="profile-box">
     <a href="#" class="avatar"></a> 
 </div>
 <div class="profile flex-1-0-0">
@@ -143,3 +103,4 @@
     </div>
 </div>
 </div>
+-->

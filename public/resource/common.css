@@ -372,24 +372,19 @@ label[for] {
     border-bottom: 1px solid #e5e5e5;
     z-index: 2;
 }
-
-
 .top-bar .menu-box-1 > ul > li {
     position: relative;
 }
-
 .top-bar .menu-box-1 ul > li > a {
     font-weight: bold;
     font-size: 10px;
     padding: 10px;
 }
-
 .top-bar .menu-box-1 > ul > li:hover > a {
     background-color: white;
     color: black;
     text-decoration: underline;
 }
-
 .top-bar .menu-box-1 > ul ul {
     display: none;
     position: absolute;
@@ -402,23 +397,19 @@ label[for] {
     border-top: 0;
     z-index: 2;
 }
-
 .top-bar .menu-box-1 > ul > li:hover > ul {
     display: block;
 }
-
 .top-bar .menu-box-1 > ul ul > li > a {
     display: block;
     font-size: 7px;
     text-align: center;
     padding: 10px 0;
 }
-
 .top-bar .menu-box-1 > ul ul > li:hover > a {
     background-color: black;
     color: white;
 }
-
 /* 탑바 끝 */
 
 /* 모바일 탑바 시작 */
@@ -551,13 +542,68 @@ label[for] {
 
 /* 모바일 사이드 바 끝 */
 
+/* 헤더 바 */
+#header {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#header .inner {
+    position: relative;
+}
+
+.inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#header h1 {
+    position: absolute;
+    left: 0;
+}
+
+#header h1 img {
+    max-width: 100%;
+}
+
+.menu-bar {
+    margin-top:30px;
+}
+
+@media ( max-width:800px ) {
+    .menu-bar {
+        display:none;
+    }
+}
+
+.menu-bar > .menu-box-1 > ul > li {
+    flex-basis:calc(100% / 4);
+}
+
+.menu-bar > .menu-box-1 > ul > li > a {
+    display:block;
+    font-weight:bold;
+    text-align:center;
+    position:relative;
+    font-size: 1rem;
+    color: black;
+}
+
+.menu-bar > .menu-box-1 > ul > li:hover > a {
+    color:red;
+    text-decoration:underline;
+}
+
 /* 슬라이더 바 */
 html, body {
     height: 100%;
 }
 .sbs-slider {
     margin-top: 30px;
-    height:50%;
+    height:75%;
     position:relative;
     user-select:none;
 }
@@ -628,61 +674,125 @@ html, body {
     z-index: 2;
 }
 
-.profile-bar .profile-box .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-image: url(../resource/img/avt.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 /* 프로필 바 끝 */
 
-.logo-bar {
-    width: 1200px;
-    background-color: #15263a;
-    text-align:center;
+/* about */
+.about {
+    padding: 75px 0px;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
-.top-bn-box-1 {
-    margin-top:20px;
+.sub_title_border {
+    width: 350px;
+    height: 30px;
+    border-bottom: 2px solid #444;
 }
 
-@media ( max-width:700px ) {
-    .top-bn-box-1 {
-        overflow-x:hidden;
-    }
-
-    .top-bn-box-1 > .img-box {
-        margin-left:-50%;
-    }
+.mini_profile {
+    margin-left: 255px;
+    margin-top: 120px;
+    width: 760px;
+    height: 570px;
+    float: left;
 }
 
-.menu-bar {
-    margin-top:20px;
+.mini_profile .pro {
+    margin-bottom: 40px;
+    overflow: hidden;
 }
 
-@media ( max-width:800px ) {
-    .menu-bar {
-        display:none;
-    }
+.pro .hh {
+    display: block;
+    width: 150px;
+    height: 30px;
+    float: left;
+    padding-top: 10px;
 }
 
-.menu-bar > .menu-box-1 > ul > li {
-    flex-basis:calc(100% / 4);
+.hh>p:first-child {
+    font: 18px 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
-.menu-bar > .menu-box-1 > ul > li > a {
-    display:block;
-    font-weight:bold;
-    text-align:center;
-    position:relative;
-    font-size: 1.5rem;
-    color: black;
+.line {
+    background-color: yellow;
+    width: 140px;
+    height: 12px;
+    position: relative;
 }
 
-.menu-bar > .menu-box-1 > ul > li:hover > a {
-    color:red;
-    text-decoration:underline;
+.line>span {
+    position: absolute;
+    top: -11px;
+    left: 10px;
+    color: #444;
+    font-weight: bold;
+}
+
+.pro .bb {
+    font: 16px;
+    font-weight: 400;
+    display: block;
+    float: left;
+}
+
+.bb02 {
+    margin-bottom: 10px;
+}
+
+.bb02 span:first-child {
+    margin-right: 30px;
+    font: 16px;
+    font-weight: 500;
+}
+
+.bb02 span {
+    display: inline-block;
+}
+
+.mini_pr {
+    width: 270px;
+    height: 300px;
+    float: left;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.mini_pr > img {
+    width: 150px;
+    height: 150px;
+}
+.mini_pr>p {
+    width: 200px;
+    text-align: center;
+    font: 27px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.line05 {
+    background-color: yellow;
+    width: 140px;
+    height: 12px;
+    position: relative;
+}
+
+.line05>span {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: #444;
+}
+
+/* 게시판 */
+.list-bt {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.list-tt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #444;
 }
