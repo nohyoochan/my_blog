@@ -12,26 +12,21 @@
     <script src="/resource/common.js"></script>
 </head>
 <body>
-    <div id="header" class="main">
-        <div class="inner">
-            <h1>
-                <a href="#">
-                    <img src="../resource/img/11.png" alt="">
-                </a>
-            </h1>
-        </div>
-        <div class="menu-bar con">
-            <nav class="menu-box-1">
-                <ul class="flex">
-                <li><a href="/index.php">Home</a></li>
-                <li><a href="/aboutMe.php">About Me</a></li>
-                <li><a href="/list.php">list</a></li>
-                <li><a href="#">SNS</a></li>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</div>
+    <header id="header" style="display: block;">
+		<div class="area block">
+			<h1 class="logo">Noh<br>yoo chan</h1>
+			<nav id="gnb" class="f_r">
+				<ul>
+					<li><a href="/index.php">HOME</a></li>
+                    <li><a href="/aboutMe.php">ABOUT ME</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+					<li><a href="/list.php">LIST</a></li>
+					<li><a href="#">SNS</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+
     <div class="mobile-top-bar visible-sm-down flex flex-jc-end">
         <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
@@ -88,19 +83,3 @@
         </div>
     </div>
 </div>
-
-
-<!--          
-<div class="profile-bar con">
-<h2 class="con">profile</h2>
-<div class="profile-box">
-    <a href="#" class="avatar"></a> 
-</div>
-<div class="profile flex-1-0-0">
-    <div class="name">NYC</div>
-    <div class="introduce">
-        xx.xxxx
-    </div>
-</div>
-</div>
--->

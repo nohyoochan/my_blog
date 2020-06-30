@@ -38,10 +38,8 @@ $row = mysqli_fetch_assoc($rs);
     <a href="/list.php">[리스트]</a>
 </div>
 <h1 class="list-tt con">제목 : <?=$row['title']?></h1>
-<div class="con">
-    등록날짜 : <?=$row['regDate']?>
-</div>
-<div class="con">
+<div class="list-time con">
+    등록날짜 : <?=$row['regDate']?> &nbsp &nbsp &nbsp &nbsp &nbsp 
     수정날짜 : <?=$row['updateDate']?>
 </div>
 <div class="con">
