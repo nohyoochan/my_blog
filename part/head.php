@@ -12,6 +12,7 @@
     <script src="/resource/common.js"></script>
 </head>
 <body>
+    
     <header id="header" style="display: block;">
 		<div class="area block">
 			<h1 class="logo">Noh<br>yoo chan</h1>
@@ -61,25 +62,6 @@
                         </li>
             </ul>
     </li>
-    </ul>   
+    </ul>
     </nav>
     </div>
-
-    <div class="sbs-slider">
-    <div class="slides">
-        <div style="background-image:url(../resource/img/back1.jpg);" class="active"></div>
-        <div style="background-image:url(../resource/img/back2.jpg);"></div>
-        <div style="background-size:contain; background-image:url(../resource/img/back3.jpg);"></div>
-    </div>
-    
-    <div class="side-bars">
-        <div>
-            <span>
-                <i class="fa fa-angle-left" aria-hidden="true"></i>
-            </span>
-        </div>
-        <div>
-            <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-        </div>
-    </div>
-</div>

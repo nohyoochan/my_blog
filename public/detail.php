@@ -33,11 +33,12 @@ $row = mysqli_fetch_assoc($rs);
 <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight-all.min.js"></script>
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+<div class="dt">
 <div class="list-bt con">
     <a href="#" onclick="history.back();">[뒤로가기]</a>
     <a href="/list.php">[리스트]</a>
 </div>
-<h1 class="list-tt con">제목 : <?=$row['title']?></h1>
+<h1 class="list-tt">제목 : <?=$row['title']?></h1>
 <div class="list-time con">
     등록날짜 : <?=$row['regDate']?> &nbsp &nbsp &nbsp &nbsp &nbsp 
     수정날짜 : <?=$row['updateDate']?>
@@ -50,6 +51,7 @@ $row = mysqli_fetch_assoc($rs);
 </div>
 <div class="con" id="viewer1">
 
+</div>
 </div>
 <script>
 var editor1__initialValue = $('#origin1').html();
