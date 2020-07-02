@@ -246,6 +246,13 @@ label[for] {
     border: 3px solid red;
 }
 
+.row {
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 75px 0;
+    position: relative;
+}
+
 /* 라이브러리 - flex */
 *>.flex {
     display: flex;
@@ -365,7 +372,7 @@ label[for] {
 body {
     color: #444;
     line-height: 1;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 html, body {
@@ -918,26 +925,22 @@ html, body {
 }
 /* 페이징 끝 */
 
+/* index 배너 */
 #banner-content.row {
     padding-top: 170px;
     padding-bottom: 100px;
 }
-.row {
-    max-width: 1245px;
-    margin: 0 auto;
-    padding: 75px 0;
-    position: relative;
-}
 
-.col-38 {
+.heading {
     width: 38.2%;
 }
 
-.section-heading {
+.heading-text {
     padding: 0 0 15px 0;
 }
 
 #banner h1 {
+    margin-top: 150px;
     font-size: 62px;
     line-height: 60px;
     font-weight: 800;
@@ -948,6 +951,7 @@ html, body {
     font-size: 18px;
     font-weight: 300;
     color: #111;
+    font-weight: bold;
 }
 
 #banner {
@@ -955,3 +959,92 @@ html, body {
     background: url(https://demos.onepagelove.com/html/namari/images/banner-images/banner-image-1.jpg) no-repeat center top;
     background-size: cover;
 }
+
+.scroll {
+    margin: 100px 0 0 70px;
+    padding: 11px 16px;
+    transition: all .3s linear;
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+}
+
+/* index 배너 끝 */
+
+/* index about */
+.main-about .gle {
+    margin-top: 10px;
+}
+
+.about-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-skill {
+    justify-content: space-between;
+}
+
+.main-about .about-text > h3 , .gle {
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+}
+
+.main-about .about-text > h1 {
+    padding: 10px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #111;
+}
+
+.main-skill > h4 {
+    font-weight: bold;
+}
+
+.praph {
+    margin:0 0 30px;
+    height:40px;
+    background:gray;
+    border-radius:40px;
+  }
+  .graph.stack1 span {
+    background:violet;
+    animation:stack 2s 1;
+  } 
+  .graph span {
+    display:block;
+    width:75%;
+    height:40%;
+    line-height:40px;
+    text-align:right;
+    background:black;
+    border-radius:40px;
+    box-sizing:border-box;
+    color:#fff;
+    animation:stack 2s 1;
+  }
+  
+  @keyframes stack {
+    0% { width:0; color : rgba(255,255,255,0);}
+    50% {
+      color : rgba(255,255,255,1);
+    }
+    100% { width:75%;}
+  }
+/* index about 끝 */
+
+/* index portfolio */
+.main-portf {
+    text-align: center;
+}
+
+.main-portf a {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 33.33%;
+}
+
+/* index portfolio 끝 */

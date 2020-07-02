@@ -73,3 +73,20 @@ $('.sbs-slider > .side-bars > div').click(function() {
 });
 
 });
+
+// 스크롤 이동
+<script>
+
+jQuery(document).ready(function($) {
+
+$(".scroll").click(function(event){            
+
+event.preventDefault();
+
+$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+
+})
+
+});
+
+</script>
