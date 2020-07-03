@@ -83,6 +83,8 @@ include "../part/head.php";
             <img src="https://nohyoochan.github.io/img1/blog/article/2020/portfolio6.jpg" alt="">
         </a>
     </div>
+
+    
 <!--
 <div class="sbs-slider">
     <div class="slides">

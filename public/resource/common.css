@@ -541,7 +541,33 @@ html, body {
 
 #gnb ul {
     margin-right: 20px;
+    transition:all .3s ease 
 }
+
+#gnb li > a:hover {
+    color:red; transition:all .3s ease;
+}
+#gnb li > a {
+    position:relative
+}
+#gnb li > a::after {
+    content: '';
+    width: 0%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid red;
+    transition:all .3s ease;
+  }
+ #gnb li:hover > a::after {
+    content: '';
+    width: 100%;
+    left: 0px;
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid red;
+    transition:all .3s ease;
+  }
 
 #gnb ul li {
     float: left;
@@ -650,11 +676,10 @@ html, body {
     width: 150px;
     height: 30px;
     float: left;
-    padding-top: 10px;
 }
 
 .hh>p:first-child {
-    font: 18px 'Montserrat', sans-serif;
+    font: 18px;
     font-weight: 500;
 }
 
@@ -743,17 +768,22 @@ html, body {
 }
 
 .list-tt {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 2px solid #444;
 }
 
 .list-time {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 10px;
     border-bottom: 1px solid #444;
 }
 
+.list-body {
+    height: 800px;
+    background-color: #999;
+}
 .dt {
     margin-left: 100px;
     padding: 150px 0px;
@@ -854,7 +884,7 @@ html, body {
     float: left;
     width: 21.296296296296296%;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 75px 0 32px;
     height: 100%;
     box-sizing: border-box;
@@ -1025,7 +1055,6 @@ html, body {
     color:#fff;
     animation:stack 2s 1;
   }
-  
   @keyframes stack {
     0% { width:0; color : rgba(255,255,255,0);}
     50% {
@@ -1048,3 +1077,12 @@ html, body {
 }
 
 /* index portfolio 끝 */
+
+/* ariticle */
+.main-name {
+    margin-top: 100px;
+}
+
+.main-name > span {
+    font-weight: bold;
+}

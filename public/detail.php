@@ -34,19 +34,17 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 <div class="dt">
-<div class="list-bt con">
+<div class="list-bt row">
     <a href="#" onclick="history.back();">[뒤로가기]</a>
-    <a href="/list.php">[리스트]</a>
+    <a href="/article.php?cateItemId=1">[리스트]</a>
 </div>
-<h1 class="list-tt">제목 : <?=$row['title']?></h1>
-<div class="list-time con">
+<h1 class="list-tt row">제목 : <?=$row['title']?></h1>
+<div class="list-time">
     등록날짜 : <?=$row['regDate']?> &nbsp &nbsp &nbsp &nbsp &nbsp 
     수정날짜 : <?=$row['updateDate']?>
+    <br><br>작성자 : 노유찬
 </div>
-<div class="con">
-    작성자 : 노유찬
-</div>
-<div class="con" style="display:none;" id="origin1">
+<div class="list-body row" style="display:none;" id="origin1">
 <?=$row['body']?>
 </div>
 <div class="con" id="viewer1">

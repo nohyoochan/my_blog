@@ -7,7 +7,7 @@
     <title>블로그</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
-    <link rel="icon" href="/resource/img/11.png">
+    <link rel="icon" href="https://nohyoochan.github.io/img1/blog/article/2020/logo1.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
@@ -21,8 +21,8 @@
 				<ul>
 					<li><a href="/index.php">HOME</a></li>
                     <li><a href="/aboutMe.php">ABOUT ME</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-					<li><a href="/list.php">LIST</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+					<li><a href="/article.php?cateItemId=1">LIST</a></li>
 					<li><a href="#">SNS</a></li>
 				</ul>
 			</nav>
