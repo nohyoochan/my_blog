@@ -23,7 +23,7 @@
                     <li><a href="/aboutMe.php">ABOUT ME</a></li>
                     <li><a href="">PORTFOLIO</a></li>
 					<li><a href="/article.php?cateItemId=1">LIST</a></li>
-					<li><a href="#">SNS</a></li>
+					<li><a href="#">CONTACT</a></li>
 				</ul>
 			</nav>
 		</div>

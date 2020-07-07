@@ -999,6 +999,9 @@ html, body {
     border-style: solid;
 }
 
+.scroll:hover {
+    background-color: sandybrown;
+}
 /* index 배너 끝 */
 
 /* index about */

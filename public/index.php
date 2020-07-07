@@ -19,8 +19,8 @@ include "../part/head.php";
 <!-- index 메인-소개 -->
     <div class="main-about row">
         <div class="about-text">
-            <h3>ABOUT</h3>
-            <h1>NOH YOO CHAN</h1>
+            <h3>VISION</h3>
+            <h1>WEB DESIGN</h1>
             <div class="gle">끊임없이 노력하고 성장하는 디자이너가 되겠습니다.<br>
             Porro voluptates impedit debitis, quas iste, eum in, <br>
             recusandae eligendi corrupti iusto culpa nisi tenetur <br>
@@ -83,7 +83,6 @@ include "../part/head.php";
             <img src="https://nohyoochan.github.io/img1/blog/article/2020/portfolio6.jpg" alt="">
         </a>
     </div>
-
     
 <!--
 <div class="sbs-slider">
