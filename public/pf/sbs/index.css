@@ -399,8 +399,7 @@ body, html {
 
 .sec {
     position: relative;
-    height: 800px;
-    padding: 231px 0 204px;
+    height: 780px;
     background: #101010 url(https://nohyoochan.github.io/img1/pf/wmpo/bg-main-sec1.jpg) 0 0 no-repeat;
     background-size: cover;
     text-align: center;
@@ -429,13 +428,10 @@ body, html {
 
 .sec .wrap h2 > strong {
     display: block;
-    padding-bottom: 20px;
-    font-weight: 700;
     color: #fff;
 }
 
 .sec .wrap .desc {
-    padding-top: 45px;
     line-height: 30px;
     font-weight: 300;
     font-size: 14px;
@@ -887,10 +883,10 @@ body, html {
 .page9 .wrap:after {
     content: "";
     position: absolute;
-    right: 179px;
+    right: 230px;
     bottom: 157px;
     width: 425px;
-    height: 401px;
+    height: 500px;
     background: url(https://nohyoochan.github.io/img1/pf/wmpo/page9-1.png) no-repeat;
 }
 
