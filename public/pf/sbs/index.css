@@ -406,7 +406,7 @@ body, html {
     text-align: center;
 }
 
-.sec .wrap {
+.wrap {
     position: relative;
     width: 1200px;
     height: 100%;
@@ -440,4 +440,956 @@ body, html {
     font-weight: 300;
     font-size: 14px;
     color: #fff;
+}
+
+/* page 2 */
+.page2 {
+    position: relative;
+    height: 780px;
+    text-align: center;
+    background-color: black;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page2 .wrap > .h-first {
+    color:#fff; 
+}
+
+.page2 .wrap .desc {
+    color: #fff;
+}
+
+.page2 .wrap > .h-second {
+    margin-top: 70px;
+    color: #fff;
+}
+
+.page2 .wrap > .h-three {
+    margin-top: 70px;
+    color: #fff;
+}
+
+/* page 3 */
+.page3 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page3.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    height: 780px;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page3 .wrap > h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+.page3 .wrap > h3 {
+    color: #fff;
+}
+
+.page3 .wrap > .desc2 {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.page3 .wrap > .desc3 {
+    color: #fff;
+}
+
+.page3 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page3 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+/* page 4 */
+.page4 {
+    position: relative;
+    background: #f0f8ff url(https://nohyoochan.github.io/img1/pf/wmpo/page4.jpg) center no-repeat;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page4 .wrap > h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.page4 .wrap > h3 {
+    color: black;
+}
+
+.page4 .wrap > .desc2 {
+    color: black;
+    margin-top: 50px;
+}
+
+.page4 .wrap > .desc3 {
+    color: black;
+}
+
+.page4 .wrap .more {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+}
+
+.page4 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: black;
+}
+
+.page4 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 5;
+    top: -43px;
+    width: 1670px;
+    height: 824px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page4-1.png) no-repeat;
+}
+/* page 5 */
+.page5 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page5.jpg) 75% 58% no-repeat;
+    background-size: cover;
+    height: 780px;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page5 .wrap h2 {
+    padding-bottom: 13px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+.page5 .wrap h3 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.page5 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: #fff;
+}
+
+.page5 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page5 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+/* page 6 */
+.page6 {
+    position: relative;
+    background: #f0f8ff url(https://nohyoochan.github.io/img1/pf/wmpo/page6.jpg) center no-repeat;
+    background-size: cover;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page6 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+}
+
+.page6 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: black;
+}
+
+.page6 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -70px;
+    width: 672px;
+    height: 809px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page6-1.png) no-repeat;
+}
+
+/* page 7 */
+.page7 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page7.jpg);
+    background-size: cover;
+    height: 780px;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page7 .wrap h2 {
+    color: white;
+}
+
+.page7 .wrap h3 {
+    color: white;
+}
+
+.page7 .wrap > .desc2 {
+    color: white;
+    margin-top: 50px;
+}
+
+.page7 .wrap > .desc3 {
+    color: white;
+}
+
+.page7 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page7 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+/* page 8 */
+.page8 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page8.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    height: 780px;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page8 .wrap h2 {
+    color: white;
+}
+
+.page8 .wrap h3 {
+    color: white;
+}
+
+.page8 .wrap > .desc2 {
+    color: white;
+    margin-top: 50px;
+}
+
+.page8 .wrap > .desc3 {
+    color: white;
+}
+
+.page8 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page8 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+.page8 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 140px;
+    width: 721px;
+    height: 411px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page8-1.png) no-repeat;
+}
+
+/* page 9 */
+.page9 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page9.jpg) 50% 100% no-repeat;
+    background-size: cover;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page9 .wrap h2 {
+    font-size: 2rem;
+}
+
+.page9 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: black;
+}
+
+.page9 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+}
+
+.page9 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: black;
+}
+
+.page9 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 179px;
+    bottom: 157px;
+    width: 425px;
+    height: 401px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page9-1.png) no-repeat;
+}
+
+/* page 10 */
+.page10 {
+    background-color: #0f0f0f;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page10 .wrap h2 {
+    font-size: 2rem;
+    color:white; 
+}
+
+.page10 .wrap h3 {
+    color: white;
+}
+
+.page10 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: white;
+}
+
+.page10 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page10 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+.page10 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 177px;
+    bottom: 155px;
+    width: 437px;
+    height: 600px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page10.png) no-repeat;
+}
+
+/* page 11 */
+.page11 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page11.jpg) 50% 100% no-repeat;
+    background-size: cover;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page11 .wrap h2 {
+    font-size: 2rem;
+    color:black; 
+}
+
+.page11 .wrap h3 {
+    color: black;
+}
+
+.page11 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: black;
+}
+
+.page11 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+}
+
+.page11 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: black;
+}
+
+.page11 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 40%;
+    bottom: 247px;
+    width: 628px;
+    height: 330px;
+    margin-right: -350px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page11-1.png) no-repeat;
+}
+
+/* page 12 */
+.page12 {
+    background:#b31b22 url(https://nohyoochan.github.io/img1/pf/wmpo/page12.jpg) right 308px no-repeat;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page12 .wrap h2 {
+    font-size: 2rem;
+    color:white; 
+}
+
+.page12 .wrap h3 {
+    color: white;
+}
+
+.page12 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: white;
+}
+
+.page12 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page12 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+.page12 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: -35px;
+    width: 387px;
+    height: 745px;
+    margin-right: -344px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page12-1.png) no-repeat;
+}
+
+/* page 13 */
+.page13 {
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page13 .wrap h2 {
+    font-size: 2rem;
+    color:black; 
+}
+
+.page13 .wrap h3 {
+    color: black;
+}
+
+.page13 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: black;
+}
+
+.page13 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+}
+
+.page13 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: black;
+}
+
+.page13 .wrap:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    bottom: 79px;
+    width: 643px;
+    height: 600px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page13.png) no-repeat;
+}
+
+/* page 14 */
+.page14 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page14.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page14 .wrap h2 {
+    font-size: 2rem;
+    color:white; 
+}
+
+.page14 .wrap h3 {
+    color: white;
+}
+
+.page14 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: white;
+}
+
+.page14 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page14 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+/* page 15 */
+.page15 {
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page15.png) 50% 30% no-repeat;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page15 .wrap h2 {
+    font-size: 2rem;
+    color:black; 
+}
+
+.page15 .wrap h3 {
+    color: black;
+}
+
+.page15 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: black;
+}
+
+.page15 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+}
+
+.page15 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: black;
+}
+
+/* page 16 */
+.page16 {
+    background: #0d0d0d url(https://nohyoochan.github.io/img1/pf/wmpo/page16.png) 75% 58% no-repeat;
+    height: 780px;
+    text-align: center;
+}
+
+.wrap {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 126px 50px 0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.page16 .wrap h2 {
+    font-size: 2rem;
+    color:white; 
+}
+
+.page16 .wrap h3 {
+    color: white;
+}
+
+.page16 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: white;
+}
+
+.page16 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    z-index: 1;
+}
+
+.page16 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: white;
+}
+
+/* page 17 */
+.page17{
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page17.jpg) 0 0 no-repeat;
+    background-size: cover;
+    height: 780px;
+    text-align: center;
+}
+
+.page17 .wrap:after {
+    content: "";
+    position: absolute;
+    right: -137px;
+    bottom: 160px;
+    width: 897px;
+    height: 600px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page17-1.png) no-repeat;
+}
+
+.page17 .wrap h2 {
+    font-size: 2rem;
+    color:black; 
+}
+
+.page17 .wrap h3 {
+    color: black;
+}
+
+.page17 .wrap .info {
+    width: 490px;
+    line-height: 24px;
+    padding-top: 30px;
+    font-size: 14px;
+    word-break: keep-all;
+    letter-spacing: -0.025em;
+    color: black;
+}
+
+.page17 .wrap .more {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    z-index: 1;
+}
+
+.page17 .wrap .more:after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    width: 52px;
+    height: 2px;
+    background: black;
 }
