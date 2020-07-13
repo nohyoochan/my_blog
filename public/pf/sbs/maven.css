@@ -321,6 +321,7 @@ body, html {
     width: 100%;
     min-width: 1400px;
     background: #fff;
+    overflow-x: hidden;
 }
 
 
@@ -1389,3 +1390,227 @@ body, html {
     height: 2px;
     background: black;
 }
+
+/* CLIENT */
+.client {
+    background-color: #121212;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+    position: relative;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 90px 0 87px;
+    text-align: left;
+}
+
+.inner .tit {
+    float: left;
+    padding-left: 59px;
+}
+
+.inner .tit .tag {
+    display: inline-block;
+    position: absolute;
+    top: 123px;
+    left: -22px;
+    font-weight: 800;
+    font-size: 13px;
+    transform: rotate(-90deg);
+}
+
+.inner .tit strong {
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.inner .tit strong > span {
+    display: block;
+    padding-top: 11px;
+}
+
+.inner .logo-list {
+    float: right;
+}
+
+.inner .logo-list ul {
+    width: 634px;
+    margin: -83px -40px 0 0;
+}
+
+.inner .logo-list ul > li {
+    float: left;
+    width: 33.33%;
+    height: 47px;
+    margin-top: 89px;
+    text-align: center;
+}
+
+.inner .logo-list ul li span {
+    display: inline-block;
+    line-height: 1;
+    font-size: 1px;
+    color: transparent;
+    text-indent: -9999em;
+}
+
+.inner .logo-list ul > .lg > span {
+    width: 109px;
+    height: 31px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page18-1.png) no-repeat;
+}
+
+.inner .logo-list ul > .tngt > span {
+    width: 76px;
+    height: 22px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page18-2.png) no-repeat;
+}
+
+.inner .logo-list ul > .samyang > span {
+    width: 126px;
+    height: 23px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page18-3.png) no-repeat;
+}
+
+.inner .logo-list ul > .color > span {
+    width: 92px;
+    height: 47px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page18-4.png) no-repeat;
+}
+
+.inner .logo-list ul > .hank > span {
+    width: 121px;
+    height: 40px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page18-5.png) no-repeat;
+}
+
+.inner .logo-list ul > .sk > span {
+    width: 132px;
+    height: 41px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page18-6.png) no-repeat;
+}
+
+.inner .logo-list ul > .kimb > span {
+    width: 114px;
+    height: 25px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/page-18-7.png) no-repeat;
+}
+
+.inner .logo-list ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.inner::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* CONTACT */
+.contact {
+    height: 580px;
+    color: black;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+    position: relative;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 90px 0 87px;
+    text-align: left;
+}
+
+.inner .tit {
+    float: left;
+    padding-left: 59px;
+}
+
+.inner .tit .tag {
+    display: inline-block;
+    position: absolute;
+    top: 123px;
+    left: -22px;
+    font-weight: 800;
+    font-size: 13px;
+    transform: rotate(-90deg);
+}
+
+.inner .tit strong {
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.inner .contact-gle {
+    padding-top: 94px;
+}
+
+.inner .contact-gle .cont {
+    float: left;
+    width: 500px;
+    padding-left: 81px;
+    margin-top: 60px;
+}
+
+.inner .contact-gle .cont > strong {
+    display: inline-block;
+    padding-bottom: 6px;
+    font-weight: 800;
+    font-size: 16px;
+    border-bottom: 2px solid #000;
+}
+
+.inner .contact-gle .cont > p {
+    padding-top: 35px;
+    font-size:30px;
+}
+
+.inner .contact-gle .cont > p > span {
+    padding-top:16px;
+    font-size:25px;
+    display: block;
+}
+
+.inner .contact-gle .tel {
+    float: right;
+    width: 556px;
+    margin-top: 60px;
+}
+
+.inner .contact-gle .tel > strong {
+    display: inline-block;
+    padding-bottom: 6px;
+    font-weight: 800;
+    font-size: 16px;
+    border-bottom: 2px solid #000;
+}
+
+.inner .contact-gle .tel > p {
+    padding-top: 35px;
+    font-size: 30px;
+}
+
+.inner .contact-gle .tel > p > em {
+    font-style: normal;
+    margin-left: 6px;
+}
+
+.inner .contact-gle .tel > p > span {
+    display: block;
+    padding-top : 12px;
+}
+
+.inner .contact-gle::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 탑바 스크롤 */

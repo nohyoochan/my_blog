@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>maven</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="/pf/sbs/index.css">
+    <link rel="stylesheet" href="/pf/sbs/maven.css">
     <link rel="icon" href="https://nohyoochan.github.io/img1/blog/article/2020/logo1.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/pf/sbs/index.js"></script>
+    <script src="/pf/sbs/maven.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
 </head>
 <body>
@@ -33,7 +33,7 @@
                         <br>E-BUSINESS의 모든 서비스를 제공할 수 있는 진정한 통합 온라인 전문기업입니다.
                     </p>
                 </div>
-            </div>
+</div>
 
 <div class="page2">
     <div class="wrap">
@@ -208,6 +208,73 @@
         </p>
  
         <a href="#" class="more">+ Details</a>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="client">
+        <div class="inner">
+             <div class="tit">
+                 <span class="tag">CLIENTS</span>
+                 <strong>CLIENT
+                     <span>& BRANDS</span>
+                 </strong>
+             </div>
+             <div class="logo-list">
+                 <ul>
+                     <li class="lg">
+                         <span>LG U+</span>
+                        </li>
+                     <li class="tngt">
+                         <span>TNGT</span>
+                        </li>
+                     <li class="samyang">
+                         <span>SAMYANG</span>
+                        </li>
+                     <li class="color">
+                         <span>Color Autumn</span>
+                        </li>
+                     <li class="hank">
+                         <span>한국관광공사</span>
+                        </li>
+                     <li class="sk">
+                         <span>SK broadband</span>
+                        </li>
+                     <li class="kimb">
+                         <span>유한컴벌리</span>
+                        </li>
+                 </ul>
+             </div>
+        </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="inner">
+            <div class="tit">
+                <span class="tag">CONTACT</span>
+                    <strong>CONTACT</strong>
+            </div>
+            <div class="contact-gle">
+                <div class="cont">
+                    <strong>ADDRESS</strong>
+                    <p>서울시 강남구 강남대로 464
+                        <span>(역삼동 비제바노빌딩 4F)</span>
+                    </p>
+                </div>
+                <div class="tel">
+                    <strong>TEL</strong>
+                    <p>T .  
+                        <em>02.6927.1205</em>
+                        <span>F .  
+                            <em>02.568.5413</em>
+                        </span>
+                        <span>E .  
+                            <em>mini@maven-d.co.kr</em>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body> 
