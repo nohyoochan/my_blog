@@ -360,8 +360,40 @@ label[for] {
 
 .banner .top-bar .logo-bar .logo > a {
     display: inline-block;
+    text-decoration: none;
 }
 
 .banner .top-bar .logo-bar .logo > a > img {
     max-width: 100%; 
 }
+
+/* 메뉴 바 */
+.menu-bar {
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+    height: 57px;
+    background: #fff;
+}
+
+.menu-bar .menu-box {
+    max-width: 1180px;
+    padding: 0 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu-bar .menu-box .menu {
+    margin-right: 74px;
+}
+
+.menu-bar .menu-box .menu ul {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.menu-bar .menu-box .menu > li {
+    display: table-cell;
+}
+
+.menu-bar .menu-box .menu > 

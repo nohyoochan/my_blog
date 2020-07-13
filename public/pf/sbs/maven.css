@@ -321,9 +321,10 @@ body, html {
     width: 100%;
     min-width: 1400px;
     background: #fff;
-    overflow-x: hidden;
+    overflow: auto;
+    -ms-overflow-style:none;
 }
-
+body::-webkit-scrollbar { display:none; }
 
 #header {
     position: fixed;
