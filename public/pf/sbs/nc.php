@@ -24,6 +24,7 @@
                     </a>
                 </h1>
             </div>
+        </div>
     <!-- 메뉴바 -->
         <div class="menu-bar">
             <div class="menu-box">
@@ -31,7 +32,7 @@
                     <ul>
                         <li>
                             <a href="#">WE</a>
-                                <ul>
+                                <ul class="sub-menu">
                                     <li>
                                         <a href="#">News</a></li>
                                     <li>
@@ -44,7 +45,7 @@
                             </li>
                         <li>
                             <a href="#">PLAY</a>
-                                <ul>
+                                <ul class="sub-menu">
                                     <li>
                                         <a href="#">리니지</a></li>
                                     <li>
@@ -73,7 +74,7 @@
                             </li>
                         <li>
                             <a href="#">R&D</a>
-                                <ul>
+                                <ul class="sub-menu">
                                     <li>
                                         <a href="#">AI</a></li>
                                     <li>
@@ -86,7 +87,7 @@
                             </li>
                         <li>
                             <a href="#">VIEW</a>
-                                <ul>
+                                <ul class="sub-menu">
                                     <li>
                                         <a href="#">칼럼</a></li>
                                     <li>

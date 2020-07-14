@@ -417,6 +417,29 @@ body::-webkit-scrollbar { display:none; }
     vertical-align: middle;
 }
 
+.sec .scroll-notice {
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    width: 30px;
+    height: 45px;
+    margin-left: -15px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/scroll-mouse.png) no-repeat;
+    z-index: 9;
+}
+
+.sec .scroll-notice:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    width: 15px;
+    height: 13px;
+    margin-left: -8px;
+    background: url(https://nohyoochan.github.io/img1/pf/wmpo/scroll-arrow.png) no-repeat;
+    animation: scroll 1.3s linear infinite;
+}
+
 .sec .wrap h2 {
     margin-left: 100px;
     font-weight: 300;

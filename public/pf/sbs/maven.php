@@ -18,7 +18,7 @@
         <a href="/pf/sbs/index.php" class="logo"></a>
             <div class="menu">
                 <ul>
-                    <li class=""><a href="#">ABOUT</a></li>
+                    <li class="active"><a href="#">ABOUT</a></li>
                     <li class=""><a href="#">PROJECT</a></li>
                     <li class=""><a href="#">CONTACT</a></li>
                 </ul>
@@ -26,6 +26,7 @@
     </div>
 </header>
 <div class="sec">
+    <span class="scroll-notice" style="display: block;"></span>
                 <div class="wrap">
                     <h2><strong>IMAGINE,</strong>BE CREATIVE</h2>
                     <p class="desc">메이븐디는 비즈니스 이해, UI/UX 설계 및 기획, 그리고 검증되고 고도화된 개발 로직
