@@ -321,10 +321,8 @@ html, body {
 body {
     overflow-x: hidden;
     font-size: 17px;
-    font-weight: 300;
     color: #222;
     letter-spacing: -0.09em;
-    background-color: #222;
 }
 
 /* 탑 바 */
@@ -333,7 +331,7 @@ body {
     width: 100%;
     height: 80px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
-    z-index: 50;
+    z-index: 9999;
 }
 
 /* 탑 바 로고 */
@@ -341,7 +339,7 @@ body {
     position: absolute;
     left: 0;
     padding: 9px;
-    z-index: 51;
+    z-index: 9999;
 }
 
 /* 탑 바 메뉴 */
@@ -352,23 +350,18 @@ body {
     width: 100%;
     color: #fff;
     box-sizing: border-box;
+    z-index: 9999;
 }
 
 .menu-box .menu-ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 .menu-box .menu-ul > li {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    border: 1px solid red;
 }
 
 .menu-box .menu-ul > li:hover {
@@ -423,5 +416,219 @@ body {
 .top-right {
     position: absolute;
     right: 0;
+    z-index: 9999;
+    color: #fff;
+    font-size: 0.78em;
+}
 
+.top-right > a {
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 1.8em;
+    width: 100px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 17px 0 0;
+    cursor: pointer;
+    border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+.top-right > a > img {
+    display: block;
+    margin: 0 auto 7px;
+}
+
+/* 메인 화면 */
+.main {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #333;
+}
+
+.my-slider-1 .item {
+    position: relative;
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  
+  .my-slider-1 > .owl-carousel.owl-theme > div.owl-dots {
+    margin-top:0;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  
+  .my-slider-1 > .owl-carousel.owl-theme > div.owl-dots > div.owl-dot > span {
+    transition: width .3s;
+    width:15px;
+    height:15px;
+  }
+  
+  .my-slider-1 > .owl-carousel.owl-theme > div.owl-dots > div.owl-dot.active > span {
+    width:50px;
+    background-color:#51b0ec;
+  }
+
+  .txt-wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.txt-wrap .in {
+    overflow: hidden;
+    display: table-cell;
+    padding-top: 3px;
+    width: 100%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.txt-wrap .in .txt1 {
+    font-size: 2.7em;
+    font-weight: 100;
+    line-height: 1.3em;
+}
+
+.txt-wrap .in .txt1 > b {
+    font-weight: 500;
+}
+
+.txt-wrap .in .txt2 {
+    font-size: 0.94em;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.txt-wrap .in .link1 {
+    display: block;
+    margin-top:20px;
+    line-height: 30px;
+}
+
+.txt-wrap .in .link1 > img {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    color: #222;
+}
+
+/* sec 1 */
+.sec1 {
+    position: relative;
+    width: 1600px;
+    height: 408px;
+    margin: 7em auto;
+    color: black;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin: 5em auto;
+    overflow: hidden;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.title .tit {
+    font-size: 2.8em;
+    font-weight: 100;
+    line-height: 1.3em;
+}
+
+.title .tit2 {
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.sec1-2 {
+    position: relative;
+    display: block;
+    width: 1600px;
+    height: 215px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sec1-2-1 {
+    display: block;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    text-align: center;
+}
+
+.sec1-2-1 > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.sec1-2-1 > b {
+    display: block;
+    margin: 15px auto 11px;
+    line-height: 1.2em;
+    font-size: 1.05em;
+    font-weight: 500;
+}
+
+.sec1-2-1 > span {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    opacity: 0.85;
+}
+
+/* sec 2 */
+.sec2 {
+    display: table;
+    width: 100%;
+    height: 743px;
+    overflow: hidden;
+}
+
+.sec2 > div {
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.sec2 .img {
+    background: url(https://nohyoochan.github.io/img1/pf/guggen/sec02_img_01.png) no-repeat center center;
+    background-size: cover;
+}
+
+.sec2 .txt {
+    background-color: #192854;
+    color: #fff;
+    padding: 100px;
+}
+
+.sec2 .txt .e {
+    font-size: 3em;
+    font-weight: 100;
+    margin-top:5em;
+    line-height: 1.2em;   
+}
+
+.sec2 .txt .x {
+    opacity: 0.85;
+    margin: 1em auto 2.5em;
+}
+
+/* sec 3 */
+.sec3 {
+    padding: 7em 0;
+    background: url(https://nohyoochan.github.io/img1/pf/guggen/sec03_bg_01.png) repeat 0 0;
+    width: 100%;
+    height: 693px;
 }
