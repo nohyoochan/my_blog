@@ -633,6 +633,20 @@ body {
     height: 693px;
 }
 
+.my-slide {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.my-slider-2 .item {
+    border:10px solid red;
+    height:30vh;
+    font-size:15rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 10px;
+  }
 /* sec 4 */
 .sec4 {
     position: relative;

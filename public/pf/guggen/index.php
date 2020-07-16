@@ -239,6 +239,20 @@
         <img src="https://nohyoochan.github.io/img1/pf/guggen/link_st_01.png" alt="">
         </a>
 </div>
+<div class="my-slide">
+<div class="my-slider-2">
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_6qHruC83_66c103176341eb155bb37456790aa2ac6d7b63f7_350x350.jpg" alt=""></div>
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_Cc2ZipIj_062a8a61632ef42a0c1e38e7cc413a5eab5b20e2_350x350.jpg" alt=""></div>
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_hz6qZtWB_03d830faf8e6e8670eea3d39b8c9bbbb712c8e06_350x350.jpg" alt=""></div>
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_OFX0YZby_3cabccba419e3b732a85d7969fb11534b569b42a_350x350.jpg" alt=""></div>
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_ztlD1XYp_e8feba06aa54a71dd4b01714f1b12462b7516bcd_350x350.jpg" alt=""></div>
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/no_img.png" alt=""></div>
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/no_img.png" alt=""></div>
+    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/no_img.png" alt=""></div>
+  </div>
+</div>
+</div>
 </div>
 
 <div class="sec4">
