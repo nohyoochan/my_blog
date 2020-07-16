@@ -238,5 +238,72 @@
         구겐하임 가맹안내보기
         <img src="https://nohyoochan.github.io/img1/pf/guggen/link_st_01.png" alt="">
         </a>
+</div>
+</div>
+
+<div class="sec4">
+    <div class="sec4-box">
+        <div class="box-tit">
+            <span>INTRODUCE</span>
+            <b>구겐하임소개</b>
+        </div>
+        <img src="https://nohyoochan.github.io/img1/pf/guggen/sec04_img_01.png" alt="">
     </div>
+    <div class="sec4-box">
+        <div class="box-tit">
+            <span>NOTICE</span>
+            <b>공지사항</b>
+        </div>
+        <ul>
+            <li><a href="#"><span class="tit-sub1">수성점 사진예약 50%할인 행사실시</span>
+            <span class="tit-sub2">20.04.03</span></a></li>
+            <li><a href="#"><span class="tit-sub1">경산 중방점 사전예약 50%할인 행...</span>
+            <span class="tit-sub2">20.03.04</span></a></li>
+            <li><a href="#"><span class="tit-sub1">구겐하임 신종 코로나 감염 예방 대책</span>
+            <span class="tit-sub2">20.02.19</span></a></li>
+            <li><a href="#"><span class="tit-sub1">최저가 지점 가맹 가능한 지역과 원거...</span>
+            <span class="tit-sub2">20.02.17</span></a></li>
+            <li><a href="#"><span class="tit-sub1">10호점 경산 중방점 3월 말 오픈예...</span>
+            <span class="tit-sub2">20.02.17</span></a></li>
+        </ul>
+    </div>
+    <div class="sec4-box">
+        <div class="box-tit">
+            <span>EVENT</span>
+            <b>이벤트</b>
+        </div>
+        <ul>
+            <li><a href="#"><span class="tit-sub1">경산 중방점 사전예약 이벤트</span>
+            <span class="tit-sub2">20.03.04</span></a></li>
+            <li><a href="#"><span class="tit-sub1">구겐하임 지점 오픈지원 이벤트종료예...</span>
+            <span class="tit-sub2">20.01.08</span></a></li>
+        </ul>
+    </div>
+    <div class="sec4-box">
+        <div class="box-tit">
+            <span>COSTOMER</span>
+            <b>가맹 및 문의</b>
+        </div>
+        <div class="time">
+            <div class="tt">1800-7591</div>
+            <dl class="cc">
+                <dt>평일</dt>
+                <dd>오전 10 : 00 ~ 오후 06 : 00</dd>
+                <dt>토요일</dt>
+                <dd>오전 10 : 00 ~ 오후 06 : 00</dd>
+                <dd class="last">일요일/공휴일은 휴무입니다.</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="sec5">
+    <p>GUGGENHEIM PREMIUM STUDY CAFE</p>
+    <h4>
+        똑똑한 24시간 무인시스템
+        <br>
+        <b>스터디카페 구겐하임</b>
+    </h4>
+    <a href="">가맹안내 확인하기</a>
+</div>
 </div>
