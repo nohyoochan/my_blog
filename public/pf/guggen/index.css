@@ -808,3 +808,68 @@ body {
     transition-property: all;
     transition-timing-function: ease;
 }
+
+/* footer */
+.ft-wrap {
+    width: 1903px;
+    height: 248px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#ft-wrap .ft-link {
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 5px solid #f6f6f6;
+    padding: 20px 0;
+}
+
+#ft-wrap .ft-link li {
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+
+#ft-wrap .ft-link li::before {
+    content: "";
+    width: 1px;
+    height: 14px;
+    background: #adadad;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -7px;
+}
+
+#ft-wrap .ft-into {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#ft-wrap .ft-into h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#ft-wrap .ft-into h1 > img {
+    border: 0;
+    font-size: 0;
+    vertical-align: top;
+}
+
+#ft-wrap .ft-into ul {
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 0.95em;
+}
+
+#ft-wrap .ft-into ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#ft-wrap .ft-into p {
+    font-size: 0.93em;
+    color: #959595;
+    line-height: 2.4em;
+}

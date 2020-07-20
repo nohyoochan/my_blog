@@ -321,3 +321,25 @@
     <a href="">가맹안내 확인하기</a>
 </div>
 </div>
+
+<div id="ft-wrap">
+    <ul class="ft-link">
+        <li><a href="#">구겐하임소개</a></li>
+        <li><a href="#">지점찾기</a></li>
+        <li><a href="#">가맹안내</a></li>
+        <li><a href="#">오시는길</a></li>
+    </ul>
+    <div class="ft-into">
+        <h1>
+            <img src="https://nohyoochan.github.io/img1/pf/guggen/footer-logo.png" alt="">
+        </h1>
+        <ul>
+            <li><a href="#">스터디카페 구겐하임</a></li>
+            <li><a href="#">대표:김대홍</a></li>
+            <li><a href="#">사업자번호:645-56-00362</a></li>
+            <li><a href="#">주소:대구광역시 수성구 범어천로61,4층</a></li>
+            <li><a href="#">대표전화:1800-7591</a></li>
+        </ul>
+        <p>COPYRIGHTⒸ2019 GUGGENHEIM PREMIUM STUDY CAFE. ALL RIGHTS RESERVED.</p>
+    </div>
+</div>
