@@ -52,12 +52,21 @@
                     <h2><a href="#">MALL</a></h2>
                 </nav>
 
-                <div class="gnb-util">
-                    <div class="gnb-search">
-                        
+                <div id="gnbSearch" style="">
+                    <div class="gnb-search-input">
+                        <input type="text" id="autocomplete" title="keyword" autocomplete="off">
                     </div>
+                    <div id="search_list" class="gnb-search-area" style="display:none;">
+                    </div>
+                    <a href="" id="btnSearch">검색</a>
                 </div>
             </div>
         </div>
     </header>
 </div>
+
+<main>
+    <div class="main-page">
+        
+    </div>
+</main>

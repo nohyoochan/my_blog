@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>guggenstudy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="/pf/guggen/index.css">
     <link rel="icon" href="https://nohyoochan.github.io/img1/blog/article/2020/logo1.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -13,6 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -122,8 +124,63 @@
                     </a>
                 </div>
             </div></div>
-        <div class="item" style="background-image:url(https://nohyoochan.github.io/img1/pf/guggen/main_vis_02.jpg);"></div>
-        <div class="item" style="background-image:url(https://nohyoochan.github.io/img1/pf/guggen/main_vis_03.jpg);"></div>
+        <div class="item" style="background-image:url(https://nohyoochan.github.io/img1/pf/guggen/main_vis_02.jpg);">
+        <div class="txt-wrap">
+                <div class="in">
+                    <p class="txt1">
+                    업계 최고수준의 인테리어
+                    <br>
+                    <b>스터디카페 구겐하임</b>
+                    </p>
+                    <p class="txt2">
+                    최적의 스터디를 위한 좌석간격, 통로간격, 책상너비와 높이 눈인 편한 조명까지
+                    <br>
+                    정확한 설계와 감각적인 공간 디자인으로 완벽한 공간을 창출하겠습니다.
+                    </p>
+                    <a href="#" class="link1">
+                    구겐하임 스터디공간 보기
+                    <img src="https://nohyoochan.github.io/img1/pf/guggen/link_st_01.png" alt="">
+                    </a>
+                </div>
+            </div></div>
+        <div class="item" style="background-image:url(https://nohyoochan.github.io/img1/pf/guggen/main_vis_03.jpg);">
+        <div class="txt-wrap">
+                <div class="in">
+                    <p class="txt1">
+                    점주님들을 위한
+                    <br>
+                    <b>가장 편리하고 쉬운 무인시스템</b>
+                    </p>
+                    <p class="txt2">
+                    가장 쉬운 관리자 프로그램 구축 및
+                    <br>
+                    loT 시스템 구축으로 고정비지출 최소화
+                    </p>
+                    <a href="#" class="link1">
+                    구겐하임의 특.별.함
+                    <img src="https://nohyoochan.github.io/img1/pf/guggen/link_st_01.png" alt="">
+                    </a>
+                </div>
+            </div></div>
+        <div class="item" style="background-image:url(https://nohyoochan.github.io/img1/pf/guggen/main_vis_03.jpg);">
+        <div class="txt-wrap">
+                <div class="in">
+                    <p class="txt1">
+                    점주님들을 위한
+                    <br>
+                    <b>가장 편리하고 쉬운 무인시스템</b>
+                    </p>
+                    <p class="txt2">
+                    가장 쉬운 관리자 프로그램 구축 및
+                    <br>
+                    loT 시스템 구축으로 고정비지출 최소화
+                    </p>
+                    <a href="#" class="link1">
+                    구겐하임의 특.별.함
+                    <img src="https://nohyoochan.github.io/img1/pf/guggen/link_st_01.png" alt="">
+                    </a>
+                </div>
+            </div></div>
     </div>
 </div>
 </div>
@@ -224,7 +281,7 @@
 <div class="sec3">
 <div class="title">
         <div class="tit">
-            스터디카페<b>구겐하임</b>은
+            스터디카페 구겐하임은
             <br>
             <b>예비점주님</b>의<b>든든한 지원군</b>입니다.
         </div>
@@ -247,9 +304,6 @@
     <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_hz6qZtWB_03d830faf8e6e8670eea3d39b8c9bbbb712c8e06_350x350.jpg" alt=""></div>
     <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_OFX0YZby_3cabccba419e3b732a85d7969fb11534b569b42a_350x350.jpg" alt=""></div>
     <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/thumb-2109665332_ztlD1XYp_e8feba06aa54a71dd4b01714f1b12462b7516bcd_350x350.jpg" alt=""></div>
-    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/no_img.png" alt=""></div>
-    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/no_img.png" alt=""></div>
-    <div class="item"><img src="https://nohyoochan.github.io/img1/pf/guggen/no_img.png" alt=""></div>
   </div>
 </div>
 </div>

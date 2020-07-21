@@ -353,6 +353,7 @@ label[for] {
 }
 
 .banner .top-bar .logo-bar .logo {
+    margin-right: 17px;
     font-size: 0;
     line-height: 0;
     text-align: center;
@@ -368,38 +369,51 @@ label[for] {
 }
 
 /* 메뉴 바 */
-.menu-bar {
-    border-bottom: 1px solid #dddddd;
+.bottom_headbx {
+    border-bottom: solid 1px #dddddd;
     position: relative;
-    height: 57px;
     background: #fff;
+    height: 57px;
 }
 
-.menu-bar .menu-box {
+.max_container {
     max-width: 1180px;
     padding: 0 40px;
     margin: 0 auto;
     position: relative;
 }
 
-.menu-bar .menu-box .menu {
+.main-navigation {
     margin-right: 74px;
 }
 
-.menu-bar .menu-box .menu ul {
+.main-navigation .main-menu {
     display: table;
     table-layout: fixed;
     width: 100%;
 }
 
-.menu-bar .menu-box .menu ul > li {
+.main-navigation .main-menu > li {
     display: table-cell;
+    vertical-align: top;
 }
 
-.menu-bar .menu-box .menu ul > li > a {
+.main-navigation:hover .main-menu > li .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    min-height: 450px;
+}
+
+.main-navigation .main-menu > li:hover > a {
+    color: #1f3263;
+}
+
+.main-navigation .main-menu > li > a {
     font-size: 16px;
-    font-weight: bold;
+    color: #333333;
     line-height: 1.4em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 17px 5px;
     display: block;
@@ -407,42 +421,44 @@ label[for] {
     position: relative;
 }
 
-.menu-bar .menu-box .menu ul > li:hover > a{
+.main-navigation .main-menu > li:hover > a {
     color: #1f3263;
 }
 
-.menu-bar .menu-box .menu ul > li > a::after {
+.main-navigation .main-menu > li:hover > a:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-navigation .main-menu > li > a:after {
     content: "";
     position: absolute;
-    bottom: 1px;
+    bottom: -1px;
     left: 0;
     right: 0;
     height: 1px;
     background: #1f3263;
+    opacity: 0;
+    visibility: hidden;
     z-index: 100;
 }
 
-.menu-bar .menu-box .menu ul > li > .sub-menu {
+.main-navigation .main-menu > li .sub-menu {
     position: relative;
     left: 0;
     right: 0;
-    display: block !important;
+    transition: all ease-out 0.1s;
     opacity: 0;
     visibility: hidden;
     height: 0;
     min-height: 0;
+    display: block !important;
 }
 
-.menu-bar .menu-box .menu:hover ul > li > .sub-menu {
-    opacity: 1;
-    visibility: visible;
-    min-height: 450px;
-}
-
-.menu-bar .menu-box .menu ul > li:first-child > .sub-menu::before {
+.main-navigation .main-menu > li:first-child .sub-menu:before {
     content: "";
     position: absolute;
-    top:0;
+    top: 0;
     left: -50%;
     width: 4000px;
     margin-left: -2000px;
@@ -450,7 +466,29 @@ label[for] {
     background: #f1f2f4;
 }
 
-.menu-bar .menu-box .menu ul > li > .sub-menu::after {
+.main-navigation .main-menu > li .sub-menu > li:first-child {
+    padding-top: 28px;
+}
+
+.main-navigation .main-menu > li .sub-menu > li > a {
+    font-size: 14px;
+    color: #a6a6a6;
+    line-height: 1.4em;
+    font-weight: normal;
+    padding: 5px 20px;
+    display: block;
+}
+
+.main-navigation .main-menu > li .sub-menu > li {
+    position: relative;
+    z-index: 5;
+}
+
+.main-navigation .main-menu > li .sub-menu > li:last-child {
+    padding-bottom: 35px;
+}
+
+.main-navigation .main-menu > li .sub-menu:after {
     content: "";
     width: 1px;
     position: absolute;
@@ -460,20 +498,31 @@ label[for] {
     background: #dddddd;
 }
 
-.menu-bar .menu-box .menu ul > li > .sub-menu > li {
+/* content banner */
+.content {
+    width:1903px;
+    height:3801.7px
+}
+
+.home-banner {
     position: relative;
-    z-index: 5;
+    overflow: hidden;
+    width:1903px;
+    height: 785.172px;
 }
 
-.menu-bar .menu-box .menu ul > li > .sub-menu > li:first-child {
-    padding-top: 28px; 
+.home-banner::before {
+    content: "";
+    position:absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #fff;
+    z-index: 30; 
 }
 
-.menu-bar .menu-box .menu ul > li > .sub-menu > li > a {
-    font-size: 14px;
-    color: #a6a6a6;
-    line-height: 1.4em;
-    font-weight: normal;
-    padding: 5px 20px;
-    display: block;
+.h-banner {
+    width: 100%;
+    position: absolute;
 }

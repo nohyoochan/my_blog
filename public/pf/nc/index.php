@@ -26,10 +26,11 @@
             </div>
         </div>
     <!-- 메뉴바 -->
-        <div class="menu-bar">
-            <div class="menu-box">
-                <nav class="menu">
-                    <ul>
+        <div class="bottom_headbx">
+            <div class="max_container">
+                <nav class="main-navigation">
+                    <div class="menu-main_menu-container">
+                    <ul class="main-menu">
                         <li>
                             <a href="#">WE</a>
                                 <ul class="sub-menu">
@@ -96,9 +97,22 @@
                         </li>
                     </ul>
                 </nav>
+                </div>
             </div>
         </div>
     </div>
 </header>
+
+<div class="content">
+    <div class="home-banner">
+        <div class="h-banner">
+            <a href="#">
+                <div class="bg">
+                    <img src="https://nohyoochan.github.io/img1/pf/nc/page1.jpg" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 </div>
 </body>
