@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nc</title>
+    <title>NC 공식 블로그</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/pf/nc/index.css">
-    <link rel="icon" href="https://nohyoochan.github.io/img1/blog/article/2020/logo1.png">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="icon" href="https://nohyoochan.github.io/img1/pf/nc/logo.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/pf/nc/index.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
-<div class="pagesite">
     <!-- 배너 -->
     <header class="banner">
         <div class="top-bar">
@@ -72,8 +73,8 @@
                                             <a href="">스푼즈</a></li>
                                         <li class="menu-item">
                                             <a href="">투턱곰</a></li>
-                                        </ul>
-                                </li>
+                                    </ul>
+                            </li>
 
                             <li class="menu-item">
                                 <a href="">R&amp;D</a>
@@ -112,13 +113,15 @@
                         <input type="submit" class="head_search_submit" value="검색하기">
                     </div>
                 </div>
-                <!-- .서치박스 -->
+                <!-- 서치박스 -->
             </div>
         </div>
+    </header>
 
-<div class="content">
+<!-- 메인 상단박스 -->
+<div class="site-content">
     <div class="home-banner">
-        <div class="h-banner">
+        <div class="banner-item">
             <a href="#" class="itembx">
                 <div class="bg">
                     <img src="https://nohyoochan.github.io/img1/pf/nc/page1.jpg" alt="">
@@ -131,78 +134,94 @@
         </div>
     </div>
 </div>
-</div>
+<!-- 메인 상단박스 -->
 
-
-<div class="main-content">
-    <div class="max_container">
+<!-- 메인 컨텐츠 -->
+<div class="main-robx">
+    <div class="max-container">
         <!-- 검색바 -->
         <div class="main-search">
             <div class="main-search-item">
-                <input type="text" class="main_search_text" name="main_search_text" placeholder="원하는 검색어를 입력하세요.">
-                <input type="submit" class="main_search_submit" value="검색하기">
+                <input type="text" class="main-search-text" name="main-search-text" placeholder="원하는 검색어를 입력하세요.">
+                <input type="submit" class="main-search-submit" value="검색하기">
             </div>
         </div>
+        <!-- 검색바 -->
+        <!-- 해시태그 -->
         <div class="search-tag">
             <dl>
                 <dt>추천 해시태그</dt>
                 <dd>
-                <div class="bs-tag-bx">
-                <div class="tag-container">
-                    <a href="#" class="tag-item">#Brand Works</a>
-                    <a href="#" class="tag-item">#게임원화</a>
-                    <a href="#" class="tag-item">#엔씨라이프</a>
-                    <a href="#" class="tag-item">#AI</a>
-                    <a href="#" class="tag-item">#데이터 사이언스</a>
-                </div>
-                </div>
+                    <div class="bs-tag-bx">
+                        <div class="tag-container">
+                            <a href="#" class="tag-item">#Brand Works</a>
+                            <a href="#" class="tag-item">#게임원화</a>
+                            <a href="#" class="tag-item">#엔씨라이프</a>
+                            <a href="#" class="tag-item">#AI</a>
+                            <a href="#" class="tag-item">#데이터 사이언스</a>
+                        </div>
+                    </div>
                 </dd>
             </dl>
         </div>
-    </div>
-</div>
-<!-- 검색바 -->
+<!-- 해시태그 -->
 
 <!-- 추천시리즈 -->
-<h2 class="title-2 center_sc">추천 시리즈</h2>
-<div class="series_lsbx">
-                <div class="thum_ro"><img src="https://imgblog.ncsoft.net/wp-content/uploads/2019/09/The-Originality.jpg" alt=""></div>
-                <div class="ls_ro">
-                    <ul>
-						                            <li class="active"><!-- 1번째 체크된상태로 시작 -->
-                                <div class="series_ps_item">
-                                    <a href="#;" class="itembx" data-cate="4790" data-image="https://imgblog.ncsoft.net/wp-content/uploads/2019/09/The-Originality.jpg" data-posts="">
-                                        <h3 class="m_sz_title">#The Originality</h3>
-                                        <p class="sub_text">엔씨 퀄리티의 시작</p>
-                                    </a>
-                                </div>
-                            </li>
-							                            <li><!-- 1번째 체크된상태로 시작 -->
-                                <div class="series_ps_item">
-                                    <a href="#;" class="itembx" data-cate="" data-image="https://imgblog.ncsoft.net/wp-content/uploads/2020/05/Brand-Works_Thumb2_j.jpg" data-posts="68356,67311,66199,66461,66656,67535,67829,69926,70126">
-                                        <h3 class="m_sz_title">#Brand Works</h3>
-                                        <p class="sub_text">즐거움으로 연결된 새로운 세상</p>
-                                    </a>
-                                </div>
-                            </li>
-							                            <li><!-- 1번째 체크된상태로 시작 -->
-                                <div class="series_ps_item">
-                                    <a href="#;" class="itembx" data-cate="" data-image="https://imgblog.ncsoft.net/wp-content/uploads/2020/02/the-game-art-2.jpg" data-posts="70750,70241,65124,61974,62877,60517,56786,64803,50293,66053,66573,67611,69407">
-                                        <h3 class="m_sz_title">#The Game Art</h3>
-                                        <p class="sub_text">엔씨의 게임 그래픽 전시</p>
-                                    </a>
-                                </div>
-                            </li>
-							                            <li><!-- 1번째 체크된상태로 시작 -->
-                                <div class="series_ps_item">
-                                    <a href="#;" class="itembx" data-cate="6537" data-image="https://imgblog.ncsoft.net/wp-content/uploads/2020/07/quest.jpg" data-posts="">
-                                        <h3 class="m_sz_title">#인생은 퀘스트</h3>
-                                        <p class="sub_text">게임 같은 인생 이야기</p>
-                                    </a>
-                                </div>
-                            </li>
-							                    </ul>
-                </div>
-            </div>
+<h2 class="ro-title center_sc">추천 시리즈</h2>
+    <div class="series-lsbx">
+        <div class="ls-ro">
+            <ul>
+			    <li class="active"> <!-- 1번째 체크된상태로 시작 -->
+                    <div class="series-ps-item">
+                        <a href="#;" class="itembx" data-cate="4790" data-image="https://nohyoochan.github.io/img1/pf/nc/The-Originality.jpg" data-posts="">
+                            <h3 class="m-sz-title">#The Originality</h3>
+                            <p class="sub-text">엔씨 퀄리티의 시작</p>
+                        </a>
+                    </div>
+                </li>
+
+				<li>
+                    <div class="series-ps-item">
+                        <a href="#;" class="itembx" data-cate="" data-image="brand-works.jpg" data-posts="68356,67311,66199,66461,66656,67535,67829,69926,70126">
+                            <h3 class="m-sz-title">#Brand Works</h3>
+                            <p class="sub-text">즐거움으로 연결된 새로운 세상</p>
+                        </a>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="series-ps-item">
+                        <a href="#;" class="itembx" data-image="the-game.jpg" data-posts="70750,70241,65124,61974,62877,60517,56786,64803,50293,66053,66573,67611,69407">
+                            <h3 class="m-sz-title">#The Game Art</h3>
+                            <p class="sub-text">엔씨의 게임 그래픽 전시</p>
+                        </a>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="series-ps-item">
+                        <a href="#;" class="itembx" data-cate="6537" data-image="quest.jpg" data-posts="">
+                            <h3 class="m-sz-title">#인생은 퀘스트</h3>
+                            <p class="sub-text">게임 같은 인생 이야기</p>
+                        </a>
+                    </div>
+                </li>
+			</ul>
+        </div>
+
+        <div class="bg-ro">
+            <img src="https://nohyoochan.github.io/img1/pf/nc/The-Originality.jpg" alt="">
+        </div>
+    </div>
+
+<div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+  <div><h3>1</h3></div>
+  <div><h3>2</h3></div>
+  <div><h3>3</h3></div>
+  <div><h3>4</h3></div>
+  <div><h3>5</h3></div>
+  <div><h3>6</h3></div>
+</div>
+</div>
 </div>
 </body>
