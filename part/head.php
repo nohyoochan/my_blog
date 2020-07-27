@@ -21,7 +21,7 @@
 				<ul>
 					<li><a href="/index.php">HOME</a></li>
                     <li><a href="/aboutMe.php">ABOUT ME</a></li>
-                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="/pf/index.php">PORTFOLIO</a></li>
 					<li><a href="/article.php?cateItemId=1">LIST</a></li>
 					<li><a href="#">CONTACT</a></li>
 				</ul>

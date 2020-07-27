@@ -222,6 +222,80 @@
   <div><h3>5</h3></div>
   <div><h3>6</h3></div>
 </div>
+
+<h2 class="ro-title center_sc">최신 기사</h2>
+<!-- 최신 기사 -->
+<div class="bs-tab">
+    <ul>
+        <li class="all active">
+            <div class="bs-tab-item">
+                <a href="" data-cate class="item">전체 기사보기</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="bs-tab-item">
+                <a href="" data-cate="we" class="item">WE</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="bs-tab-item">
+                <a href="" data-cate="play" class="item">PLAY</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="bs-tab-item">
+                <a href="" data-cate="rd" class="item">R&D</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="bs-tab-item">
+                <a href="" data-cate="view" class="item">VIEW</a>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- 최신 기사 포스터 -->
+<div class="bs-ps">
+    <ul class="main-news">
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/bs-all-1.jpg" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">R&D</span>
+                            <span class="cate-item">AI</span>
+                        </div>
+                        <h3 class="m-title">AI는 기자의 일상을 어떻게 바꿨나</h3>
+                        <div class="date">2020.07.09</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="AI" class="tag-item">#AI</a>
+                        <a href="#" data-tag-name="NLP센터" class="tag-item">#NLP센터</a>
+                        <a href="#" data-tag-name="연합뉴스" class="tag-item">#연합뉴스</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
 </div>
 </div>
 </body>
