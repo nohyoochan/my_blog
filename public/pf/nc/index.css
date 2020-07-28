@@ -334,7 +334,15 @@ label[for] {
     background: #fff;
     z-index: 1000;
 }
-
+/* fixed 메뉴 
+.site.fixed .bottom_headbx {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateZ(0);
+}
+*/
 .banner .top-bar {
     padding: 33px 0 31px;
     text-align: center;
@@ -1004,7 +1012,7 @@ li {
 
 .bs-ps > ul > li {
     padding: 20px 15px;
-    width: 33.3333%;
+    width: 30%;
     float: left;
 }
 
@@ -1040,3 +1048,348 @@ li {
     visibility: hidden;
 }
 
+.bs-ps-item .itembx:hover .bg .bg2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bs-ps-item .itembx .bg:after {
+    content: "";
+    display: block;
+}
+
+.bs-ps-item .itembx .cont {
+    position: relative;
+    padding-top: 24px;
+}
+
+.bs-ps-item .itembx .cont .cate-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.cate-box .cate-item:first-child {
+    font-weight: bold;
+}
+
+.cate-box .cate-item {
+    font-size: 14px;
+    color: #1f3263;
+    line-height: 1.4em;
+    display: block;
+    float: left;
+    font-weight: normal;
+    padding-right: 11px;
+    margin-right: 9px;
+    position: relative;
+    max-width: 45%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cate-box .cate-item:after {
+    content: "·";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 300;
+}
+
+.cate-box .cate-item:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.cate-box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cont .m-title {
+    margin-bottom: 12px;
+    height: 2.8em;
+    overflow: hidden;
+}
+
+.m-title {
+    font-size: 24px;
+    line-height: 1.4em;
+    color: #333333;
+    font-weight: bold;
+}
+
+.bs-ps-item .itembx:hover .m-title {
+    color: #1f3263;
+}
+
+.cont .date {
+    font-size: 14px;
+    color: #a6a6a6;
+    line-height: 1.4em;
+}
+
+.bs-tag {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.bs-tag .tag-container {
+    overflow: hidden;
+    margin: -3px -5px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.bs-tag .tag-container .tag-item {
+    margin: 3px 5px;
+}
+
+.tag-item {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.4em;
+    border: solid 1px #dddddd;
+    padding: 2px 10px;   
+}
+
+.tag-item:hover {
+    border: solid 1px #1f3263;
+    color: #1f3263;
+    font-weight: normal;
+}
+
+/* 최신 기사 더보기 */
+.ls-more-btnbox {
+    margin-top: 80px;
+    clear: both;
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+}
+
+.ls-more-btn {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.ls-more-btn:after {
+    content: "";
+    width: 10px;
+    height: 8px;
+    background: url(https://nohyoochan.github.io/img1/pf/nc/icon_item.png) no-repeat;
+    background-size: 250px 250px;
+    background-position: -203px -100px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -5px;
+    transform: translateY(0px);
+}
+
+.ls-more-btn:hover:after {
+    background-position: -215px -100px;
+    transform: translateY(4px);
+}
+
+/* familybox */
+.familybox {
+    background-color: #f1f2f4;
+    padding: 70px 0;
+    margin-top: 95px;
+    clear: both;
+    text-align: center;
+}
+
+.family-link {
+    overflow: hidden;
+}
+
+.family-link > ul {
+    overflow: hidden;
+    margin: -15px -15px; 
+}
+
+.family-link > ul > li:nth-child(3n+1) {
+    clear: both;
+}
+
+.family-link > ul > li {
+    padding: 15px 15px;
+    float: left;
+    widows: 33.3333%;
+}
+
+.family-link > ul > li > a {
+    display: block;
+    line-height: 0;
+    position: relative;
+}
+
+.family-link > ul > li > a > img {
+    width: 100%;
+}
+
+.family-link > ul > li > a .bg2{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    transition: all ease-out 0.1s;
+    background: rgba(31,50,99,0.7);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.family-link > ul > li a:hover .bg2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.max-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* footer */
+.site-footer {
+    background: #444444;
+}
+
+.site-footer .footer-info {
+    padding: 17px 0;
+    overflow: hidden;
+    background: #555555;
+}
+
+.site-footer .footer-info .f-nav {
+    float: left;
+    padding-top: 5px;
+}
+
+.site-footer .footer-info .f-nav > ul {
+    margin: 0 -10px;
+}
+
+.site-footer .footer-info .f-nav > ul > li {
+    float: left;
+    padding: 0 10px;
+    position: relative;
+}
+
+.site-footer .footer-info .f-nav > ul > li > a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-weight: normal;
+}
+
+.site-footer .footer-info .f-nav > ul > li > a:hover {
+    font-weight: bold;
+}
+
+.site-footer .footer-info .f-nav ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.site-footer .footer-info .f-sns {
+    position: relative;
+    padding: 0 20px;
+    float: right;
+}
+
+.site-footer .footer-info .f-sns > ul {
+    margin: 0 -7px;
+}
+
+.site-footer .footer-info .f-sns > ul > li {
+    float: left;
+    margin: 0 7px;
+}
+
+.site-footer .footer-info .f-sns > ul > li > a {
+    display: block;
+    width: 34px;
+    height: 35px;
+    text-indent: -77777px;
+    background: url(https://nohyoochan.github.io/img1/pf/nc/sns_icon.png) no-repeat;
+    background-size: 314px 95px;
+}
+
+.site-footer .footer-info .f-sns > ul > li.home a {
+    background-position: 0px 0px;
+}
+
+.site-footer .footer-info .f-sns > ul > li.plaync a {
+    background-position: -46px 0px;
+}
+
+.site-footer .footer-info .f-sns > ul > li.facebook a {
+    background-position: -93px 0px;
+}
+
+.site-footer .footer-info .f-sns > ul > li.instar a {
+    background-position: -140px 0px;
+}
+
+.site-footer .footer-info .f-sns > ul > li.youtube a {
+    background-position: -187px 0px;
+}
+
+.site-footer .footer-info .f-sns > ul > li.navertv a {
+    background-position: -233px 0px;
+}
+
+.site-footer .footer-info .f-sns > ul > li.naverposter a {
+    background-position: -280px 0px;
+}
+
+.site-footer .footer-info .f-sns > ul:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.max-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.site-footer .copy {
+    padding: 30px 0;
+    text-align: center;
+    background: #444444;
+}
+
+.site-footer .copy p {
+    margin-top: 50px;
+    color: #777;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.site-footer .copy .copy-text {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #777777;
+    line-height: 1.5em;
+    margin-top: 10px;
+}

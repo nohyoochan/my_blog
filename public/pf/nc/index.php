@@ -15,6 +15,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
+<div id="page" class="site fixed">
     <!-- 배너 -->
     <header class="banner">
         <div class="top-bar">
@@ -286,16 +287,313 @@
                 </div>
             </div>
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/pc.jpg" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">R&D</span>
+                            <span class="cate-item">아트</span>
+                        </div>
+                        <h3 class="m-title">Lineage MㅣTITAN</h3>
+                        <div class="date">2020.07.08</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="광전사" class="tag-item">#광전사</a>
+                        <a href="#" data-tag-name="리니지M" class="tag-item">#리니지M</a>
+                        <a href="#" data-tag-name="게임아트" class="tag-item">#게임아트</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/siers1-1.jpg" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">WE</span>
+                            <span class="cate-item">The Originality</span>
+                        </div>
+                        <h3 class="m-title">The Originality | 3D Character Artist, 김유진</h3>
+                        <div class="date">2020.07.27</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="The Originality" class="tag-item">#The Originality</a>
+                        <a href="#" data-tag-name="3D Character Artist" class="tag-item">#3D Character Artist</a>
+                        <a href="#" data-tag-name="김유진" class="tag-item">#김유진</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/all-gs1.png" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">PLAY</span>
+                            <span class="cate-item">리니지M</span>
+                        </div>
+                        <h3 class="m-title">리니지M, 첫 번째 마스터 서버 콘텐츠 '기르타스 레이드' 업데이트</h3>
+                        <div class="date">2020.07.22</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="리니지M" class="tag-item">#리니지M</a>
+                        <a href="#" data-tag-name="업데이트" class="tag-item">#업데이트</a>
+                        <a href="#" data-tag-name="이벤트" class="tag-item">#이벤트</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/all-gs2.jpg" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">PLAY</span>
+                            <span class="cate-item">버프툰</span>
+                        </div>
+                        <h3 class="m-title">탈인간계 비주얼의 주인공이 등장하는 연예계 웹소설 5</h3>
+                        <div class="date">2020.07.22</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="판타지 웹소설" class="tag-item">#판타지 웹소설</a>
+                        <a href="#" data-tag-name="웹소설" class="tag-item">#웹소설</a>
+                        <a href="#" data-tag-name="승승장구 연예계 생활" class="tag-item">#승승장구 연예계 생활</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/all-gs3.png" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">PLAY</span>
+                            <span class="cate-item">프로야구 H2</span>
+                        </div>
+                        <h3 class="m-title">프로야구 H2, '2020 H2 올스타 페스티벌' 이벤트 진행</h3>
+                        <div class="date">2020.07.22</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="프로야구 H2" class="tag-item">#프로야구 H2</a>
+                        <a href="#" data-tag-name="이벤트" class="tag-item">#이벤트</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/all-gs5.jpg" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">VIEW</span>
+                            <span class="cate-item">사이언티픽 게이머츠</span>
+                        </div>
+                        <h3 class="m-title">사이언티픽 게이머즈 시즌5 #10 모래 위를 미끄러지다: 저니</h3>
+                        <div class="date">2020.07.20</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="저니" class="tag-item">#저니</a>
+                        <a href="#" data-tag-name="게임 웹툰" class="tag-item">#게임 웹툰</a>
+                        <a href="#" data-tag-name="김명호" class="tag-item">#김명호</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/all-gs6.jpg" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">WE</span>
+                            <span class="cate-item">News</span>
+                        </div>
+                        <h3 class="m-title">엔씨(NC), '피버뮤직 2020 쿨 썸머 프로젝트' 음원 공개</h3>
+                        <div class="date">2020.07.20</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="FEVER FESTIVAL 2020 " class="tag-item">#FEVER FESTIVAL 2020</a>
+                        <a href="#" data-tag-name="피버뮤직" class="tag-item">#피버뮤직</a>
+                        <a href="#" data-tag-name="뮤직 페스티벌" class="tag-item">#뮤직 페스티벌</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bs-ps-item">
+                <a href="#" class="itembx">
+                    <div class="bg">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/all-gs7.jpg" alt="">
+                        <span class="bg2"></span>
+                    </div>
+                    <div class="cont">
+                        <div class="cate-box">
+                            <span class="cate-item">VIEW</span>
+                            <span class="cate-item">대중문화 속 게임 읽기</span>
+                        </div>
+                        <h3 class="m-title">게임 제작의 낭만과 현실에 대하여, 엔딩 보게 해주세요</h3>
+                        <div class="date">2020.07.17</div>
+                    </div>
+                </a>
+                <div class="bs-tag">
+                    <div class="tag-container">
+                        <a href="#" data-tag-name="엔딩 보게 해주세요" class="tag-item">#엔딩 보게 해주세요</a>
+                        <a href="#" data-tag-name="단편소설" class="tag-item">#단편소설</a>
+                        <a href="#" data-tag-name="대중문화" class="tag-item">#대중문화</a>
+                    </div>
+                </div>
+            </div>
+        </li>
     </ul>
 </div>
+<!--최신 기사 더보기-->
+<div class="ls-more-btnbox">
+    <a href="#" class="ls-more-btn">최신 기사 더보기</a>
+</div>
+</div>
+<!-- familybox -->
+<div class="familybox">
+    <div class="max-container">
+        <div class="family-link">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/ij-cy.jpg" alt="">
+                        <span class="bg2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/nc.jpg" alt="">
+                        <span class="bg2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/ncmh.jpg" alt="">
+                        <span class="bg2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/istar.jpg" alt="">
+                        <span class="bg2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/ncsound.jpg" alt="">
+                        <span class="bg2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://nohyoochan.github.io/img1/pf/nc/danbi.jpg" alt="">
+                        <span class="bg2"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<footer class="site-footer">
+    <div class="footer-info">
+        <div class="max-container">
+            <div class="f-nav">
+                <ul>
+                    <li>
+                        <a href="#">블로그 운영정책</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="f-sns">
+                <ul>
+                    <li>
+                        <a href="#" class="home">ncsoft 바로가기</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="plaync">play nc 바로가기</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="facebook">페이스북 바로가기</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="instar">인스타그램 바로가기</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="youtube">youtube 바로가기</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navertv">네이버tv 바로가기</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="naverposter">네이버블로그 바로가기</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="copy">
+        <div class="max-container">
+            <p>
+                ㈜엔씨소프트 | 대표번호:
+                <a href="#">02-2186-3300</a>
+            </p>
+            <span class="copy-text">Copyright © NCSOFT Corporation. All Rights Reserved.</span>
+        </div>
+    </div>
+</footer>
 </div>
 </div>
 </body>
