@@ -686,18 +686,9 @@ option {
     position: relative;
 }
 
-.main .delivery .item-wrap.v2 {
-    border-bottom: 1px solid #ddd;
-}
-
 .main .delivery .item-wrap {
     display: table;
     width: 100%;
-}
-
-.main .delivery .item-wrap.v2 .item {
-    width: 50%;
-    height: 280px;
 }
 
 .main .delivery .item-wrap .item {
@@ -710,9 +701,32 @@ option {
     text-align: left;
 }
 
-.main .delivery .item-wrap .item a {
+.main .delivery .item-wrap2 {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.main .delivery .item-wrap2 .item {
+    width: 50%;
+    display: table-cell;
+    position: relative;
+    height: 258px;
+    padding-left: 70px;
+    vertical-align: top;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.main .delivery .item-wrap .item > a {
     display: block;
     width: 100%;
+}
+
+.main .delivery .item-wrap2 .item [class^='ico-'] {
+    display: block;
+    margin-bottom: 17px;
+    margin-left: 5px;
 }
 
 .main .delivery .item-wrap .item [class^='ico-'] {
@@ -732,3 +746,279 @@ option {
     background: url(https://cdn.dominos.co.kr/domino/pc/images/sp/sp_common.png) no-repeat 0 0;
     vertical-align: middle;
 }
+
+.main .delivery .item-wrap2 .item > a > .text {
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 50px;
+    color: #ff143c;
+    letter-spacing: -4px;
+}
+
+.main .delivery .item-wrap2 .item > a > .arrow {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    font-size: 50px;
+    margin-left: 8px;
+    letter-spacing: -4px;
+    text-align: center;
+    line-height: 5px;
+    background: #ff143c;
+    border-radius: 100%;
+    font-weight: 400;
+    border: 0;
+}
+
+.main .delivery .item-wrap2 .item > a > .arrow:after {
+    content: '';
+    margin-left: -4px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-style: solid;
+    border-color: transparent #fff #fff transparent;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+    vertical-align: -0.5px;
+}
+
+.main .delivery .item-wrap2 .item:last-child {
+    padding-left: 0;
+}
+
+.main .delivery .item-wrap2 .item [class^='ico-'] {
+    display: block;
+    margin-bottom: 17px;
+    margin-left: 5px;
+}
+
+.ico-takeout {
+    width: 40px;
+    height: 39px;
+    background-position: -262px -275px;
+}
+
+.main .delivery .item-wrap2 .item p {
+    margin-top: 17px;
+    padding-left: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888;
+}
+
+.main .delivery .item-wrap2 .item:last-child a span {
+    color: #1382ff;
+}
+
+.main .delivery .item-wrap2 .item:last-child a .arrow {
+    background-color: #1382ff;
+}
+
+.main .delivery .item-wrap2 .item:last-child a span {
+    color: #1382ff;
+}
+
+.main .delivery .item-wrap .item p {
+    margin-top: 17px;
+    padding-left: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888;
+}
+
+.ico-chat {
+    width: 28px;
+    height: 27px;
+    background-position: -341px 0;
+}
+
+.main .delivery .item-wrap .item a .text2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    color: #111;
+    vertical-align: middle;
+    letter-spacing: -1px;
+}
+
+.main .delivery .item-wrap .item > a > .arrow2 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 40px;
+    margin-left: 8px;
+    letter-spacing: -4px;
+    text-align: center;
+    line-height: 5px;
+    border: 1px solid #111;
+    border-radius: 100%;
+    font-weight: 300;
+}
+
+.main .delivery .item-wrap .item a .arrow2:after {
+    content: '';
+    margin-left: -2px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-style: solid;
+    border-color: transparent #111 #111 transparent;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+    vertical-align: 2px;
+}
+
+.main .delivery .item-wrap .item p {
+    margin-top: 17px;
+    padding-left: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888;
+}
+
+.ico-quick {
+    width: 19px;
+    height: 27px;
+    background-position: -379px 0;
+}
+
+.ico-driving2 {
+    width: 30px;
+    height: 22px;
+    background-position: -660px -180px;
+}
+
+/* 혜택 화면 */
+.main .grade {
+    position: relative;
+    background: #f6f6f6;
+    padding: 110px 0;
+}
+
+.main .grade-info {
+    display: inline-block;
+    width: 360px;
+    vertical-align: top;
+}
+
+.main .grade-info .login-before {
+    padding-top: 10px;
+}
+
+.main .grade .login-before .title-wrap {
+    display: block;
+    text-align: left;
+}
+
+[class^='title-wrap'] {
+    position: relative;
+}
+
+.main .grade .login-before .title-wrap .title-type2 {
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+.main .grade .login-before .title-wrap .title-type2 > Strong {
+    color: #238ece;
+}
+
+Strong {
+    font-weight: 700;
+}
+
+.main .grade .grade-info .btn-wrap {
+    text-align: left;
+}
+
+.btn-wrap, .btn-wrap2 {
+    width: 100%;
+}
+
+[class^='btn-wrap'] {
+    margin-top: 30px;
+    font-size: 0;
+    text-align: center;
+}
+
+.main .grade .grade-info .btn-type5 {
+    width: 103px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 16px;
+}
+
+.btn-type5 {
+    width: 48.5%;
+    height: 32px;
+    background: #222222;
+    border: 1px solid #222;
+    font-size: 13px;
+    color: #fff;
+    line-height: 32px;
+    border-radius: 25px;
+}
+[class^='btn-type'] {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.main .grade .grade-slider {
+    display: inline-block;
+    width: 756px;
+    vertical-align: top;
+}
+
+/* slider */
+.js-slider {
+        margin-right: 6px;
+}
+  
+.slick-prev {
+    background-color: #000;
+}
+
+.slick-prev:hover {
+    background-color: #000;
+}
+
+.content {
+    display: inline-block;
+    width: 756px;
+    vertical-align: top;
+}
+
+.slick-slider .slick-list, .slick-track, .slick-slide, .slick-slide img {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: none;
+    -o-transform: translate3d(0, 0, 0);
+    transform: none;
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 864px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 배너 */
+.main .banner {
+    position: relative;
+    padding: 80px 0;
+}
+
+.main .banner .inner-box .banner-box {
+    padding: 0 70px;
+    float: left;
+}
+
