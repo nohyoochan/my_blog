@@ -1112,6 +1112,7 @@ Strong {
     margin-left: 0;
     line-height: 1.75;
     letter-spacing: -1.75px;
+    font-size: 11px;
 }
 
 p {
@@ -1243,7 +1244,7 @@ p {
     vertical-align: middle;
 }
 
-.award-bar ul li p {
+.award-bar ul li span {
     display: inline-block;
     padding-left: 7px;
     vertical-align: middle;
