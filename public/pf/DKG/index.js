@@ -7,6 +7,39 @@ $(function (){
       })
 });
 
+/*
+$(function (){
+  $('.load .gnb-bar').mouseenter(function() {
+    $(this).parent().addClass('active');
+  });
+  
+  $('.load').mouseleave(function() {
+    $(this).removeClass('active');
+  })
+});
+*/
+
+
+$(function (){
+  $('.load .gnb-bar').mouseenter(function() {
+    $('.header').addClass('active');
+  });
+  
+  $('.load .gnb-bar').mouseleave(function() {
+    $('.header').removeClass('active');
+  });
+});
+
+
+  var SideMenuBar__hide = function() {
+    $('.allMenuWrap').css('right', ''); 
+  }
+  
+  var SideMenuBar__show = function() {
+    $('.allMenuWrap').css('right', '0');
+  }
+
+
   /*
   var myFullpage = new fullpage('#fullpage', {
     verticalCentered: true,

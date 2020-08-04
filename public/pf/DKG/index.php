@@ -21,6 +21,7 @@
             <h1>
                 <a href="#" clss="logo">디케이지홀딩스</a>
             </h1>
+            <!-- 메뉴 -->
             <div class="gnb-bar">
                 <ul id="gnb" class="clearfix">
                     <li>
@@ -92,13 +93,61 @@
                     </li>
                 </ul>
             </div>
-            <a href class="btn-all-menu">
+            <a href class="btn-all-menu" onclick="SideMenuBar__show();">
                 <div>
                     <span class="bartop"></span>
                     <span class="barmid"></span>
                     <span class="barbot"></span>
                 </div>
             </a>
+            <!-- 버튼 클릭시 화면 -->
+            <div class="allMenuWrap" style="height: 969px;">
+		<div class="allMenuWrap_inner">
+			<div class="allMenu_inner">
+				<ul class="allMenu clearfix">
+					<li>
+						<a href="">디케이지홀딩스</a>
+						<p>디케이지홀딩스</p>
+						<ul class="dep2">
+							<li><a href="">CEO 인사말</a></li>
+							<li><a href="">회사소개</a></li>
+							<li><a href="">연혁</a></li>
+							<li><a href="">조직도</a></li>
+							<li><a href="">오시는 길</a></li>
+							<li><a href="">채용안내</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">사업영역</a>
+						<p>사업영역</p>
+						<ul class="dep2">
+							<li><a href="">개발부문</a></li>
+							<li><a href="">마케팅부문</a></li>
+							<li><a href="">PM/컨설팅</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">포트폴리오</a>
+						<p>포트폴리오</p>
+						<ul class="dep2">
+							<li><a href="">포트폴리오</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">고객지원</a>
+						<p>고객지원</p>
+						<ul class="dep2">
+							<li><a href="">회사소개서</a></li>
+							<li><a href="">온라인문의</a></li>
+							<li><a href="">공지사항</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </div>
+    <div class="amDim" style="height: 969px; display: none;"></div>
+    </div>
         </div>
         <div id="container" class="load">
             <div class="scrolldown">
@@ -109,9 +158,57 @@
             </div>
             <div id="fullpage">
                 <div class="section">
-                    <img src="https://nohyoochan.github.io/img1/pf/DKG/main-bg1.jpg" alt=""></div>
+                    <div class="table" style="height:969px;">
+                        <div class="main-cont">
+                            <div class="txt-box">
+                                <span>WE WILL MAKE IT HAPPEN</span>
+                                <p>다양한 분야의 개발사업을 통해
+                                <br>
+                                고객만족을 실현하는 최고의
+                                <strong>부동산 개발 전문기업</strong>
+                                </p>
+                            </div>
+                            <span class="bottxt">잠실 푸르지오 월드마크</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="section">
-                    <img src="https://nohyoochan.github.io/img1/pf/DKG/main-bg2.jpg" alt=""></div>
+                    <div class="table" style="height:969px;">
+                        <div class="main-cont">
+                            <div class="txt-box">
+                                <span>BUSINESS</span>
+                                <p>최고의 전문가들이 시작부터 준공까지 참여하여
+                                <br>
+                                고객의 모든 요구를 가능하게 만드는
+                                <strong>부동산 개발 전문기업</strong>
+                                </p>
+                            </div>
+                            <ul class="icon-list" style="height:264px;">
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-box"></div>
+                                        <div class="txt">
+                                            <strong>개발부문</strong>
+                                            <p>공동주택&주상복합&오피스텔, 도시개발사업, 택지개발지구 주택사업, 복합용도개발사업, 공모사업</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-box"></div>
+                                        <div class="txt"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="icon-box"></div>
+                                        <div class="txt"></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="section">
                     <img src="https://nohyoochan.github.io/img1/pf/DKG/main-bg3.png" alt=""></div>
                 <div class="section section-04">

@@ -352,6 +352,39 @@ label[for] {
     height: 100%;
 }
 
+/* active */
+#header:active {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    box-shadow: 0 0 14px rgba(0, 0, 0, .4);
+}
+
+#header:active h1 {
+    background-image: url(https://nohyoochan.github.io/img1/pf/DKG/logo-c.png)
+}
+
+#header:active #gnb > li > a {
+    color: #000;
+}
+
+#header:active #gnb > li > .depth2 > li > a {
+    color: #7a7a7a;
+}
+
+#header:active .btn-all-menu span{
+    background-color: #000;
+}
+
+#header:active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #eaeaea;
+    top: 100px;
+    z-index: -1;
+}
+
 /* gnb */
 #header .gnb-bar {
     position: relative;
@@ -400,12 +433,6 @@ label[for] {
     line-height: 38px;
     font-weight: 500;
     color: #fff;
-}
-
-.clearfix:after {
-    display: block;
-    content: '';
-    clear: both;
 }
 
 #header #gnb:hover > li > .depth2 {
@@ -466,6 +493,108 @@ label[for] {
     top: 22px;
 }
 
+/* allMenu */
+.allMenuWrap.active {
+    right: 0;
+}
+
+.allMenuWrap {
+    z-index: 99999;
+    position: absolute;
+    width: 70%;
+    right: -100%;
+    top: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: right .4s ease-in-out;
+}
+
+.allMenuWrap .allMenuWrap_inner {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.allMenuWrap .allMenu_inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 4% 0 12%;
+    overflow-y: auto;
+}
+
+.allMenu {
+    font-size: 0;
+    text-align: center;
+}
+
+.allMenu > li {
+    position: relative;
+    vertical-align: top;
+    color: #333;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 400px;
+    margin-bottom: 60px;
+}
+
+.allMenu > li a {
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.allMenu > li > a {
+    font-size: 49px;
+    line-height: 49px;
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all .2s ease-in-out;
+}
+
+.allMenu > li > p {
+    display: none;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+.allMenu .dep2 > li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.allMenu .dep2 > li > a {
+    font-size: 18px;
+    line-height: 49px;
+    color: #555;
+}
+
+.allMenu > li a {
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.amDim {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    right: 0;
+    top: 0;
+    z-index: 98;
+}
+
 /* container */
 .main #container {
     margin-top: 0;
@@ -520,6 +649,21 @@ img {
     transform: translate3d(0px, 0px, 0px);
 }
 
+.fp-section {
+    background-image: url(//nohyoochan.github.io/img1/pf/DKG/main-bg1.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fp-section:nth-child(2) {
+    background-image: url(//nohyoochan.github.io/img1/pf/DKG/main-bg2.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 /* menu */
 #menu.on {
     right: 59px;
@@ -620,4 +764,110 @@ img {
     transition: all 0.2s ease-in-out;
     border-radius: 100%;
     box-sizing: border-box;
+}
+
+/* page txt */
+.fp-section .table {
+    display: table-cell;
+    vertical-align: middle;
+    width: 2000px;
+    height: 100%;
+}
+
+.fp-section .table .main-cont {
+    max-width: 1448px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 200px;
+}
+
+.fp-section .table .main-cont .txt-box {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all .5s ease-in-out;
+    transform: translateY(-30px);
+}
+
+.fp-section .table .main-cont .txt-box span {
+    display: block;
+    font-size: 24px;
+    font-weight: 50;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 30px;
+    letter-spacing: -.4px;
+}
+
+.fp-section .table .main-cont .txt-box p {
+    font-size: 45px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: -.4px;
+}
+
+.fp-section .table .main-cont .txt-box strong {
+    font-weight: 500;
+}
+
+.fp-section .table .main-cont .bottxt {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    opacity: .5;
+}
+
+/* page2 icon */
+.fp-section:nth-child(2) .icon-list {
+    margin-top: 68px;
+    font-size: 0;
+    text-align: center;
+}
+
+.fp-section:nth-child(2) .icon-list li {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 296px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    opacity: 1;
+    transform: translateY(30px);
+}
+
+.fp-section:nth-child(2) .icon-list li a {
+    display: block;
+}
+
+.fp-section:nth-child(2) .icon-list li:nth-child(1) .icon-box {
+    background-image: url(https://nohyoochan.github.io/img1/pf/DKG/main-sec2-icon1.png)
+}
+
+.fp-section:nth-child(2) .icon-list li:nth-child(2) .icon-box {
+    background-image: url(https://nohyoochan.github.io/img1/pf/DKG/main-sec2-icon2.png)
+}
+
+.fp-section:nth-child(2) .icon-list li:nth-child(3) .icon-box {
+    background-image: url(https://nohyoochan.github.io/img1/pf/DKG/main-sec2-icon3.png)
+}
+
+.fp-section:nth-child(2) .icon-list .icon-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 126px;
+    height: 126px;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,.4);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.fp-section:nth-child(2) .icon-list li a .txt {
+    color: #fff;
 }
