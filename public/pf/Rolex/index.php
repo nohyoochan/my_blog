@@ -116,8 +116,7 @@
         </div>
 
     <!-- Add Pagination -->
-    
-    <div class="swiper-pagination"></div>
+    <div class="swiper-scrollbar"></div>
     </div>
     </div>
 -
