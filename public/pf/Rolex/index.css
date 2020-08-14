@@ -339,15 +339,15 @@ html {
   
   .con {
     width:1370px;
-  }
+  } 
 
 body {
-    background: black;
+    background: #415143;
+    overflow-x: hidden;
 }
 /* top-bar */
 .top-bar {
     position: relative;
-    border-bottom: 2px solid red;
     height: 100px;
     position: fixed;
     top: 0;
@@ -355,6 +355,7 @@ body {
     width: 100%;
     color: #415143;
     text-align: center;
+    z-index: 10;
 }
 
 .top-bar > .menu-box > .logo > img {
@@ -390,7 +391,6 @@ body {
 .top-bar > .menu-box:hover {
     background: #fff;
     height: 170px;
-    border: 2px solid red;
     transition: .3s;
     background-color:rgba(255,255,255,1);
 }
@@ -405,17 +405,46 @@ body {
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    border: 2px solid blue;
 }
 
 .top-bar > .menu-box:hover > ul > .inner > li {
-    padding: 15px 0;
-    margin: 0 5px;
-    border: 1px solid red;
+    padding: 5px 0;
+    margin: 0 30px;
 }
 
 .top-bar > .menu-box:hover > ul > .inner > li > a {
     font-weight: bold;
+}
+
+.top-bar > .menu-box:hover > ul > .inner > li:hover > a {
+  background: #415143;
+  color: #fff;
+  border-bottom: 2px solid red;
+}
+
+.top-bar > .menu-box > ul > .inner > li > div {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: black;
+  z-index: 1;
+  display: none;
+  background-color: white;
+}
+
+.top-bar > .menu-box > ul > .inner > li > a:not(:only-child)::after {
+  content:"1";
+  background-color:rgba(0,0,0,0.3);
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  top:100px;
+  display:none;
+}
+
+.top-bar > .menu-box > ul > .inner > li:hover > a:not(:only-child)::after {
+  display:block;
 }
 
 .top-bar .menu-box::after {
@@ -432,4 +461,74 @@ body {
 
 .top-bar .menu-box:hover::after {
     background-color:rgba(255,255,255,1);
+}
+
+/* mainpage */
+.main #video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.main #polina{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  font-weight:100;
+  text-align: center;
+  font-size:1.2rem;
+}
+
+.main #polina .text-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size:30px;
+  text-transform:uppercase;
+  letter-spacing:.3rem
+}
+
+.main #polina .text-box > p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* page2 collection */
+
+
+/* page2 slider */
+.swiper-container {
+  margin-top: 200px;
+  width: 100%;
+  height: 40%;
+}
+
+.swiper-slide > img {
+width:100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
