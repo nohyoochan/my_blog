@@ -1,6 +1,6 @@
 $(function (){
     var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 3,
+        slidesPerView: 3.5,
         spaceBetween: 1,
         freeMode: true,
         scrollbar: {
