@@ -1,81 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="/pf/index.css">
+    <link rel="icon" href="https://nohyoochan.github.io/img1/blog/article/2020/logo1.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/pf/index.js"></script>
 </head>
 <body>
-    <h2>코딩 작업물</h2>
-        <ul>
-            <li>
-            <a href="/pf/maven">maven</a>
-            <a href="#">원본사이트</a>
-            </li>
-            <li>
-            <a href="/pf/guggen">구겐스터디카페</a>
-            <a href="#">원본사이트</a>
-            </li>
-            <li>
-            <a href="/pf/nc">nc 공식 블로그</a>
-            <a href="#">원본사이트</a>
-            </li>
-            <li>
-            <a href="/pf/pizza">도미노 피자</a>
-            <a href="#">원본사이트</a>
-            </li>
-            <li>
-            <a href="/pf/DKG">디케이지홀딩스</a>
-            <a href="#">원본사이트</a>
-            </li>
-            <li>
-            <a href="/pf/tving">티빙</a>
-            <a href="#">원본사이트</a>
-            </li>
-        </ul>
 
-    <h2>디자인 작업물</h2>
-        <ul>
-            <li>
-            <a href="https://nohyoochan.github.io/img1/pf/artwork/banner1.jpg">디자인 작업물1</a>
-            <ul>
-                <li>창작여부: 모작 or 창작</li>
-            </ul>
-            <ul>
-                <li>출처: 망고보드</li>
-            </ul>
-            </li>
-            <li>
-            <a href="https://nohyoochan.github.io/img1/pf/artwork/poster1.jpg">디자인 작업물2</a>
-            <ul>
-                <li>창작여부: 모작 or 창작</li>
-            </ul>
-            <ul>
-                <li>출처: 핀터레스트</li>
-            </ul>
-            </li>
-        </ul>
+<div class="SideBar" onclick="SideBar__show();">
+    <img src="https://nohyoochan.github.io/img1/pf/PF/icon.png" alt="">
+</div>
 
-    <h2>앱 작업물</h2>
-        <ul>
-            <li><a href="https://nohyoochan.github.io/img1/pf/artwork/Untitled.png">앱 작업물</a></li>
-        </ul>
+<div class="side-bar">
+    <div class="side-close" onclick="SideBar__hide();">
+        <img src="https://nohyoochan.github.io/img1/pf/PF/icon-close.png" alt="">
+    </div>
+  <nav class="menu-box-1">
+    <ul>
+      <li>
+        <a href="/pf/index.php" class="block">HOME</a>
+      </li>
 
-    <h2>포폴1 시안</h2>
-        <ul>
-            <li><a href="https://nohyoochan.github.io/img1/pf/pf1/시안/메인화면.png">메인화면</a></li>
-            <li><a href="https://nohyoochan.github.io/img1/pf/pf1/시안/메뉴1.png">메뉴1</a></li>
-            <li><a href="https://nohyoochan.github.io/img1/pf/pf1/시안/메뉴2.png">메뉴2</a></li>
-            <li><a href="https://nohyoochan.github.io/img1/pf/pf1/시안/메뉴3.png">메뉴3</a></li>
-            <li><a href="https://nohyoochan.github.io/img1/pf/pf1/시안/나의컬렉션.png">나의컬렉션</a></li>
-            <li><a href="https://nohyoochan.github.io/img1/pf/pf1/시안/검색기능.png">검색기능</a></li>
-        </ul>
-        
-    <h2>포폴1 Rolex</h2>
-        <ul>
-            <li><a href="/pf/Rolex">Rolex 사이트</a></li>
-        </ul>
+      <li>
+        <a href="/pf/sub1.php" class="block">ABOUT ME</a>
+      </li>
+      
+      <li>
+        <a href="/pf/sub2.php" class="block">PORTFOLIO</a>
+      </li>
+
+      <li>
+        <a href="/pf/sub3.php" class="block">EXPERIENCE</a>
+      </li>
+    </ul>
+  </nav>
+</div>
 
 </body>
 </html>
