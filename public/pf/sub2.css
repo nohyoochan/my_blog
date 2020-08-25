@@ -345,11 +345,11 @@ html {
 
 /* main */
 .main {
-  position: relative;
-  width: 1920px;
-  height: 969px;
+    width: 1920px;
+    height: 969px;
 }
-/* side bar */
+
+  /* side bar */
 .SideBar {
     float: right;
     cursor: pointer;
@@ -424,38 +424,3 @@ html {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%) scale(1.3);
 }
-
-/* transition */
-.transition-1 {
-  position: absolute;
-  top: 90%;
-  left: 10%;
-  height: 18px;
-  width: 220px;
-  z-index: 9999;
-  background: url(https://nohyoochan.github.io/img1/pf/PF/name.png) no-repeat 0 0;
-  transition: all 0.5s;
-}
-
-.transition-2 {
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  width: 450px;
-  height: 250px;
-  z-index: 9998;
-  background: url(https://nohyoochan.github.io/img1/pf/PF/1p.png) no-repeat 0 0;
-  transition: all 0.5s;
-}
-
-.transition-3 {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  width: 600px;
-  height: 350px;
-  z-index: 9998;
-  background: url(https://nohyoochan.github.io/img1/pf/PF/transition-3.png) no-repeat 0 0;
-  transition: all 0.5s;
-}
-
