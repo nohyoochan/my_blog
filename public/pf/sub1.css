@@ -339,9 +339,6 @@ html {
     width:1370px;
   }
 
-  body {
-      background: darkgoldenrod;
-  }
   /* -----------------------*/
   #fullpage .section-04 {
     background-color:gold;
@@ -353,54 +350,72 @@ html {
   }
   
   /* page 1 */
-  /* page 1 */
-.text-1 {
-  position: relative;
-  display: inline-block;
-  top: 500px;
-  left: 350px;
-  line-height: 10px;
-  letter-spacing: .1px;
+/* transition */
+.transition-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 969px;
+  width: 972px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagemain2.png) no-repeat 0 0;
+  transition: all 0.5s;
+  filter: drop-shadow(5px 5px 5px black);
 }
 
-.text-1 > p {
-  font-size: 2.2rem;
-  font-weight: bold;
+.transition-2 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  height: 355px;
+  width: 421px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagemain.png) no-repeat 0 0;
+  transition: all 0.5s;
 }
 
-.text-2 {
-  position: relative;
-  display: inline-block;
-  top: 600px;
-  right: 318px;
-  line-height: 10px;
-  letter-spacing: .1px;
+.transition-3 {
+  position: absolute;
+  top: 61%;
+  left: 2%;
+  height: 177px;
+  width: 862px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagetext1.png) no-repeat 0 0;
+  transition: all 0.5s;
 }
 
-.text-2 > p {
-  font-size: 1.2rem;
+.transition-4 {
+  position: absolute;
+  top: 83%;
+  left: 2.5%;
+  height: 76px;
+  width: 709px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagetext2.png) no-repeat 0 0;
+  transition: all 0.5s;
 }
 
-.text-3 {
-  position: relative;
-  display: inline-block;
-  top: 640px;
-  left: 350px;
-  line-height: 25px;
+.transition-5 {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  height: 243px;
+  width: 562px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagetext3.png) no-repeat 0 0;
+  transition: all 0.5s;
 }
 
-.text-3 > strong {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.text-4 {
-  position: relative;
-  display: inline-block;
-  top: 700px;
-  right: 575px;
-  line-height: 25px;
-  letter-spacing: .1px;
+.transition-6 {
+  position: absolute;
+  top: 63%;
+  left: 65%;
+  height: 127px;
+  width: 608px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagetext4.png) no-repeat 0 0;
+  transition: all 0.5s;
 }
 
 /* side bar */
@@ -421,12 +436,13 @@ html {
   position:fixed;
   top:0;
   right:0;
-  width:70%;
+  width:50%;
   height:100%;
-  background-color:black;
-  z-index:1;
+  background-color:white;
+  z-index:10000;
   opacity:0;
   visibility:hidden;
+  filter: drop-shadow(5px 5px 5px #000);
 }
 
 .side-bar-actived .side-bar {
@@ -441,7 +457,7 @@ html {
 .side-bar .menu-box-1 > ul > li > a {
   position: relative;
   margin-top: 120px;
-  color: #fff;
+  color: black;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -480,324 +496,64 @@ html {
 }
 
 /* page 2 */
-.main {
-  position: relative;
-  width: 1920px;
+.transition-7 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 61px;
+  width: 188px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/3pageleft.png) no-repeat 0 0;
+  transition: all 0.5s;
+}
+
+.transition-12 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
   height: 969px;
+  width: 972px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagemain2.png) no-repeat 0 0;
+  transition: all 0.5s;
+  filter: drop-shadow(5px 5px 5px black);
 }
 
-.about {
+.transition-13 {
   position: absolute;
-  display: inline-block;
-  top: 50px;
-  left: 350px;
+  top: 5%;
+  right: 3%;
+  height: 48px;
+  width: 827px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/3pageright.png) no-repeat 0 0;
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 1px #fff);
 }
-
-.about h2 {
-  font-size: 30px;
-  font-weight: bold;
-  text-shadow: 3px 3px 3px gray;
-}
-
-.wrap {
-  position: relative;
-  width: 1400px;
-  height: 700px;
-  top: 200px;
-  margin: 0 auto;
-  border: 1px solid red;
-}
-
-.wrap .img-bar {
-  position: absolute;
-  float: left;
-  width: 50%;
-  height: 680px;
-  margin: 10px;
-  border: 1px solid black;
-}
-
-.wrap .text-5 {
-  position: absolute;
-  float: right;
-  top: 0;
-  right: 0;
-  width: 660px;
-  height: 350px;
-  margin: 10px;
-  border: 1px solid black;
-}
-
-.wrap .text-5 .edu {
-  position: absolute;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: left;
-  margin: 10px;
-  padding: 10px;
-}
-
-.wrap .text-5 .edu > p {
-  background-color: black;
-  width: 110px;
-  height: 20px;
-  position: relative;
-}
-
-.wrap .text-5 .edu-text {
-  position: absolute;
-  display: inline-block;
-  font-size: 15px;
-  left: 150px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.wrap .text-5 .license {
-  position: absolute;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: left;
-  top: 75px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.wrap .text-5 .license-text {
-  position: absolute;
-  display: inline-block;
-  font-size: 15px;
-  top: 75px;
-  left: 150px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.wrap .text-5 .license > p {
-  background-color: black;
-  width: 80px;
-  height: 20px;
-  position: relative;
-}
-
-.wrap .text-5 .prf {
-  position: absolute;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: left;
-  top: 150px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.wrap .pro-line {
-  position: absolute;
-  top: 380px;
-  right: 0;
-  width: 660px;
-  height: 300px;
-  margin: 10px;
-  font-weight: bold;
-  border: 1px solid black;
-}
-
-.wrap .pro-line .ht {
-  position: absolute;
-  display: inline-block;
-  margin: 10px 100px;
-  font-size: 20px;
-}
-
-.wrap .pro-line .cs {
-  position: absolute;
-  display: inline-block;
-  top: 70px;
-  margin: 10px 100px;
-  font-size: 20px;
-}
-
-.wrap .pro-line .ph {
-  position: absolute;
-  display: inline-block;
-  top: 140px;
-  margin: 10px 100px;
-  font-size: 20px;
-}
-
-.wrap .pro-line .il {
-  position: absolute;
-  display: inline-block;
-  top: 210px;
-  margin: 10px 100px;
-  font-size: 20px;
-}
-
-/* praph */
-.graph {
-  position: absolute;
-  display: inline-block;
-  top: 50px;
-  width: 400px;
-  margin:10px;
-  height:20px;
-  left: 90px;
-  background:black;
-  border-radius:40px;
-}
-.graph .stack span {
-  background:black;
-  animation:stack 2s 1;
-} 
-.graph span {
-  display:block;
-  width:90%;
-  height:100%;
-  text-align:right;
-  background:white;
-  border-radius:40px;
-  box-sizing:border-box;
-  font-size: 15px;
-  color:black;
-  animation:stack 2s 1;
-}
-
-@keyframes stack {
-  0% { width:0; color : rgba(255,255,255,0);}
-  50% {
-    color : rgba(255,255,255,1);
-  }
-  100% { width:90%;}
-}
-
-.graph2 {
-  position: absolute;
-  display: inline-block;
-  top: 120px;
-  width: 400px;
-  margin:10px;
-  height:20px;
-  left: 90px;
-  background:black;
-  border-radius:40px;
-}
-.graph2 .stack2 span {
-  background:black;
-  animation:stack 2s 1;
-} 
-.graph2 span {
-  display:block;
-  width:95%;
-  height:100%;
-  text-align:right;
-  background:white;
-  border-radius:40px;
-  box-sizing:border-box;
-  font-size: 15px;
-  color:black;
-  animation:stack 2s 1;
-}
-
-@keyframes stack2 {
-  0% { width:0; color : rgba(255,255,255,0);}
-  50% {
-    color : rgba(255,255,255,1);
-  }
-  100% { width:95%;}
-}
-
-.graph3 {
-  position: absolute;
-  display: inline-block;
-  top: 190px;
-  width: 400px;
-  margin:10px;
-  height:20px;
-  left: 90px;
-  background:black;
-  border-radius:40px;
-}
-.graph3 .stack3 span {
-  background:black;
-  animation:stack 2s 1;
-} 
-.graph3 span {
-  display:block;
-  width:95%;
-  height:100%;
-  text-align:right;
-  background:white;
-  border-radius:40px;
-  font-size: 15px;
-  box-sizing:border-box;
-  color:black;
-  animation:stack 2s 1;
-}
-
-@keyframes stack2 {
-  0% { width:0; color : rgba(255,255,255,0);}
-  50% {
-    color : rgba(255,255,255,1);
-  }
-  100% { width:95%;}
-}
-
-.graph4 {
-  position: absolute;
-  display: inline-block;
-  top: 260px;
-  width: 400px;
-  margin:10px;
-  height:20px;
-  left: 90px;
-  background:black;
-  border-radius:40px;
-
-}
-.graph4 .stack4 span {
-  background:black;
-  animation:stack 2s 1;
-} 
-.graph4 span {
-  display:block;
-  width:80%;
-  height:100%;
-  text-align:right;
-  background:white;
-  border-radius:40px;
-  font-size: 15px;
-  box-sizing:border-box;
-  color:black;
-  animation:stack 2s 1;
-}
-
-@keyframes stack4 {
-  0% { width:0; color : rgba(255,255,255,0);}
-  50% {
-    color : rgba(255,255,255,1);
-  }
-  100% { width:80%;}
-}
-
   /* page 3*/
-  .main {
-    width: 1920px;
-    height: 969px;
-    position: relative;
-  }
-  
-  .main .title {
+  .transition-14 {
     position: absolute;
-    top: 50px;
-    left: 250px;
-    font-size: 30px;
-    font-weight: 800;
+    top: 10%;
+    left: 15.5%;
+    height: 40px;
+    width: 202px;
+    z-index: 9999;
+    background: url(https://nohyoochan.github.io/img1/pf/PF/4page2.png) no-repeat 0 0;
+    transition: all 0.5s;
+    filter: drop-shadow(2px 2px 1px #fff);
   }
-  
-  .main .title > strong {
-      font-weight: bold;
+
+  .transition-15 {
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    height: 61px;
+    width: 307px;
+    z-index: 9999;
+    background: url(https://nohyoochan.github.io/img1/pf/PF/4page3.png) no-repeat 0 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 1px #fff);
   }
 
   .main .skill-box {

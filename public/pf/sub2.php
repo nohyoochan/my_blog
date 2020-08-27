@@ -44,5 +44,11 @@
 
 </div>
 
+<div class="transition-1"></div>
+<div class="transition-2"></div>
+<div class="transition-3"></div>
+<div class="transition-4"></div>
+<div class="transition-5"></div>
+
 </div>
 </body>

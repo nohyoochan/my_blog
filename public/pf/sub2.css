@@ -339,16 +339,6 @@ html {
     width:1370px;
   }
 
-  body {
-    background: #0277bd;
-  }
-
-/* main */
-.main {
-    width: 1920px;
-    height: 969px;
-}
-
   /* side bar */
 .SideBar {
     float: right;
@@ -367,12 +357,13 @@ html {
     position:fixed;
     top:0;
     right:0;
-    width:70%;
+    width:60%;
     height:100%;
-    background-color:black;
+    background-color:white;
     z-index:9999;
     opacity:0;
     visibility:hidden;
+    filter: drop-shadow(5px 5px 5px black);
   }
   
 .side-bar-actived .side-bar {
@@ -387,7 +378,7 @@ html {
 .side-bar .menu-box-1 > ul > li > a {
     position: relative;
     margin-top: 120px;
-    color: #fff;
+    color: black;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -400,7 +391,7 @@ html {
     left: 50%;
     width: 100px;
     height: 100px;
-    border: 4px solid #0277bd;
+    border: 4px solid black;
     transform: translateX(-50%) translateY(-50%) scale(0.8);
     border-radius: 50%;
     background: transparent;
@@ -423,4 +414,29 @@ html {
 .menu-box-1 > ul > li > a:hover:after {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+
+/* transition */
+.transition-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 969px;
+  width: 910px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/5pagebg1.png) no-repeat 0 0;
+  transition: all 0.5s;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.transition-2 {
+  position: absolute;
+  top: 20%;
+  left: 58%;
+  height: 530px;
+  width: 655px;
+  z-index: 9998;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/5pageimg1.png) no-repeat 0 0;
+  transition: all 0.5s;
+  cursor: pointer;
 }
