@@ -433,6 +433,25 @@ html {
   background: url(https://nohyoochan.github.io/img1/pf/PF/main1.png) no-repeat 0 0;
   transition: all 0.5s;
   filter: drop-shadow(5px 5px 5px gray);
+  animation-name: big;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes big {
+  from {
+      width: 0px;
+      height: 0px;
+  }
+  to {
+      width: 620px;
+      height: 620px;
+  }
 }
 
 .transition-2 {
@@ -478,7 +497,11 @@ html {
   z-index: 9998;
   background: url(https://nohyoochan.github.io/img1/pf/PF/maintext1.png) no-repeat 0 0;
   transition: all 0.5s;
+  animation-name: movingPara;
+  animation-duration: 4s;
+  animation-delay: 2s;
 }
+
 
 .transition-6 {
   position: absolute;
@@ -489,4 +512,12 @@ html {
   z-index: 9998;
   background: url(https://nohyoochan.github.io/img1/pf/PF/maintext2.png) no-repeat 0 0;
   transition: all 0.5s;
+  animation-name: movingPara;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes movingPara {
+  from { margin-left: 100%; }
+  to { margin-left: 0%; }
 }

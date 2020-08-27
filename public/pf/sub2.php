@@ -7,7 +7,7 @@
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/pf/sub2.css">
-    <link rel="icon" href="https://nohyoochan.github.io/img1/blog/article/2020/logo1.png">
+    <link rel="icon" href="https://nohyoochan.github.io/img1/pf/PF/main1.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/pf/sub2.js"></script>
 </head>
