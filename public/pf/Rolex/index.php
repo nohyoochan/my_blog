@@ -48,40 +48,39 @@
         <div class="inner flex flex-jc-c">
           <li>
             <a href="#" class="flex flex-ai-c height-100p">Collection</a>
-            <div class="con-min-width">
-              <div class="con"><img src="https://nohyoochan.github.io/img1/pf/pf1/page3-1-1.jpg" alt=""></div>
-            </div>
+            <div>
+              <div class="sub-box">
+                <div class="left-panel">
+                <a href="#">
+                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:150px; height:150px;">
+                </a>
+                </div>
+                <div class="right-panel">
+                <a href="#">123
+                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:150px; height:150px;">
+                </a>
+                </div>
+              </div>          
+        </div>
           <li>
             <a href="#" class="flex flex-ai-c height-100p">Rolex And Partners</a>
-            <ul class="sub-menu flex">
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-            </ul>
-          </li>
+            <div>
+              <div class="sub-box">
+
+              </div>
+            </div>
           <li>
             <a href="#" class="flex flex-ai-c height-100p">Service</a>
-            <ul class="sub-menu flex">
-              <li><a href="#"> </a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+            <div>
+              <div class="sub-box">
+                
+              </div>
+            </div>
             </ul>
           </li>
         </div>
       </div>
       </ul>
-      
     </nav>
   </div>
 

@@ -82,7 +82,8 @@
                             <div class="sub-text">80%</div>
                             <div class="title-text">HTML</div>
                             <div class="etc">
-                                HTML,CSS,JS
+                            HTML의 기본구조를 이해하고 있으며 CSS,
+JavaScript를 사용하여 퍼블리싱이 가능합니다.
                             </div>
                           </div>
                       </li>
@@ -91,7 +92,8 @@
                             <div class="sub-text">80%</div>
                             <div class="title-text">Illustrator</div>
                             <div class="etc">
-                                Illustrator
+                            다양한 툴을 사용하여 벡터기반의
+아이콘과 그래픽 아트를 제작할 수 있습니다.
                             </div>
                           </div>
                       </li>
@@ -100,7 +102,8 @@
                             <div class="sub-text">80%</div>
                             <div class="title-text">Photoshop</div>
                             <div class="etc">
-                                Photoshop
+                            필요한 이미지의 합성과 편집, 드로잉까지
+툴을 자유롭게 사용하여 작업이 가능합니다.
                             </div>
                           </div>
                       </li>
