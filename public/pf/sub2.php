@@ -44,7 +44,20 @@
 
 </div>
 
-<div class="transition-1"></div>
+<div class="transition-1">
+  <div class="sel-text">SELECTED PROJECTS</div>
+  <div class="portfolio-menu">
+    <ul>
+      <li><a href="#"><span class="no">1.</span>portfolio-site</a></li>
+      <li><a href="#"><span class="no">2.</span>guggenstudy</a></li>
+      <li><a href="#"><span class="no">3.</span>maven</a></li>
+      <li><a href="#"><span class="no">4.</span>nc</a></li>
+      <li><a href="#"><span class="no">5.</span>pizza</a></li>
+      <li><a href="#"><span class="no">6.</span>Rolex</a></li>
+      <li><a href="#"><span class="no">7.</span>design</a></li>
+    </ul>
+  </div>
+</div>
 <div class="transition-2"></div>
 <div class="transition-3"></div>
 <div class="transition-4"></div>

@@ -418,15 +418,28 @@ html {
 
 /* transition */
 .transition-1 {
-  position: absolute;
-  top: 0%;
-  left: -6%;
+  width: 430px;
   height: 969px;
-  width: 910px;
-  z-index: 9999;
-  background: url(https://nohyoochan.github.io/img1/pf/PF/5pagebg1.png) no-repeat 0 0;
-  transition: all 0.5s;
-  filter: drop-shadow(5px 5px 5px black);
+  position: relative;
+  padding-left: 358px;
+  padding-top: 230px;
+  background: black;
+  float: left;
+}
+
+.transition-1 .sel-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #979797;
+  padding-bottom: 19px;
+  font-weight: bold;
+}
+
+.transition-1 .portfolio-menu > ul > li > a {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  line-height: 45px;
 }
 
 .transition-2 {

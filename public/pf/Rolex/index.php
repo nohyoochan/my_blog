@@ -52,12 +52,21 @@
               <div class="sub-box">
                 <div class="left-panel">
                 <a href="#">
-                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:150px; height:150px;">
+                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:250px; height:250px;">
+                </a>
+                <a href="#">
+                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:250px; height:250px;">
+                </a>
+                <a href="#">
+                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:250px; height:250px;">
+                </a>
+                <a href="#">
+                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:250px; height:250px;">
                 </a>
                 </div>
                 <div class="right-panel">
                 <a href="#">123
-                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:150px; height:150px;">
+                <img src="https://nohyoochan.github.io/img1/pf/pf1/4-3-5.png" alt="" style="width:250px; height:250px;">
                 </a>
                 </div>
               </div>          
