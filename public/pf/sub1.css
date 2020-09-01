@@ -495,7 +495,121 @@ html {
 }
 
 /* page 2 */
+.left-box {
+  position: relative;
+  width: 70%;
+  height: 969px;
+  float: left;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
 
+.myimg {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+  background: url(http://www.hongsi.x-y.net/2020_P3/pjm_p/aboutme/img/candidate.png);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left-box .text-box {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  margin-top: 250px;
+  border: 1px solid red;
+}
+
+.left-box .text-box h1 {
+  font-size: 45px;
+  color: #000;
+  line-height: 60px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: -.5px;
+}
+
+.left-box .text-box h6 {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #001fff;
+  margin-bottom: 33px;
+}
+
+.left-box .text-box p {
+  color: #000;
+}
+
+.left-box .client-box {
+  position: relative;
+  width: 500px;
+  height: 150px;
+  top: -350px;
+  left: 550px;
+  border: 1px solid blue;
+}
+
+.skills {
+  position: absolute;
+  right: 235px;
+  top: 756px;
+  width: 293px;
+  font-family: 'Noto Sans KR';
+  font-size: 12pt;
+  color: #000;
+}
+
+.skills>li {
+  margin: 18px 0;
+}
+
+.bar {
+  background: #e5e5e5;
+  margin: 12px 0;
+  display: block;
+  height: 5px;
+  /* border: 1px solid rgba(0,0,0,0.3); */
+  /* border-radius: 3px; */
+  /* overflow: hidden; */
+  /* box-shadow: 0 0 10px #2187e7b3; */
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+.html {
+  width: 90%;
+  animation: html 2.8s;
+}
+
+}
+.bar span {
+  height: 5px;
+  float: left;
+  background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+.css {
+  width: 98%;
+  animation: css 3s;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+.js {
+  width: 95%;
+  animation: js 2.2s;
+}
 
   /* page 3*/
   .transition-14 {

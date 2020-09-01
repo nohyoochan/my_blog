@@ -54,7 +54,36 @@
 
 <!-- 2page -->
   <div class="section">
+  <div class="left-box">
+    <div class="myimg"></div>
+    <div class="text-box">
+    <h1>Hello!
+    <span class="typed">&nbsp;I Am Yoochan.<br>UI / UX Deginer.<br> Living in Daejeon.</span>
+    </h1>
+    <h6>ZZiZZiPhong</h6>
+    <p class="pad-bottom-35 wow fadeInUp" data-wow-duration=".6s">
+		저는 찌찌뽕을 할 수 있는 사람입니다.<br>
+		받은 디자인 업무를 열정적으로 완성하기 위해서는 신속한 조사와
+		정확한 분위기 파악이 중요하다 생각합니다 <br>저는 이를 아주 쉼없이
+		노력하며 정보 전달성, 업무 신속도를 높여 왔습니다.찌찌뽕 (zzizziphong)디자이너 란? * <br>클라이언트와 소비자가 동시에 
+    말하는 부분을 표현 할 수 있는
+    디자이너라는 뜻입니다.<br>
+    “클라이언트, 소비자 둘의 마음과 찌찌뽕 되는 것을 추구합니다.”
+    </p>
+    <div class="client-box">
+    <p class="wow fadeInUp" data-wow-duration=".4s">
+    Client and consumer at the same time
+		<a class="goto-social" href="#" target="_blank">Able to express </a> + <a href="#" class="goto-social" target="_blank">what you are </a>saying
+		designer <a href="https://www.instagram.com/dbjungm__/" class="goto-social" target="_blank">Instagram</a></p>
+    </div>
+  </div>
     
+  </div>
+  <ul class="skills">
+                    <li><h3>친화력</h3><span class="bar"><span class="html"></span></span></li>
+                    <li><h3>책임감</h3><span class="bar"><span class="css"></span></span></li>
+                    <li><h3>수행능력</h3><span class="bar"><span class="js"></span></span></li>
+                </ul>
   <div class="transition-7"></div>
 <div class="transition-8"></div>
 <div class="transition-9"></div>
