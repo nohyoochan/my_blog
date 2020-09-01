@@ -42,3 +42,19 @@ function SideBar__init() {
   $(function() {
     SideBar__init();
   })
+
+$(function () {
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    
+    navigation: {
+      nextEl: '#next',
+      prevEl: '#prev',
+    },
+  });
+});
+ 

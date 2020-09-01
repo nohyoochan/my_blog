@@ -360,7 +360,6 @@ html {
   z-index: 9999;
   background: url(https://nohyoochan.github.io/img1/pf/PF/2pagemain2.png) no-repeat 0 0;
   transition: all 0.5s;
-  filter: drop-shadow(5px 5px 5px black);
 }
 
 .transition-2 {
@@ -496,40 +495,8 @@ html {
 }
 
 /* page 2 */
-.transition-7 {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  height: 61px;
-  width: 188px;
-  z-index: 9999;
-  background: url(https://nohyoochan.github.io/img1/pf/PF/3pageleft.png) no-repeat 0 0;
-  transition: all 0.5s;
-}
 
-.transition-12 {
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  height: 969px;
-  width: 972px;
-  z-index: 9999;
-  background: url(https://nohyoochan.github.io/img1/pf/PF/2pagemain2.png) no-repeat 0 0;
-  transition: all 0.5s;
-  filter: drop-shadow(5px 5px 5px black);
-}
 
-.transition-13 {
-  position: absolute;
-  top: 5%;
-  right: 3%;
-  height: 48px;
-  width: 827px;
-  z-index: 9999;
-  background: url(https://nohyoochan.github.io/img1/pf/PF/3pageright.png) no-repeat 0 0;
-  transition: all 0.5s;
-  filter: drop-shadow(2px 2px 1px #fff);
-}
   /* page 3*/
   .transition-14 {
     position: absolute;
