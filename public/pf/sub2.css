@@ -477,6 +477,74 @@ html {
   align-items: center;
 }
 
+.swiper-slide .img-slide-1 {
+  background-image: url(https://nohyoochan.github.io/img1/pf/PF/2pagemain2.png);
+}
+.swiper-slide .img-slide {
+  width: 500px;
+  height: 504px;
+  transition: box-shadow .25s, transform .25s;
+  position: relative;
+  transition: 0.5s;
+}
+
+.swiper-slide .img-slide a {
+  width: calc(100% - 84px);
+  margin: 0px 42px;
+  height: 38px;
+  transition: box-shadow .25s, color .25s;
+  color: #222;
+  position: absolute;
+  bottom: 38px;
+  left: 0px;
+  background-color: #fff;
+  border-radius: 24px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  line-height: 37px;
+}
+.swiper-slide .img-slide a {
+  display: inline-block;
+  width: 100%;
+}
+
+.pf-name {
+  margin-top: 5px;
+}
+
+.pf-name > div {
+  margin-top: 32px;
+}
+
+.pf-name div > p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.pf-name div > p:nth-child(2) {
+  font-family: 'Noto sans';
+  font-weight: 500;
+}
+
+.pf-name div > p {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p.projectdesign {
+  font-weight: 700 !important;
+}
+
+.process-kr {
+  letter-spacing: -0.04em;
+}
+
 /* button */
 .slide-btn-box {
   width: 60px;

@@ -1,12 +1,3 @@
-$(function (){
-    new fullpage('#fullpage', {
-        verticalCentered: false,
-        scrollBar:false,
-        anchors: ['anchor1', 'anchor2', 'anchor3','anchor4'],
-        menu: '#menu',
-      })
-});
-
 function SideBar__init() {
   $('.side-bar ul > li').mouseenter(function() {
     // 선택된 li

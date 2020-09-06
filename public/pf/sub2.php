@@ -75,7 +75,7 @@
         </div>
         <div class="pf-name">
           <div> 
-            <p>Project</p>
+            <p class="projectdesign process-kr">Project</p>
             <p>포트폴리오 홈페이지</p>
           </div>
           <div>

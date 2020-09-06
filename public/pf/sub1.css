@@ -349,9 +349,19 @@ html {
     color:white;
   }
   
+  body {
+    overflow-x: hidden;
+  }
+
   /* page 1 */
+.page1 {
+  width: 1920px;
+  height: 969px;
+  position: relative;
+}
+
 /* transition */
-.transition-1 {
+.page1 .transition-1 {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -362,7 +372,7 @@ html {
   transition: all 0.5s;
 }
 
-.transition-2 {
+.page1 .transition-2 {
   position: absolute;
   top: 30%;
   left: 40%;
@@ -373,7 +383,7 @@ html {
   transition: all 0.5s;
 }
 
-.transition-3 {
+.page1 .transition-3 {
   position: absolute;
   top: 61%;
   left: 2%;
@@ -384,7 +394,7 @@ html {
   transition: all 0.5s;
 }
 
-.transition-4 {
+.page1 .transition-4 {
   position: absolute;
   top: 83%;
   left: 2.5%;
@@ -395,7 +405,7 @@ html {
   transition: all 0.5s;
 }
 
-.transition-5 {
+.page1 .transition-5 {
   position: absolute;
   top: 30%;
   left: 65%;
@@ -406,7 +416,7 @@ html {
   transition: all 0.5s;
 }
 
-.transition-6 {
+.page1 .transition-6 {
   position: absolute;
   top: 63%;
   left: 65%;
@@ -495,81 +505,93 @@ html {
 }
 
 /* page 2 */
-.left-box {
+.page2 {
+  width: 1920px;
+  height: 1500px;
   position: relative;
-  width: 70%;
-  height: 969px;
-  float: left;
-  margin-top: 80px;
-  margin-left: 80px;
-  margin-bottom: 80px;
 }
 
-.myimg {
+.page2 .transition-7 {
   position: absolute;
-  height: 200px;
-  width: 200px;
-  margin-left: 100px;
-  background: url(http://www.hongsi.x-y.net/2020_P3/pjm_p/aboutme/img/candidate.png);
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  top: 5%;
+  left: 10%;
+  height: 325px;
+  width: 52px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/about.png) no-repeat 0 0;
+  transition: all 0.5s;
 }
 
-.left-box .text-box {
-  position: relative;
-  height: 500px;
-  width: 500px;
-  margin-top: 250px;
-  border: 1px solid red;
-}
-
-.left-box .text-box h1 {
-  font-size: 45px;
-  color: #000;
-  line-height: 60px;
-  text-transform: capitalize;
-  font-weight: 500;
-  letter-spacing: -.5px;
-}
-
-.left-box .text-box h6 {
-  font-size: 16px;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #001fff;
-  margin-bottom: 33px;
-}
-
-.left-box .text-box p {
-  color: #000;
-}
-
-.left-box .client-box {
-  position: relative;
-  width: 500px;
-  height: 150px;
-  top: -350px;
-  left: 550px;
-  border: 1px solid blue;
-}
-
-.skills {
+.page2 .transition-8 {
   position: absolute;
-  right: 235px;
-  top: 756px;
+  top: 30%;
+  left: 10%;
+  height: 269px;
+  width: 448px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/web.png) no-repeat 0 0;
+  transition: all 0.5s;
+}
+
+.page2 .transition-9 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  height: 269px;
+  width: 448px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/convert.png) no-repeat 0 0;
+  transition: all 0.5s;
+}
+
+.page2 .transition-10 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  height: 38px;
+  width: 252px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/introduction.png) no-repeat 0 0;
+  transition: all 0.5s;
+}
+
+.page2 .transition-11 {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  height: 142px;
+  width: 544px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/name.png) no-repeat 0 0;
+  transition: all 0.5s;
+}
+
+.page2 .transition-12 {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  height: 319px;
+  width: 519px;
+  z-index: 9999;
+  background: url(https://nohyoochan.github.io/img1/pf/PF/education.png) no-repeat 0 0;
+  transition: all 0.5s;
+}
+
+.page2 .skills {
+  position: absolute;
+  left: 10%;
+  top: 65%;
   width: 293px;
   font-family: 'Noto Sans KR';
-  font-size: 12pt;
+  font-size: 10pt;
   color: #000;
 }
 
-.skills>li {
+.page2 .skills>li {
   margin: 18px 0;
 }
 
-.bar {
+.page2 .bar {
   background: #e5e5e5;
   margin: 12px 0;
   display: block;
@@ -580,24 +602,24 @@ html {
   /* box-shadow: 0 0 10px #2187e7b3; */
 }
 
-.bar span {
+.page2 .bar span {
   height: 5px;
   float: left;
   background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
 }
-.html {
+.page2 .affinity {
   width: 90%;
   animation: html 2.8s;
 }
 
 }
-.bar span {
+.page2 .bar span {
   height: 5px;
   float: left;
   background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
 }
-.css {
-  width: 98%;
+.page2 .performance {
+  width: 90%;
   animation: css 3s;
 }
 
@@ -606,95 +628,80 @@ html {
   float: left;
   background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
 }
-.js {
+.page2 .adaptability {
   width: 95%;
   animation: js 2.2s;
 }
 
-  /* page 3*/
-  .transition-14 {
-    position: absolute;
-    top: 10%;
-    left: 15.5%;
-    height: 40px;
-    width: 202px;
-    z-index: 9999;
-    background: url(https://nohyoochan.github.io/img1/pf/PF/4page2.png) no-repeat 0 0;
-    transition: all 0.5s;
-    filter: drop-shadow(2px 2px 1px #fff);
-  }
+.page2 .responsibility {
+  width: 95%;
+  animation: js 2.2s;
+}
 
-  .transition-15 {
-    position: absolute;
-    top: 90%;
-    left: 42%;
-    height: 61px;
-    width: 307px;
-    z-index: 9999;
-    background: url(https://nohyoochan.github.io/img1/pf/PF/4page3.png) no-repeat 0 0;
-    transition: all 0.5s;
-    cursor: pointer;
-    filter: drop-shadow(2px 2px 1px #fff);
-  }
+.page2 .enthusiasm {
+  width: 95%;
+  animation: js 2.2s;
+}
 
-  .main .skill-box {
-      width: 1408px;
-      height: 617px;
+.skill-box {
+      width: 1400px;
+      height: 350px;
       position: absolute;
-      top: 200px;
-      left: 300px;
+      top: 65%;
+      left: 28%;
+      color: white;
   }
   
-  .main .skill-box .inner {
+.skill-box .inner {
       margin: 0;
       padding: 0;
   }
 
-  .main .skill-box .inner .skill-bg-line {
+.skill-box .inner .skill-bg-line {
       width: 1px;
-      height: 617px;
+      height: 350px;
       position: absolute;
       top: 0;
       left: 0;
       z-index: 3;
   }
 
-  .main .skill-box .inner .bg-line-1 {
+.skill-box .inner .bg-line-1 {
     width: 1px;
-    height: 617px;
+    height: 350px;
     background: rgba(229,229,229,.25);
     position: absolute;
     left: 466px;
   }
 
-  .main .skill-box .inner .bg-line-2 {
+.skill-box .inner .bg-line-2 {
     width: 1px;
-    height: 617px;
+    height: 350px;
     background: rgba(229,229,229,.25);
     position: absolute;
     left: 932px;
   }
 
-  .main .skill-box .inner .skill-area {
+.skill-box .inner .skill-area {
     background: url(https://nohyoochan.github.io/img1/pf/PF/skill-img.png) no-repeat center;
     width: 1400px;
-    height: 617px;
+    height: 350px;
     position: relative;
   }
 
-  .main .skill-box .inner .skill-area ul {
+.skill-box .inner .skill-area ul {
       width: 1400px;
-      height: 617px;
+      height: 350px;
   }
 
-  .main .skill-box .inner .skill-area ul li {
+.skill-box .inner .skill-area ul li {
     position: relative;
     float: right;  
     width: 466px;
-    height: 617px;
+    height: 350px;
   }
 
-  .main .skill-box .inner .skill-area ul li::before {
+.skill-box .inner .skill-area ul li::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -707,37 +714,36 @@ html {
     transition: all 0.5s;
   }
 
-  .main .skill-box .inner .skill-area ul li:hover::before {
+.skill-box .inner .skill-area ul li:hover::before {
       visibility: visible;
       opacity: 1;
   }
 
-  .main .skill-box .inner .skill-area ul li .li-inner {
+.skill-box .inner .skill-area ul li .li-inner {
       position: absolute;
       text-align: center;
-      top: 350px;
+      top: 150px;
       bottom: 70px;
       height: 150px;
       overflow: hidden;
       transition: all 0.5s;
-
   }
 
-  .main .skill-box .inner .skill-area ul li+li:hover .li-inner {
+.skill-box .inner .skill-area ul li+li:hover .li-inner {
       height: 200px;
   }
   
-.main .skill-box .inner .skill-area ul li .li-inner .sub-text {
+.skill-box .inner .skill-area ul li .li-inner .sub-text {
     font-size: 48px;
     font-weight: 400;
 }
 
-.main .skill-box .inner .skill-area ul li .li-inner .title-text {
+.skill-box .inner .skill-area ul li .li-inner .title-text {
     font-size: 18px;
     font-weight: 800;
 }
 
-.main .skill-box .inner .skill-area ul li .li-inner .etc {
+.skill-box .inner .skill-area ul li .li-inner .etc {
     font-size: 16px;
     font-weight: 100;
     line-height: 26px;
@@ -747,7 +753,7 @@ html {
     transition: all 0.5s;
 }
 
-.main .skill-box .inner .skill-area ul li:hover .li-inner .etc {
+.skill-box .inner .skill-area ul li:hover .li-inner .etc {
     visibility: visible;
     opacity: 1;
     transition-delay: 0.2s;
