@@ -1,0 +1,29 @@
+
+html{
+	width: 1920px;
+	height: 1024px;
+	max-height:1024px;
+}
+
+body{
+	width: 1920px;
+	height: 1024px;
+	max-height:1024px;
+	max-width: 1920px;
+    overflow: hidden;
+
+
+}
+
+.HSliderwrap{
+	width: 1920px;
+	height: 1024px;
+	max-height:1024px;
+	max-width: 1920px;
+	background: #0c71ba;
+	overflow: hidden;
+	position: absolute;
+}
+
+
+
