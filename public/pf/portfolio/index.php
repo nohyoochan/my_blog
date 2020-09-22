@@ -27,15 +27,12 @@
 		<div class="overlay-navigation">
 			<nav role="navigation">
 				<ul>
-					<li><a href="personal_process.html" data-content="Curious?"></a></li>
-					<li><a href="sub1 copy.html" data-content="I got game"></a></li>
-					<li><a href="portfolio.html" data-content="Only the finest"></a></li>
-					<li><a href="sub3.html" data-content="Don't hesitate"></a></li>
+					<li><a href="" data-content="Curious?"></a></li>
+					<li><a href="" data-content="I got game"></a></li>
+					<li><a href="" data-content="Only the finest"></a></li>
+					<li><a href="" data-content="Don't hesitate"></a></li>
 				</ul>
 			</nav>
-		</div>
-		<div class="logo">
-			<a href="index.html"></a>
 		</div>
 
 		<div class="open-overlay">
@@ -63,12 +60,26 @@
 
 			<section class="Hslider_S sub2_1"> <!-- p1 시작 -->
 				<div class="main1">
-                    <div class="p2_bg"></div>
-                    <div class="p4_bg"></div>
-					<div class="book_f1"></div>
+				<div class="p1-abot">
+					<h2>ABOUT ME</h2>
+				</div>
+				<div class="p1-abot-text">
+					<p>HI</p>
+					<p>SS</p>
+				</div>
+				<div class="p1-abot-bottom">
+					<p>Web design</p>
+					<p>Noh Yoo Chan</p>
+				</div>
+				<div class="p1-profile">
+					<p>Lorem ipsum dolor sit amet,</p>
+					<p>consectetur adipisicing elit. Laboriosam optio</p>
+					<p> numquam ducimus.</p>
+					<p>Cumque, saepe? Delectus aperiam quibusdam minus,</p>
+					<p> labore, provident id similique, cum </p>
+					<p>hic laboriosam possimus sed explicabo rem sequi.</p>
+				</div>
 					<div class="p1_img"></div>
-					<div class="p1_maintxt" data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="2000"></div>
-					<div class="p1_maintxt2" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="2000"></div>
 					<div class="p1_txt"></div>
 					<div class="p1_indextxt"></div>
 					<div class="p1_shadow"></div>

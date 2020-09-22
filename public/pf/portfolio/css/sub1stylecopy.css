@@ -1,42 +1,21 @@
 body{
     height:100vh;
-      width: 100vw;
+    width: 100vw;
     min-width: 1920px;
     min-height: 1024px;
-      overflow: hidden;
-  }
-
-
-
+    overflow: hidden;
+}
 
 .main{
-    background:url(../img/sub1/bookcover2.png) no-repeat 0 0;
+    background:url(https://nohyoochan.github.io/img1/pf/portfolio/leaf-shadow.png) no-repeat 0 0;
     height:100vh;
     width: 100vw;
     min-width: 1920px;
     min-height: 1024px;
-    background-size: 100%;
-    position: relative;
-
-
 }
-
-
-
-.logo>a{
-    display: block;
-      background: url(../img/sub1/logo.png) no-repeat 0 0;
-      width: 59px;
-      height: 61px;
-      background-size: 100%;
-      position: absolute; top:70px; left: 126px;      
-      z-index: 1;
-  }
-
   
 .main_txt{
-
-font-size: 112px;
+  font-size: 112px;
 font-family: MADE_Canvas_Black_PERSONAL_USE;
 color:#011721;
 position: absolute;left: 126px; top: 442px;
@@ -70,25 +49,49 @@ letter-spacing: 7px;
 }
 
  /* p1, p2 페이지 */
-
- .main1{
+.main1{
     height:100vh;
     width: 100vw;
     min-width: 1920px;
     min-height: 1024px;
-    background: red;
-   }
-  
-  .book_f1{
-    background: url(../img/sub1/book_feel.png) no-repeat 0 0;
-    width: 34px;
-    height: 11024px;
-    background-size: 100%;
-    position: absolute; top: 0; right: 0;
-    z-index: 3;
-  }
-  
-  
+}
+
+.p1-abot {
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  font-size: 2rem;
+  border: 1px solid red;
+}
+
+.p1-abot-text {
+  display: inline-block;
+  position: absolute;
+  top: 650px;
+  left: 30px;
+  font-size: 1.5rem;
+  border: 1px solid red;
+}
+
+.p1-abot-bottom {
+  display: inline-block;
+  position: absolute;
+  top: 800px;
+  left: 30px;
+  font-size: 1.5rem;
+  border: 1px solid red;
+}
+
+.p1-profile {
+  display: inline-block;
+  position: absolute;
+  top: 180px;
+  left: 500px;
+  font-size: 1rem;
+  border: 1px solid red;
+}
+
   .p1_indextxt{
     background: url(../img/sub1/p1_index_txt.png) no-repeat 0 0;
     width: 372px;
@@ -105,54 +108,26 @@ letter-spacing: 7px;
     z-index: 2;
     background-size: 100%;
   }
-  
-  /* .p1_maintxt{
-    background: url(../img/sub1/p1_maintxt.png) no-repeat 0 0;
-    width: 1014px;
-    height: 291px;
-    background-size: 100%;
-    position: absolute; left: 598px; top: 495px;
-    z-index: 1;
-  }
-   */
 
-    .p1_maintxt{
-    background: url(../img/sub1/p1_maintxt1.png) no-repeat 0 0;
-    width: 513px;
-    height: 131px;
-    background-size: 100%;
-    position: absolute; left: 598px; top: 495px;
-    z-index: 1;
-  }
-
-  .p1_maintxt2{
-    background: url(../img/sub1/p1_maintxt2.png) no-repeat 0 0;
-    width: 666px;
-    height: 137px;
-    background-size: 100%;
-    position: absolute; left: 945px; top: 650px;
-    z-index: 1;
-  }
-  
-  
-  
   .p1_shadow{
-    background: url(../img/sub1/p1_shadow2.png) no-repeat 0 0;
+    background: url(https://nohyoochan.github.io/img1/pf/portfolio/pageshadow.png) no-repeat 0 0;
     width: 1920px;
     height: 1024px;
     background-size: 100%;
-    position: absolute; top: 0; left: 0px;
+    position: absolute; top: 0; left: -6px;
     z-index: 2;
     mix-blend-mode: multiply;
-  
   }
   
   .p1_img{
-    background: url(../img/sub1/p1_img.png) no-repeat 0 0;
-    width: 504px;
-    height: 572px;
-    position: absolute; top: 171px; left:276px;
+    background: url(https://nohyoochan.github.io/img1/pf/tving/banner4.png) no-repeat 0 0;
+    width: 400px;
+    height: 450px;
+    position: absolute; 
+    top: 150px;
+    left:30px;
     background-size: 100%;
+    border: 1px solid red;
    }
   
   
@@ -326,11 +301,11 @@ letter-spacing: 7px;
 }
 
 .p1_shadow{
-    background: url(../img/sub1/p1_shadow2.png) no-repeat 0 0;
+    background: url(https://nohyoochan.github.io/img1/pf/portfolio/pageshadow.png) no-repeat 0 0;
     width: 1920px;
     height: 1024px;
     background-size: 100%;
-    position: absolute; top: 0; left: -3px;
+    position: absolute; top: 0; left: -6px;
     z-index: 2;
     mix-blend-mode: multiply;
   
@@ -426,11 +401,11 @@ letter-spacing: 7px;
   }
 
   .p1_shadow{
-    background: url(../img/sub1/p1_shadow2.png) no-repeat 0 0;
+    background: url(https://nohyoochan.github.io/img1/pf/portfolio/pageshadow.png) no-repeat 0 0;
     width: 1920px;
     height: 1024px;
     background-size: 100%;
-    position: absolute; top: 0; left: -3px;
+    position: absolute; top: 0; left: -6px;
     z-index: 2;
     mix-blend-mode: multiply;
 }
@@ -580,28 +555,28 @@ Navigation
   }
   
   
-  nav li:nth-of-type(1){background:url(../img/navi/vol1.png) no-repeat 0 0; border-right: 0.3px solid #c9c8cc; display: block;}
-  nav li:nth-of-type(2){background:url(../img/navi/vol2.png) no-repeat 0 0;border-right: 0.3px solid #c9c8cc; display: block;}
-  nav li:nth-of-type(3){background:url(../img/navi/vol3.png) no-repeat 0 0;border-right: 0.3px solid #c9c8cc; display: block;}
-  nav li:nth-of-type(4){background:url(../img/navi/vol4.png) no-repeat 0 0;border-right: 0.3px solid #c9c8cc;display: block;}
+  nav li:nth-of-type(1){background:url(https://nohyoochan.github.io/img1/pf/portfolio/personal.png) no-repeat 0 0; border-right: 0.3px solid #c9c8cc; display: block;}
+  nav li:nth-of-type(2){background:url(https://nohyoochan.github.io/img1/pf/portfolio/aboutme.png) no-repeat 0 0;border-right: 0.3px solid #c9c8cc; display: block;}
+  nav li:nth-of-type(3){background:url(https://nohyoochan.github.io/img1/pf/portfolio/portfolio.png) no-repeat 0 0;border-right: 0.3px solid #c9c8cc; display: block;}
+  nav li:nth-of-type(4){background:url(https://nohyoochan.github.io/img1/pf/portfolio/finish.png) no-repeat 0 0;border-right: 0.3px solid #c9c8cc;display: block;}
 
   
   nav li:nth-of-type(1):hover{
-    background: url(../img/navi/vol1_hover.png) no-repeat 0 0;
+    background: url(https://nohyoochan.github.io/img1/pf/portfolio/personalhover.png) no-repeat 0 0;
     width: 480px;
     height: 100%;
     overflow: visible;
   }
 
   nav li:nth-of-type(2):hover{
-    background: url(../img/navi/vol2_hover.png) no-repeat 0 0;
+    background: url(https://nohyoochan.github.io/img1/pf/portfolio/aboutmehover.png) no-repeat 0 0;
     width: 480px;
     height: 100%;
     overflow: visible;
   }
 
   nav li:nth-of-type(3):hover{
-    background: url(../img/navi/vol3_hover.png) no-repeat 0 0;
+    background: url(https://nohyoochan.github.io/img1/pf/portfolio/portfoliohover.png) no-repeat 0 0;
     width: 480px;
     height: 100%;
     overflow: visible;
@@ -609,7 +584,7 @@ Navigation
 
 
   nav li:nth-of-type(4):hover{
-    background: url(../img/navi/vol4_hover.png) no-repeat 0 0;
+    background: url(https://nohyoochan.github.io/img1/pf/portfolio/finishhover.png) no-repeat 0 0;
     width: 480px;
     height: 100%;
     overflow: visible;
