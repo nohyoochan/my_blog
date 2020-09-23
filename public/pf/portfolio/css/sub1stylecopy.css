@@ -22,24 +22,6 @@ position: absolute;left: 126px; top: 442px;
 letter-spacing: 7px;
 }
 
-
-
-.vol2_txt{
-    background: url(../img/sub1/vol2_txt.png) no-repeat;
-    width: 297px;
-    height: 114px;
-    background-size: 100%;
-    position: absolute;right: 360px; top: 442px;
-}
-
-/* .vol_txt{
-    background: url(../img/sub1/vol2.png) no-repeat;
-    width: 0.6771vw;
-    height: 8.3854vw;
-    background-size: 100%, auto;
-    position: absolute;right: 7.5000vw; top: 75.5859vh;
-} */
-
 .book{
     background: url(../img/sub1/book.png) no-repeat;
     width: 732px;
@@ -68,19 +50,21 @@ letter-spacing: 7px;
 .p1-abot-text {
   display: inline-block;
   position: absolute;
-  top: 650px;
+  top: 570px;
   left: 30px;
-  font-size: 1.5rem;
-  border: 1px solid red;
+  width: 370px;
+  height: 189px;
+  background: url(https://nohyoochan.github.io/img1/pf/portfolio/relative.png) no-repeat 0 0;
 }
 
 .p1-abot-bottom {
   display: inline-block;
   position: absolute;
-  top: 800px;
+  top: 850px;
   left: 30px;
-  font-size: 1.5rem;
-  border: 1px solid red;
+  width: 220px;
+  height: 50px;
+  background: url(https://nohyoochan.github.io/img1/pf/portfolio/webdesign.png) no-repeat 0 0;
 }
 
 .p1-profile {
@@ -92,212 +76,411 @@ letter-spacing: 7px;
   border: 1px solid red;
 }
 
-  .p1_indextxt{
-    background: url(../img/sub1/p1_index_txt.png) no-repeat 0 0;
-    width: 372px;
-    height: 137px;
-    position: absolute; top:784px; left:276px;
-    background-size: 100%;
-  }
-  
-  .p1_txt{
-    background: url(../img/sub1/p1_txt.png) no-repeat 0 0;
-    width: 241px;
-    height: 87px;
-    position: absolute; top: 171px; right: 276px;
-    z-index: 2;
-    background-size: 100%;
-  }
+.p2-education {
+  display: inline-block;
+  position: absolute;
+  top: 180px;
+  right: 700px;
+  width: 132px;
+  height: 18px;
+  background: url(https://nohyoochan.github.io/img1/pf/portfolio/education.png) no-repeat 0 0;
+}
 
-  .p1_shadow{
-    background: url(https://nohyoochan.github.io/img1/pf/portfolio/pageshadow.png) no-repeat 0 0;
-    width: 1920px;
-    height: 1024px;
-    background-size: 100%;
-    position: absolute; top: 0; left: -6px;
-    z-index: 2;
-    mix-blend-mode: multiply;
-  }
+.p2-education2 {
+  display: inline-block;
+  position: absolute;
+  top: 180px;
+  right: 30px;
+  width: 581px;
+  height: 137px;
+  background: url(https://nohyoochan.github.io/img1/pf/portfolio/education2.png) no-repeat 0 0;
+}
+
+.p2-myskill {
+  display: inline-block;
+  position: absolute;
+  top: 400px;
+  right: 725px;
+  width: 104px;
+  height: 18px;
+  background: url(https://nohyoochan.github.io/img1/pf/portfolio/myskill.png) no-repeat 0 0;
+}
+
+.skills {
+  position: absolute;
+  right: 250px;
+  top: 380px;
+  width: 293px;
+  font-family: 'Noto Sans KR';
+  font-size: 12pt;
+  color: #000;
+}
+
+.skills > li {
+  margin: 18px 0;
+}
+
+.skills > li > h3 {
+  font-weight: bold;
+}
+.bar {
+  background: #e5e5e5;
+  margin: 12px 0;
+  display: block;
+  height: 5px;
+  /* border: 1px solid rgba(0,0,0,0.3); */
+  /* border-radius: 3px; */
+  /* overflow: hidden; */
+  /* box-shadow: 0 0 10px #2187e7b3; */
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+
+.photoshop {
+  width: 90%;
+  animation: photoshop 2.8s;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+
+.illustrator {
+  width: 90%;
+  animation: illustrator 3s;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+
+.html {
+  width: 90%;
+  animation: html 2.2s;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: /*#d60055/*/ /* #0000c2*//* linear-gradient(90deg,#3c6382,#82ccdd);*/ linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+
+.css {
+  width: 90%;
+  animation: css 2.2s;
+}
+
+.p2-charater {
+  display: inline-block;
+  position: absolute;
+  top: 700px;
+  right: 725px;
+  width: 106px;
+  height: 18px;
+  background: url(https://nohyoochan.github.io/img1/pf/portfolio/character.png) no-repeat 0 0;
+}
+
+.skills2 {
+  position: absolute;
+  right: 250px;
+  top: 680px;
+  width: 293px;
+  font-family: 'Noto Sans KR';
+  font-size: 12pt;
+  color: #000;
+}
+
+.skills2 > li {
+  margin: 18px 0;
+}
+
+.skills2 > li > h3 {
+  font-weight: bold;
+}
+
+.bar {
+  background: #e5e5e5;
+  margin: 12px 0;
+  display: block;
+  height: 5px;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+
+.a1 {
+  width: 97%;
+  animation: a1 2.8s;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+
+.a2 {
+  width: 95%;
+  animation: a2 3s;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: linear-gradient(90deg,#ff026d,#ff6f61,#ff6f61);
+}
+
+.a3 {
+  width: 97%;
+  animation: a3 2.2s;
+}
+
+.p1_shadow{
+  background: url(https://nohyoochan.github.io/img1/pf/portfolio/pageshadow.png) no-repeat 0 0;
+  width: 1920px;
+  height: 1024px;
+  background-size: 100%;
+  position: absolute; top: 0; left: -6px;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
   
-  .p1_img{
-    background: url(https://nohyoochan.github.io/img1/pf/tving/banner4.png) no-repeat 0 0;
-    width: 400px;
-    height: 450px;
-    position: absolute; 
-    top: 150px;
-    left:30px;
-    background-size: 100%;
-    border: 1px solid red;
-   }
+.p1_img{
+  background: url(https://nohyoochan.github.io/img1/pf/tving/banner4.png) no-repeat 0 0;
+  width: 400px;
+  height: 400px;
+  position: absolute; 
+  top: 150px;
+  left:30px;
+  background-size: 100%;
+  border: 1px solid red;
+}
   
   
   
-  .p1{
-    font-size: 16px;
-    font-family: MADE_TOMMY_Bold_PERSONAL_USE;
-    color:#a8a7ae;
-    position: absolute; bottom: 83px; left:  126px;
-    letter-spacing: 1px;
-    z-index: 3;
-  }
+.p1{
+font-size: 16px;
+font-family: MADE_TOMMY_Bold_PERSONAL_USE;
+color:#a8a7ae;
+position: absolute; bottom: 83px; left:  126px;
+letter-spacing: 1px;
+z-index: 3;
+}
   
-  .p2{
-   font-size: 16px;
-   font-family: MADE_TOMMY_Bold_PERSONAL_USE;
-   color:#a8a7ae;
-   position: absolute; bottom: 83px; right:  126px;
-   letter-spacing: 1px;
-   z-index: 3;
-  }
+.p2{
+  font-size: 16px;
+  font-family: MADE_TOMMY_Bold_PERSONAL_USE;
+  color:#a8a7ae;
+  position: absolute; bottom: 83px; right:  126px;
+  letter-spacing: 1px;
+  z-index: 3;
+}
 
   
 /*==============================p3, p4 */
 
 
 .main2{    
-    height:100vh;
-    width: 100vw;
-    min-width: 1920px;
-    min-height: 1024px;
-    background-size: 100%;
-    background: yellow;
-}
-
-.p4_bg{
-  background: url(../img/sub1/p4_bg.png) no-repeat 0 0;
-  width: 932px;
+  width: 1920px;
   height: 1024px;
-  background: ;
-  position: absolute; top: 0; right: 31px;
-  z-index: 1;
-}
- 
-
-.book_f{
-    background: url(../img/sub1/book_feel.png) no-repeat 0 0;
-    width: 3.3203vh;
-    height: 100vh;
-    background-size: cover;
-    position: absolute; top: 0; left: 98.2292vw;
-    z-index: 3;
-  }
-
-  
-.p3_backtxt{
-    background: url(../img/sub1/p3_backtxt.png) no-repeat 0 0;
-    width: 313px;
-    height: 1024px;
-    background-size: 100%;
-    position: absolute; top: 0; left:  224px;
-    z-index: ;
-  }
-
-  .p3_maintxt{
-      background: url(../img/sub1/p3_maintxt1.png) no-repeat 0 0;
-      width: 481px;
-      height: 87px;
-      background-size: 100%;
-      position: absolute; top: 231px; left:  222px;
-      z-index: 3;
-  }
-
-  .p3_maintxt2{
-    background: url(../img/sub1/p3_maintxt2.png) no-repeat 0 0;
-    width: 377px;
-    height: 87px;
-    background-size: 100%;
-    position: absolute; top: 337px; left:  223px;
-    z-index: 3;
-}
-  
-
- 
-  
-  .p3{
-    font-size: 16px;
-    font-family: MADE_TOMMY_Bold_PERSONAL_USE;
-    color:#a8a7ae;
-    position: absolute; bottom: 83px; left:  126px;
-    letter-spacing: 1px;
-    z-index: 3;
-  }
-  
-  .p4{
-   font-size: 16px;
-   font-family: MADE_TOMMY_Bold_PERSONAL_USE;
-   color:#a8a7ae;
-   position: absolute; bottom: 83px; right:  126px;
-   letter-spacing: 1px;
-   z-index: 3;
-  }
-
-  
-  .p3_subtxt{
-    background: url(../img/sub1/p3_subtxt.png) no-repeat 0 0;
-    width: 409px;
-    height: 160px;
-    position: absolute; top: 460px; left: 223px;
-      background-size: 100%;
-  }
-    
-.btn::after{content: ''; display: block; clear: both;}
-
-
-.btn>li:nth-child(1){
-  float: left;
-  background: url(../img/sub1/p3_tab1.png) no-repeat 0 0;
-  width: 113px;
-  height: 113px;
-  position: absolute; top: 209px;  left: 1445px;
-  background-size: 100%;
-  z-index: 5 ;
-}
-
-.btn>li:nth-child(2){
-  float: left;
-  background: url(../img/sub1/p3_tab2.png) no-repeat 0 0;
-  width: 113px;
-  height: 113px;
-  position: absolute; top: 209px;  left: 1585px;
-  background-size: 100%;
-  z-index: 5;
-}
-
-.btn li:nth-child(1).on{
-  background: url(../img/sub1/p3_tab1_on.png) no-repeat 0 0;
-  width: 113px;
-  height: 113px;
-  background-size: 100%;
-}
-
-.btn li:nth-child(2).on{
-  background: url(../img/sub1/p3_tab2_on.png) no-repeat 0 0;
-  width: 113px;
-  height: 113px;
-  background-size: 100%;
-
-}
-
-.btn li.on p{
-  color:black;
-}
-
-.btn li:nth-child(1)>p{
-  margin-left: 35px;
-}
-
-.btn li:nth-child(2)>p{
-  margin-left: 24px;
-}
-
-
-.btn p{
-  position: absolute; bottom: -26px;
   margin: 0 auto;
-  text-align: center;
-  font-size: 15px;
-  font-family: MADE_TOMMY_Regular_PERSONAL_USE;
-  color:rgba(0, 0, 0, 0.6);
+  color: black;
+  position: relative;
+}
+
+.box-left {
+  width: 595px;
+  height: 1024px;
+  position: relative;
+  padding-left: 358px;
+  padding-top: 230px;
+  background: #0c71b9;
+  float: left;
+  z-index: 3;
+}
+
+.selected-txt {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding-bottom: 19px;
+}
+
+.po-menu-list-1 a {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  line-height: 45px;
+  color: black;
+}
+
+.po-menu-list a {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  line-height: 45px;
+  color: white;
+}
+
+.po-menu-list-1 a .no {
+  color: black;
+  width: auto;
+  visibility: visible;
+  padding-right: 22px;
+}
+
+.po-menu-list a .no {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  width: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.project-name {
+  position: relative;
+  top: 54px;
+}
+
+.project-name > p {
+  font-size: 109px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  line-height: 115px;
+  color: black;
+  margin-bottom: 19px;
+}
+
+.project-name > span {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+}
+
+.box-right {
+  width: 917px;
+  height: 1024px;
+  position: relative;
+  padding-right: 50px;
+  padding-top: 230px;
+  overflow: hidden;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+.box-right .pre-img img {
+  width: 600px;
+  height: 550px;
+  position: absolute;
+  top: 150px;
+  right: 200px;
+}
+
+.box-right .info {
+  margin: 0;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: black;
+  position: absolute;
+  bottom: 350px;
+  right: 50px;
+}
+
+@media screen and (min-width: 53em){
+  .info {
+    margin: 0 6rem 0 0;
+    color: var(--color-info);
+  }
+}
+
+.info {
+    display: block;
+    grid-area: info;
+    margin: 1rem 0;
+    justify-self: end;
+    text-align: center;
+}
+
+.box-right .info_1, .info_2, .info_3 {
+  margin-bottom: 30px;
+}
+
+b, strong {
+font-weight: bold;
+}
+
+.box-right .button {
+font-size: 16px;
+font-weight: 500;
+font-family: 'Poppins', sans-serif;
+line-height: 52px;
+position: absolute;
+right: 333px;
+bottom: 350px;
+z-index: 3;
+}
+
+.box-right .button .design_btn_wrap a {
+width: 215px;
+height: 55px;
+border: 1px solid black;
+display: inline-block;
+text-align: center;
+}
+.box-right .button .design_btn {
+background-color: black;
+color: white;
+transition: all 0.3s;
+}
+
+.box-right .button .design_btn {
+margin-right: 20px;
+}
+
+.p3{
+font-size: 16px;
+font-family: MADE_TOMMY_Bold_PERSONAL_USE;
+color:#a8a7ae;
+position: absolute; bottom: 83px; left:  126px;
+letter-spacing: 1px;
+z-index: 3;
+}
+  
+.p4{
+  font-size: 16px;
+  font-family: MADE_TOMMY_Bold_PERSONAL_USE;
+  color:#a8a7ae;
+  position: absolute; bottom: 83px; right:  126px;
+  letter-spacing: 1px;
+  z-index: 3;
 }
 
 .p1_shadow{
@@ -305,68 +488,11 @@ letter-spacing: 7px;
     width: 1920px;
     height: 1024px;
     background-size: 100%;
-    position: absolute; top: 0; left: -6px;
+    position: absolute; top: 0; left: -12px;
     z-index: 2;
     mix-blend-mode: multiply;
   
   }
-
-
-.box_wrap{
-    position: absolute; 
-    left: 0; top: 0; 
-    text-align: center; 
-    /* opacity: 0.5;  */
-    z-index: 1; 
-    transition: all 0.5s; 
-    /* transform: scale(0.7); */
-  }
-
-
-.box1_bg{
-  background: url(../img/sub1/p3_tab1box22.png) no-repeat 0 0;
-  height: 642px;
-  width: 690px;
-  background-size: 100%;
-  position: absolute; left: 696px; top: 209px;
-}
-
-
-.box2_bg{
-  background: url(../img/sub1/p3_tab2box22.png) no-repeat;
-  height: 642px;
-  width: 690px;
-  background-size: 100%;
-  position: absolute; left: 696px; top: 209px;
-  
-}
-
-.box>div.on{
-    z-index: 2; 
-    /* opacity: 0.7;  */
-    transform: scale(1);}
-
-.tab1_graph{
-  background: url(../img/sub1/tab1_graph.png) no-repeat 0 0;
-  height: 18.8000vh;
-  width: 13.1771vw;
-  position: absolute; left: 0; top:42.1875vh;
-  background-size: 100%;
-  display: none;
-}
-
-.tab2_graph{
-  background: url(../img/sub1/tab2_graph.png) no-repeat 0 0;
-  height: 18.8000vh;
-  width: 13.1771vw;
-  position: absolute; left: -15.0000vh; top: 42.1875vh;
-  background-size: 100%;
-  display: none;
-}
-
-.btn li.on div{
-  display:block;
-}
 
 
 /* p5, p6 시작 ============ */
@@ -593,23 +719,23 @@ Navigation
 
   
   .slide-in-nav-item {
-    animation: slide-in-nav-item 0.4s linear 1 .2s both;
+    animation: slide-in-nav-item 0.2s linear 1 .2s both;
   }
   
   .slide-in-nav-item-delay-1 {
-    animation: slide-in-nav-item 0.4s linear 1 .4s both;
+    animation: slide-in-nav-item 0.2s linear 1 .4s both;
   }
   
   .slide-in-nav-item-delay-2 {
-    animation: slide-in-nav-item 0.4s linear 1 .6s both;
+    animation: slide-in-nav-item 0.2s linear 1 .6s both;
   }
   
   .slide-in-nav-item-delay-3 {
-    animation: slide-in-nav-item 0.4s linear 1 .8s both;
+    animation: slide-in-nav-item 0.2s linear 1 .8s both;
   }
   
   .slide-in-nav-item-delay-4 {
-    animation: slide-in-nav-item 0.4s linear 1 1s both;
+    animation: slide-in-nav-item 0.2s linear 1 1s both;
   }
   
   .slide-in-nav-item-reverse {
@@ -643,8 +769,8 @@ Navigation
     right: 30px;
     top: 30px;
     z-index: 81;
-    /* width: 45px;
-    height: 34px; */
+    width: 45px;
+    height: 34px;
     background-size: 100%;
     display: block;
     cursor: pointer;
@@ -678,26 +804,6 @@ Navigation
     }
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Please ❤ this if you like it! */
 
 

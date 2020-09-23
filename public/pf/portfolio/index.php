@@ -16,6 +16,9 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> <!-- 슬라이드 / 반드시 있어야함-->
 	<script src="/pf/portfolio/js/jquery.HSlider.min.js"></script> <!-- 슬라이드 / 반드시 있어야함-->
+	<script src="/pf/portfolio/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/pf/portfolio/js/TweenMax.min.js"></script>
+    <script src="/pf/portfolio/js/demo.js"></script>
 	<script src="/pf/portfolio/js/about_tab.js"></script>
 </head>
 
@@ -36,7 +39,7 @@
 		</div>
 
 		<div class="open-overlay">
-			<img src="https://nohyoochan.github.io/img1/pf/PF/icon-close.png" alt="" class="bar-top">
+			<img src="https://nohyoochan.github.io/img1/pf/portfolio/menubar.png" alt="" class="bar-top">
 		</div>
 
 
@@ -63,14 +66,8 @@
 				<div class="p1-abot">
 					<h2>ABOUT ME</h2>
 				</div>
-				<div class="p1-abot-text">
-					<p>HI</p>
-					<p>SS</p>
-				</div>
-				<div class="p1-abot-bottom">
-					<p>Web design</p>
-					<p>Noh Yoo Chan</p>
-				</div>
+				<div class="p1-abot-text"></div>
+				<div class="p1-abot-bottom"></div>
 				<div class="p1-profile">
 					<p>Lorem ipsum dolor sit amet,</p>
 					<p>consectetur adipisicing elit. Laboriosam optio</p>
@@ -79,16 +76,60 @@
 					<p> labore, provident id similique, cum </p>
 					<p>hic laboriosam possimus sed explicabo rem sequi.</p>
 				</div>
-					<div class="p1_img"></div>
-					<div class="p1_txt"></div>
-					<div class="p1_indextxt"></div>
-					<div class="p1_shadow"></div>
-					<div class="p1">
-						p.01 
-					</div>
-					<div class="p2">
-						p.02
-					</div>
+				<div class="p1_img"></div>
+				<div class="p1_shadow"></div>
+				<div class="p1">p.01</div>
+				<div class="p2-education"></div>
+				<div class="p2-education2"></div>
+				<div class="p2-myskill"></div>
+				<ul class="skills">
+                    <li>
+						<h3>Photoshop</h3>
+						<span class="bar">
+							<span class="photoshop"></span>
+						</span>
+					</li>
+                    <li>
+						<h3>Illustrator</h3>
+						<span class="bar">
+							<span class="illustrator"></span>
+						</span>
+					</li>
+                    <li>
+						<h3>HTML</h3>
+						<span class="bar">
+							<span class="html"></span>
+						</span>
+					</li>
+   					<li>
+						<h3>CSS / Jquery</h3>
+						<span class="bar">
+							<span class="css"></span>
+						</span>
+					</li>
+				</ul>
+				<div class="p2-charater"></div>
+				<ul class="skills2">
+                    <li>
+						<h3>적응력</h3>
+						<span class="bar">
+							<span class="a1""></span>
+						</span>
+					</li>
+                    <li>
+						<h3>책임감과 성실성</h3>
+						<span class="bar">
+							<span class="a2"></span>
+						</span>
+					</li>
+                    <li>
+						<h3>열정과 도전정신</h3>
+						<span class="bar">
+							<span class="a3"></span>
+						</span>
+					</li>
+				</ul>
+				<div class="p2">p.02</div>
 
 				</div>
             </section>  <!-- p1, p2 끝 -->
@@ -96,58 +137,60 @@
 
 			<section class="Hslider_S sub2_3">  <!-- p3, p4 시작 -->
 				<div class="main2">
-					<div class="p4_bg"></div>
-					<div class="book_f"></div>
-					<div class="p3_maintxt" data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="2000">
-						<!-- It's what I -->
-						</div>
-					<div class="p3_maintxt2" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="2000">
-						<!-- can do. -->
-						</div>
-					<div class="p3_backtxt"></div>
-					<div class="p3_subtxt"></div>
+					<div class="box-left">
+                	<div class="selected-txt">SELECTED PROJECTS</div>
+                	<div class="portfolio_menu">
+                    	<ul class="po-menu-list">
+                        	<li class="po-menu-list-1">
+								<a href="/pf/portfolio/index.php" onfocus="blur()">
+								<span class="no">01.</span>Personal Website</a></li>
+                        	<li>
+								<a href="/pf/portfolio/index2.php" onfocus="blur()">
+								<span class="no">02.</span>Website Renewal</a></li>
+                        	<li>
+								<a href="/pf/portfolio/index3.php" onfocus="blur()">
+								<span class="no">03.</span>Mobile UI/UX</a></li>
+                        	<li>
+								<a href="/pf/portfolio/index4.php" onfocus="blur()">
+								<span class="no">04.</span>Creative Site</a></li>
+                        	<li>
+								<a href="/pf/portfolio/index5.php" onfocus="blur()">
+								<span class="no">05.</span>Banner / Poster</a></li>
+                    	</ul>
+                	</div>
+                	<div class="project-name">
+                    	<p>Personal<br>Website</p>
+                    	<span>개인 웹사이트 "Be faithful to the basics"</span>
+					</div>
+					</div>
+					
+					<div class="box-right">
+                		<div class="pre-img">
+                    	<div class="animated fadeInLeft delay 3s">
+                            <img src="https://nohyoochan.github.io/img1/pf/PF/pf3.png" alt="">
+                        </div>
+                </div>
+
+                <div class="info">
+                    <div class="info_1"><strong>Brand</strong><br>쌍용자동차</div>
+                    <div class="info_2"><strong>Project</strong><br>웹사이트 리뉴얼 디자인</div>
+                    <div class="info_3"><strong>Date</strong><br>October 2019</div>
+                    <div><strong>Participation in work </strong><br>기획 75%, 디자인 100%</div>
+                </div>
+
+                <div class="button">
+                    <div class="design_btn_wrap">
+                        <a href="/pf/portfolio/index.php" target="_blank" onfocus="blur()" class="design_btn"><span>Design View</span></a>
+                        <a href="#" target="_blank" onfocus="blur()" class="process_btn"><span>Process View</span></a>
+                    </div>
+                </div>
+            	</div>
+			
 					<div class="p3">
 						p.03 
 					</div>
 					<div class="p4">
 						p.04
-					</div>
-
-					<!-- ul.btn>li*3{menu$} -->
-					<ul class="btn">
-						<li class="on">
-							<p>Design</p>
-							<div class="tabgraph tab1_graph" data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="2000"></div>
-						</li>
-						<li>
-							<p>Character</p>
-							<div class="tabgraph tab2_graph" data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="2000"></div>
-						</li>
-
-					</ul>
-					<div class="box">
-						<div class="on box_wrap">
-							<div class="box1_bg">
-								<!-- <div class="tabgraph tab1_graph"></div> -->
-								<!-- <div class="design_graph">
-									<div class="graph stack1">
-										<span style="width: 30%;">HTML 75%</span>
-									</div>
-									<div class="graph stack2">
-										<span style="width: 25%;">CSS 40%</span>
-									</div>
-									<div class="graph stack3">
-										<span style="width: 10%;">JS 25%</span>
-									</div>
-								</div> -->
-							</div>
-						</div>
-						<div class="box_wrap">
-							<div class="box2_bg">
-								<!-- <div class="tabgraph tab2_graph"></div> -->
-							</div>
-						</div><!-- box wrap 끝 -->
-						
 					</div>
 					<div class="p1_shadow"></div>
 				</div>
