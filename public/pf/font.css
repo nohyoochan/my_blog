@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: MADE_Canvas_Black_PERSONAL_USE;
+    src: url(../fonts/MADE_Canvas_Black_PERSONAL_USE.woff) format('woff')
+  }
+
+  @font-face {
+    font-family: MADE_Canvas_Light_PERSONAL_USE;
+    src: url(../fonts/MADE_Canvas_Light_PERSONAL_USE.woff) format('woff')
+  }
+
+
+@font-face {
+    font-family: MADE_Canvas_Regular_PERSONAL_USE;
+    src: url(../fonts/MADE_Canvas_Regular_PERSONAL_USE.woff) format('woff')
+  }
+
+  @font-face {
+    font-family: MADE_TOMMY_Black_PERSONAL_USE;
+    src: url(../fonts/MADE_TOMMY_Black_PERSONAL_USE.woff) format('woff')
+  }
+
+  @font-face {
+    font-family: MADE_TOMMY_Bold_PERSONAL_USE;
+    src: url(../fonts/MADE_TOMMY_Bold_PERSONAL_USE.woff) format('woff')
+  }
+
+  
+  @font-face {
+    font-family: MADE_TOMMY_ExtraBold_PERSONAL_USE;
+    src: url(../fonts/MADE_TOMMY_ExtraBold_PERSONAL_USE.woff) format('woff')
+  }
+
+  @font-face {
+    font-family: MADE_TOMMY_Light_PERSONAL_USE;
+    src: url(../fonts/MADE_TOMMY_Light_PERSONAL_USE.woff) format('woff')
+  }
+
+  @font-face {
+    font-family: MADE_TOMMY_Medium_PERSONAL_USE;
+    src: url(../fonts/MADE_TOMMY_Medium_PERSONAL_USE.woff) format('woff')
+  }
+  
+  @font-face {
+    font-family: MADE_TOMMY_Regular_PERSONAL_USE;
+    src: url(../fonts/MADE_TOMMY_Regular_PERSONAL_USE.woff) format('woff')
+  }
+
+  @font-face {
+    font-family: MADE_TOMMY_Thin_PERSONAL_USE;
+    src: url(../fonts/MADE_TOMMY_Thin_PERSONAL_USE.woff) format('woff')
+  }

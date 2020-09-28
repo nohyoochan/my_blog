@@ -1,44 +1,35 @@
-function SideBar__init() {
-    $('.side-bar ul > li').mouseenter(function() {
-      // 선택된 li
-      var $li = $(this);
-      
-      // 선택된 li의 부모
-      var $ul = $li.parent();
+$('.open-overlay').click(function() {
+  var overlay_navigation = $('.overlay-navigation'),
+      nav_item_1 = $('nav li:nth-of-type(1)'),
+      nav_item_2 = $('nav li:nth-of-type(2)'),
+      nav_item_3 = $('nav li:nth-of-type(3)'),
+      nav_item_4 = $('nav li:nth-of-type(4)'),
+      nav_item_5 = $('nav li:nth-of-type(5)'),
+      top_bar = $('.bar-top'),
+      middle_bar = $('.bar-middle'),
+      bottom_bar = $('.bar-bottom');
   
-      // 선택된 녀석에게 selected 부여, 이것과 상관없이 모든 형제들의 자식은 ul은 활성화된다. 다만 z-index에 의해서 이 녀석의 자식만 보인다.
-      $li.addClass('selected');
-      
-      // 선택된 녀석들의 후손들 중에서, 기존에 활성화 된것들 정리
-      $li.find('.hover, .selected').removeClass('hover').removeClass('selected');
-      // 형제들의 후손들 중에서, 기존에 활성화 된것들 정리
-      $li.siblings('.selected').find('.hover, .selected').removeClass('hover').removeClass('selected');
-      // 형제들 중에서, 기존에 활성화 된것들 정리
-      $li.siblings('.selected').removeClass('selected');
+  overlay_navigation.toggleClass('overlay-active');
+  if (overlay_navigation.hasClass('overlay-active')) {
   
-      // 내가 선택한 녀석이 자식인 ul이 있다면
-      // 나를 포함한 모든 형제가 자식인 ul을 활성화 하도록, 부모에게 hover 클래스 삽입
-      if ( $li.find(' > ul').length > 0 ) {
-        $ul.addClass('hover');
-      }
-      else {
-        $ul.removeClass('hover');
-      }
-  
-      return false;
-    });
+      top_bar.removeClass('animate-out-top-bar').addClass('animate-top-bar');
+      middle_bar.removeClass('animate-out-middle-bar').addClass('animate-middle-bar');
+      bottom_bar.removeClass('animate-out-bottom-bar').addClass('animate-bottom-bar');
+      overlay_navigation.removeClass('overlay-slide-up').addClass('overlay-slide-down')
+      nav_item_1.removeClass('slide-in-nav-item-reverse').addClass('slide-in-nav-item');
+      nav_item_2.removeClass('slide-in-nav-item-delay-1-reverse').addClass('slide-in-nav-item-delay-1');
+      nav_item_3.removeClass('slide-in-nav-item-delay-2-reverse').addClass('slide-in-nav-item-delay-2');
+      nav_item_4.removeClass('slide-in-nav-item-delay-3-reverse').addClass('slide-in-nav-item-delay-3');
+      nav_item_5.removeClass('slide-in-nav-item-delay-4-reverse').addClass('slide-in-nav-item-delay-4');
+  } else {
+      top_bar.removeClass('animate-top-bar').addClass('animate-out-top-bar');
+      middle_bar.removeClass('animate-middle-bar').addClass('animate-out-middle-bar');
+      bottom_bar.removeClass('animate-bottom-bar').addClass('animate-out-bottom-bar');
+      overlay_navigation.removeClass('overlay-slide-down').addClass('overlay-slide-up')
+      nav_item_1.removeClass('slide-in-nav-item').addClass('slide-in-nav-item-reverse');
+      nav_item_2.removeClass('slide-in-nav-item-delay-1').addClass('slide-in-nav-item-delay-1-reverse');
+      nav_item_3.removeClass('slide-in-nav-item-delay-2').addClass('slide-in-nav-item-delay-2-reverse');
+      nav_item_4.removeClass('slide-in-nav-item-delay-3').addClass('slide-in-nav-item-delay-3-reverse');
+      nav_item_5.removeClass('slide-in-nav-item-delay-4').addClass('slide-in-nav-item-delay-4-reverse');
   }
-  
-  function SideBar__show() {
-    $('html').addClass('side-bar-actived');
-  }
-  
-  function SideBar__hide() {
-    $('.side-bar .hover').removeClass('hover');
-    $('.side-bar .selected').removeClass('selected');
-    $('html').removeClass('side-bar-actived');
-  }
-  
-  $(function() {
-    SideBar__init();
-  })
+});

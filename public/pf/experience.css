@@ -1,13 +1,9 @@
-html {
-    /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
-    font-family: "Roboto", "Noto Sans KR", sans-serif;
-  }
-  
   /* 노말라이즈 */
   body, ul, li, h1 {
     margin:0;
     padding:0;
     list-style:none;
+    overflow-x: hidden;
   }
   
   a {
@@ -329,9 +325,7 @@ html {
   * > .flex-1-0-0 {
     flex:1 0 0;
   }
-  
-  /* 커스텀 */
-  
+ 
   /* 고정형 .con 시작 */
   .con-min-width {
     min-width:1370px;
@@ -340,141 +334,3 @@ html {
   .con {
     width:1370px;
   }
-  /* 고정형 .con 끝 */
-
-/* main */
-.renewal-main {
-    position: relative;
-    width: 1920px;
-    height: 1024px;
-    background-size: 100%;
-}
-
-.p1_shadow{
-    background: url(https://nohyoochan.github.io/img1/pf/portfolio/pageshadow.png) no-repeat 0 0;
-    width: 1920px;
-    height: 1024px;
-    background-size: 100%;
-    position: absolute; top: 0; left: -12px;
-    z-index: 2;
-    mix-blend-mode: multiply;
-}
-
-.box-left {
-  width: 595px;
-  height: 1024px;
-  position: relative;
-  padding-left: 358px;
-  padding-top: 230px;
-  background: #0c71b9;
-  float: left;
-  z-index: 3;
-}
-
-.project-name {
-    position: absolute;
-    top: 100px;
-    left: 150px;
-    z-index: 3;
-  }
-  
-  .project-name > p {
-    font-size: 60px;
-    font-weight: 800;
-    font-family: 'Poppins', sans-serif;
-    line-height: 115px;
-    color: black;
-    margin-bottom: 19px;
-  }
-  
-  .project-name > span {
-    font-size: 16px;
-    font-weight: 300;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: white;
-  }
-
-  .info {
-    margin: 0;
-    text-align: left;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: black;
-    position: absolute;
-    top: 750px;
-    left: 150px;
-}
-
-/* right */
-.box-right {
-  width: 917px;
-  height: 1024px;
-  position: relative;
-  padding-right: 50px;
-  padding-top: 230px;
-  overflow: hidden;
-}
-
-.box-right .button {
-  font-size: 16px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  line-height: 52px;
-  position: absolute;
-  right: 333px;
-  bottom: 350px;
-  z-index: 3;
-  }
-  
-  .box-right .button .design_btn_wrap a {
-  width: 215px;
-  height: 55px;
-  border: 1px solid black;
-  display: inline-block;
-  text-align: center;
-  }
-  .box-right .button .design_btn {
-  background-color: black;
-  color: white;
-  transition: all 0.3s;
-  }
-  
-  .box-right .button .design_btn {
-  margin-right: 20px;
-  }
-
-  /* slider */
-  .slideshow {
-    position: relative;
-    z-index: 1;
-    height: 880px;
-    max-width: 700px;
-    margin: 50px auto;
-  }
-    * {
-      outline: none;
-    }
-    
-    .slider {
-      box-shadow: 0 20px 50px -25px rgba(0, 0, 0, 1);
-    }
-    
-    .slider-track {
-      transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
-    }
-    
-    .item {
-      height: 100%;
-      position: relative;
-      z-index: 1;
-    }
-      img {
-        width: 100%;
-        transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
-        transform: scale(1.2);
-      }
-      
-      .slick-active img {
-        transform: scale(1);
-      }

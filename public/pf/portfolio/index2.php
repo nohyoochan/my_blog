@@ -89,4 +89,5 @@
                 </div>
             	</div>
                     <div class="p1_shadow"></div>
+                    <script src="/pf/portfolio/js/common.js"></script><!-- 네비 스크립트 끝 -->
 </body>

@@ -7,7 +7,8 @@
     <title>page portfolio</title>
     <link rel="stylesheet" href="/pf/portfolio/css/reset.css">  <!-- 리셋 파일-->
 	<link rel="stylesheet" href="/pf/portfolio/css/font.css">
-	<link rel="stylesheet" href="/pf/portfolio/css/book copy.css"> <!-- 책 넘김 효과-->
+	<!--
+	<link rel="stylesheet" href="/pf/portfolio/css/book copy.css"> <!--> <!-- 책 넘김 효과-->
     <link rel="stylesheet" href="/pf/portfolio/css/hslider.css"> <!-- 가로스크롤-->
 	<link rel="stylesheet" href="/pf/portfolio/css/sub1stylecopy.css"> <!-- 기본 스타일 + 네비게이션-->
 	<link rel="stylesheet" href="/pf/portfolio/css/scrollanimation.css"> <!-- 텍스트 스크롤 애니메이션-->
@@ -142,7 +143,7 @@
                 	<div class="portfolio_menu">
                     	<ul class="po-menu-list">
                         	<li class="po-menu-list-1">
-								<a href="/pf/portfolio/index.php" onfocus="blur()">
+								<a href="/pf/portfolio/index.php#3"onfocus="blur()">
 								<span class="no">01.</span>Personal Website</a></li>
                         	<li>
 								<a href="/pf/portfolio/index2.php" onfocus="blur()">
