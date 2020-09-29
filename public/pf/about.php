@@ -23,7 +23,7 @@
 		<ul>
 		  <li><a href="/pf/index.php" data-content="Curious?"></a></li>
 			<li><a href="/pf/about.php" data-content="I got game"></a></li>
-			<li><a href="" data-content="Only the finest"></a></li>
+			<li><a href="/pf/portfolio.php" data-content="Only the finest"></a></li>
 			<li><a href="" data-content="Don't hesitate"></a></li>
 		</ul>
 	</nav>
@@ -53,7 +53,7 @@
 </div>
 
 <!-- main2 -->
-<div id="main2 flex">
+<div id="main2" style="display:flex;">
 <!-- 성격 -->
     <figure class="snip1356 flex">
       <img src="https://nohyoochan.github.io/img1/pf/PF/pf3.png">
@@ -72,7 +72,7 @@
     <a href="#"></a>
     </figure>
 
-      <figure class="snip1356 flex">
+      <figure class="snip1356">
         <img src="https://nohyoochan.github.io/img1/pf/PF/pf3.png">
       <div class="image">
         <img src="https://nohyoochan.github.io/img1/pf/PF/pf3.png" alt="sample98"></div>
@@ -115,7 +115,7 @@
 <div class="main3">
 <!-- skill box -->
 <div class="skillbox">
-  <p class="Abt_tit">Skill</p>
+  <p class="Abt_tit" style="font-size:50px;">Skill</p>
   <a href="" class="skill"><img src="https://nohyoochan.github.io/img1/pf/PF/skill.png" alt=""></a>
 </div>
 <!-- skill box end -->

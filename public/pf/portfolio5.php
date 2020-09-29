@@ -80,24 +80,24 @@
     <div class="info">
         <div class="info_1">
             <strong>Brand</strong>
-            <br>쌍용자동차
+            <br>####
         </div>
         <div class="info_2">
             <strong>Project</strong>
-            <br>웹사이트 리뉴얼 디자인
+            <br>배너 / 포스터 디자인
         </div>
         <div class="info_3">
             <strong>Date</strong>
-            <br>October 2019
+            <br>October 2020
         </div>
         <div>
             <strong>Participation in work</strong>
-            <br>기획 75%, 디자인 100%
+            <br>기획 100%, 디자인 100%
         </div>
     </div>
     <div class="button">
     <div class="design_btn_wrap">
-        <a href="/pf/portfolio/index.php" target="_blank" onfocus="blur()" class="design_btn">
+        <a href="/pf/baneer.php" target="_blank" onfocus="blur()" class="design_btn">
         <span>Design View</span></a>
         <a href="#" target="_blank" onfocus="blur()" class="process_btn">
         <span>Process View</span></a>

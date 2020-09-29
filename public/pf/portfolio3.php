@@ -94,7 +94,7 @@
     </div>
     <div class="button">
     <div class="design_btn_wrap">
-        <a href="/pf/portfolio/index.php" target="_blank" onfocus="blur()" class="design_btn">
+        <a href="/pf/mobile.php" target="_blank" onfocus="blur()" class="design_btn">
         <span>Design View</span></a>
         <a href="#" target="_blank" onfocus="blur()" class="process_btn">
         <span>Process View</span></a>
