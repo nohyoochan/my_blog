@@ -47,7 +47,7 @@
     <a href="/pf/portfolio.php">PORTFOLIO</a>
 	</div>
   <div class="hm-3">
-    <a href="#">EXPERIENCE</a>
+    <a href="#">Wrap-Up</a>
 	</div>
 </div>
 <!-- home-menu end -->

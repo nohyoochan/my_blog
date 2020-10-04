@@ -14,9 +14,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="/pf/wow.min.js"></script>
     <script> new WOW().init(); </script>
+    <script src="/pf/top_bt.js"></script>
     <script src="/pf/index.js"></script>
 </head>
 <body>
+<!-- topbt -->
+<a id="button">TOP</a>
+<!-- topbt end -->
   <!-- menu -->
 <div class="overlay-navigation">
 	<nav role="navigation">
@@ -37,7 +41,7 @@
 <div class="main">
 <!-- title text -->
 <div class="title wow fadeInDown" style="margin:0; padding:0; border:0;">
-  <strong>Why I chose 
+  <strong>Why  I  chose 
   <br>the design
   </strong>
 </div>
@@ -53,7 +57,61 @@
 </div>
 
 <!-- main2 -->
-<div id="main2" style="display:flex;">
+<div class="main2">
+
+<!-- graph -->
+<div class="wrapper">
+<br>
+<br>
+<div class="skill">
+  <p>유머감각</p>
+  <div class="skill-bar skill1 wow slideInLeft  animated" style="visibility: visible; animation-name: slideInLeft;">
+  <span class="skill-count1">75%</span>
+  </div>
+</div>
+                
+<div class="skill">
+  <p>열정</p>
+  <div class="skill-bar skill2 wow slideInLeft  animated" style="visibility: visible; animation-name: slideInLeft;">
+  <span class="skill-count2">85%</span>
+  </div>
+</div>
+                
+<div class="skill">
+  <p>성실도</p>
+  <div class="skill-bar skill3 wow slideInLeft  animated" style="visibility: visible; animation-name: slideInLeft;">
+  <span class="skill-count3">95%</span>
+  </div>
+</div>
+                
+<div class="skill">
+  <p>수행능력</p>
+  <div class="skill-bar skill4 wow slideInLeft  animated" style="visibility: visible; animation-name: slideInLeft;">
+  <span class="skill-count4">90%</span>
+  </div>
+  </div>
+
+<div class="skill">
+  <p>커뮤니케이션</p>
+  <div class="skill-bar skill5 wow slideInLeft  animated" style="visibility: visible; animation-name: slideInLeft;">
+  <span class="skill-count5">90%</span>
+  </div>
+  </div>
+                
+<div class="skill">
+  <p>도전정신</p>
+  <div class="skill-bar skill6 wow slideInLeft  animated" style="visibility: visible; animation-name: slideInLeft;">
+  <span class="skill-count6">85%</span>
+  </div>
+</div>
+</div>
+<!-- graph end -->
+
+</div>
+<!-- main2 end -->
+
+<!-- main3 -->
+<div id="main3" style="display:flex;">
 <!-- 성격 -->
     <figure class="snip1356 flex">
       <img src="https://nohyoochan.github.io/img1/pf/PF/pf3.png">
@@ -111,18 +169,27 @@
 <!-- 성격 end -->
 </div>
 
-<!-- main3 -->
-<div class="main3">
-<!-- skill box -->
-<div class="skillbox">
-  <p class="Abt_tit" style="font-size:50px;">Skill</p>
-  <a href="" class="skill"><img src="https://nohyoochan.github.io/img1/pf/PF/skill.png" alt=""></a>
-</div>
-<!-- skill box end -->
-</div>
-
 <!-- main4 -->
 <div class="main4">
+<div class="title-text">
+  <h3>Design Skill Upgrading</h3>
+</div>
+<div class="body-text">
+  <span>인성적으로도, 디자인적으로도 자기객관화가 되어야 합니다.
+  자신의 부족한 점을 인지하고 고치도록 노력해야 나아질 수 있습니다.
+  <br>
+  객관적인 디자인 작업에서 중요한 것은 커뮤니케이션 입니다.
+  충분한 커뮤니케이션으로 모두가 공감할 때까지 디자인 하고싶습니다.
+  <br>
+  어제보다 더 나은 사람이 되고싶은 준비된 디자이너 노유찬입니다.
+  당신과 신뢰를 쌓아나가며 일해보고 싶습니다.
+                </span>
+</div>
+</div>
+<!-- main4 end -->
+
+<!-- main5 -->
+<div class="main5">
 <!-- grid -->
 <div class="f_bt">
 <!--포트폴리오 바로가기-->
