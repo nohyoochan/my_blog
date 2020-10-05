@@ -520,7 +520,7 @@
     position: relative;
     padding-left: 358px;
     padding-top: 230px;
-    background: #0c71b9;
+    background: #112e34;
     float: left;
     z-index: 3;
 }
@@ -550,7 +550,7 @@
 }
   
 .po-menu-list-1 a .no {
-    color: black;
+    color: white;
     width: auto;
     visibility: visible;
     padding-right: 22px;

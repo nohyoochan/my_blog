@@ -33,7 +33,7 @@
 	</nav>
 </div>
 <div class="open-overlay">
-	<img src="https://nohyoochan.github.io/img1/pf/portfolio/menubar.png" alt="" class="bar-top">
+	<img src="https://nohyoochan.github.io/img1/pf/PF/icon.png" alt="" class="bar-top">
 </div>
 <script src="/pf/portfolio/js/common.js"></script><!-- 네비 스크립트 끝 -->
 <!-- menu end -->
@@ -59,6 +59,26 @@
 </div>
 <!-- bottom text end -->
 
+<!-- sns -->
+<div class="sns">
+<a href="https://www.facebook.com/profile.php?id=100003633029078"  target=”_blank” class="face">Facebook</a>
+<a href="https://www.instagram.com/x__x5noh/" target=”_blank”>Instargram</a>
+</div>
+<!-- sns end -->
+
+<!-- email -->
+<div class="email">
+<span>ssense99@daum.net</span>
+<br>
+<span>010-6385-2756</span>
+</div>
+<!-- email end -->
+
+<!-- green -->
+<div class="green">
+<p>Green.</p>
+</div>
+<!-- green end -->
 </div>
 
 </body>

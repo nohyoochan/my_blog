@@ -33,13 +33,15 @@
 	</nav>
 </div>
 <div class="open-overlay">
-	<img src="https://nohyoochan.github.io/img1/pf/portfolio/menubar.png" alt="" class="bar-top">
+	<img src="https://nohyoochan.github.io/img1/pf/PF/icon.png" alt="" class="bar-top">
 </div>
 <script src="/pf/portfolio/js/common.js"></script><!-- 네비 스크립트 끝 -->
 <!-- menu end -->
 
 <div class="main">
 <!-- title text -->
+<div class="bg"></div>
+<div class="bg2"></div>
 <div class="title wow fadeInDown" style="margin:0; padding:0; border:0;">
   <strong>Why  I  chose 
   <br>the design
@@ -127,7 +129,7 @@
       </p>
     </figcaption>
     <span class="read-more">
-      90% PHOTOSHOP/iLLUSTRATOR <i class="ion-android-arrow-forward"></i></span>
+      70% PHOTOSHOP/iLLUSTRATOR <i class="ion-android-arrow-forward"></i></span>
     <a href="#"></a>
     </figure>
 
