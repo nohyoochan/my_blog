@@ -58,7 +58,8 @@
 
 <!-- main2 -->
 <div class="main2">
-
+<div class="about">
+</div>
 <!-- graph -->
 <div class="wrapper">
 <br>

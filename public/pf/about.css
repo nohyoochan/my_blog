@@ -578,12 +578,23 @@ nav li:nth-of-type(4):hover{
   height: 700px;
 }
 
+.about {
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  top: 50px;
+  left: 350px;
+  font-family: 'Noto Sans', sans-serif;
+  border: 1px solid red;
+}
+
 .wrapper {
   width: 700px;
   font-family: 'Noto Sans', sans-serif;
   position: absolute;
   top: 50px;
   left: 960px;
+  border: 1px solid red;
 }
 
 .skill {

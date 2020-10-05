@@ -93,9 +93,7 @@
     </div>
     <div class="button">
     <div class="design_btn_wrap">
-        <a href="/pf/index.php" target="_blank" onfocus="blur()" class="design_btn">
-        <span>Design View</span></a>
-        <a href="#" target="_blank" onfocus="blur()" class="process_btn">
+        <a href="/pf/index.php" target="_blank" onfocus="blur()" class="process_btn">
         <span>Process View</span></a>
     </div>
     </div>
