@@ -67,7 +67,7 @@
 <br>
 <br>
 <div class="skill">
-  <p>유머감각</p>
+  <p>##</p>
   <div class="skill-bar skill1 wow slideInLeft  animated" style="visibility: visible; animation-name: slideInLeft;">
   <span class="skill-count1">75%</span>
   </div>
@@ -138,17 +138,17 @@
       <div class="image">
         <img src="https://nohyoochan.github.io/img1/pf/PF/pf3.png" alt="sample98"></div>
       <figcaption>
-        <h3>성격</h3>
+        <h3>##</h3>
         <p>
-        <br>유연한 저의 성격을 강점으로삼아 
-        <br>낯설지 않은 새로움을 보여드리고 싶습니다.
-        <br>또한 좋은 아이디어와 함께하는 열정으로 
-        <br>책임감있고 진실성있는 디자인으로 계속 발전하는 
-        <br>유연한 디자이너가 되고싶습니다.
+        <br>##################### 
+        <br>####################
+        <br>################### 
+        <br>############################ 
+        <br>######################
         </p>
       </figcaption>
       <span class="read-more">
-        90% FLEXIBLE PERSONALITY <i class="ion-android-arrow-forward"></i></span>
+        90% ####### ######### <i class="ion-android-arrow-forward"></i></span>
       <a href="#"></a>
       </figure>
 

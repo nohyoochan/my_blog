@@ -598,7 +598,7 @@ nav li:nth-of-type(4):hover{
   position: absolute;
   width: 500px;
   height: 550px;
-  top: 50px;
+  top: 100px;
   left: 350px;
   font-family: 'Noto Sans', sans-serif;
   border: 1px solid red;
@@ -970,6 +970,14 @@ h1 {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   vertical-align: middle;
+}
+
+.cta1 h1:hover, span:hover {
+  color: white;
+}
+
+.cta2 h1:hover, span:hover {
+  color: white;
 }
 
 .cta1 svg {
